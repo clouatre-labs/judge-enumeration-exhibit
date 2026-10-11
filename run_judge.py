@@ -24,9 +24,10 @@ import os
 import pathlib
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 
-ENDPOINT = "https://api.typesafe.ai/v1/systemone"
+JUDGE_ENDPOINT = "https://api.typesafe.ai/v1/systemone"  # strict allowlist: the only URL ever passed to urlopen
 MODEL = "jev-1.13.0"
 N_RUNS = 5
 
@@ -71,9 +72,14 @@ def build_request_body(state):
 
 def call_judge(body, api_key):
     """POST the request; returns (parsed_response, http_status, fallback)."""
+    # SSRF allowlist: only the fixed module-level endpoint is ever requested.
+    url = JUDGE_ENDPOINT
+    parsed_url = urllib.parse.urlsplit(url)
+    if parsed_url.scheme != "https" or parsed_url.netloc != "api.typesafe.ai":
+        raise ValueError("refusing non-allowlisted judge endpoint: %r" % url)
     data = json.dumps(body).encode("utf-8")
     req = urllib.request.Request(
-        ENDPOINT,
+        url,
         data=data,
         headers={
             "Authorization": "Bearer %s" % api_key,
@@ -83,7 +89,7 @@ def call_judge(body, api_key):
         method="POST",
     )
     try:
-        with urllib.request.urlopen(req) as resp:
+        with urllib.request.urlopen(req, timeout=30) as resp:
             text = resp.read().decode("utf-8")
             status = resp.status
     except urllib.error.HTTPError as exc:
@@ -153,8 +159,7 @@ def main():
             "run": run,
             "timestamp": datetime.datetime.now(
                 datetime.timezone.utc
-            ).isoformat(timespec="seconds")
-            .replace("+00:00", "+00:00"),
+            ).isoformat(timespec="seconds"),
             "http_status": status,
             "request": body,
             "response": parsed,
