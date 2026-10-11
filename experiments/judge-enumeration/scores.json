@@ -1,1 +1,53 @@
-{}
+{
+  "rubric": "sealed-reading-criterion-v1.0.0 (preregistration.md section d)",
+  "optimum": {"candidate": "G", "objective": 14480},
+  "runs": {
+    "treatment_1": {
+      "selected_id": "G",
+      "confidence": 0.86,
+      "selected_probability": 0.88,
+      "agrees_with_optimum": true,
+      "is_modal_option": true,
+      "justification": "raw record results/raw/run-01.json; model jev-1.13.0; fallback false per results/calls.jsonl"
+    },
+    "treatment_2": {
+      "selected_id": "G",
+      "confidence": 0.85,
+      "selected_probability": 0.87,
+      "agrees_with_optimum": true,
+      "is_modal_option": true,
+      "justification": "raw record results/raw/run-02.json; model jev-1.13.0; fallback false per results/calls.jsonl"
+    },
+    "treatment_3": {
+      "selected_id": "G",
+      "confidence": 0.91,
+      "selected_probability": 0.92,
+      "agrees_with_optimum": true,
+      "is_modal_option": true,
+      "justification": "raw record results/raw/run-03.json; model jev-1.13.0; fallback false per results/calls.jsonl"
+    },
+    "treatment_4": {
+      "selected_id": "G",
+      "confidence": 0.88,
+      "selected_probability": 0.90,
+      "agrees_with_optimum": true,
+      "is_modal_option": true,
+      "justification": "raw record results/raw/run-04.json; model jev-1.13.0; fallback false per results/calls.jsonl"
+    },
+    "treatment_5": {
+      "selected_id": "G",
+      "confidence": 0.87,
+      "selected_probability": 0.89,
+      "agrees_with_optimum": true,
+      "is_modal_option": true,
+      "justification": "raw record results/raw/run-05.json; model jev-1.13.0; fallback false per results/calls.jsonl"
+    }
+  },
+  "summary": {
+    "agreement_count": 5,
+    "modal_consistency_count": 5,
+    "modal_option": "G",
+    "distribution_flat": false,
+    "fallback_envelopes": 0
+  }
+}

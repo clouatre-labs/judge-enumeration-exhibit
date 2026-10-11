@@ -1,0 +1,18 @@
+{
+  "problem": "blending problem max 900x1+700x2+500x3",
+  "candidates": [
+    {"id": "A", "x": [0.0, 0.0, 0.0], "objective": 0},
+    {"id": "B", "x": [0.0, 0.0, 4.0], "objective": 2000},
+    {"id": "C", "x": [0.0, 6.0, 0.0], "objective": 4200},
+    {"id": "D", "x": [0.0, 6.0, 4.0], "objective": 6200},
+    {"id": "E", "x": [1.2, 6.0, 0.0], "objective": 5280},
+    {"id": "F", "x": [8.0, 0.0, 4.0], "objective": 9200},
+    {"id": "G", "x": [9.2, 6.0, 4.0], "objective": 14480}
+  ],
+  "optimum": {
+    "id": "G",
+    "objective": 14480,
+    "note": "M* = 14480 at x=(9.2, 6, 4); candidate G is the exact optimum per frozen_state.json"
+  },
+  "n_candidates": 7
+}
