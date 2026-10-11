@@ -73,23 +73,26 @@ def build_request_body(state):
 def call_judge(body, api_key):
     """POST the request; returns (parsed_response, http_status, fallback)."""
     # SSRF allowlist: only the fixed module-level endpoint is ever requested.
-    url = JUDGE_ENDPOINT
-    parsed_url = urllib.parse.urlsplit(url)
+    parsed_url = urllib.parse.urlsplit(JUDGE_ENDPOINT)
     if parsed_url.scheme != "https" or parsed_url.netloc != "api.typesafe.ai":
-        raise ValueError("refusing non-allowlisted judge endpoint: %r" % url)
+        raise ValueError(
+            "refusing non-allowlisted judge endpoint: %r" % JUDGE_ENDPOINT
+        )
     data = json.dumps(body).encode("utf-8")
-    req = urllib.request.Request(
-        url,
-        data=data,
-        headers={
-            "Authorization": "Bearer %s" % api_key,
-            "Accept": "application/json",
-            "Content-Type": "application/json",
-        },
-        method="POST",
-    )
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(
+            urllib.request.Request(
+                JUDGE_ENDPOINT,
+                data=data,
+                headers={
+                    "Authorization": "Bearer %s" % api_key,
+                    "Accept": "application/json",
+                    "Content-Type": "application/json",
+                },
+                method="POST",
+            ),
+            timeout=30,
+        ) as resp:
             text = resp.read().decode("utf-8")
             status = resp.status
     except urllib.error.HTTPError as exc:
