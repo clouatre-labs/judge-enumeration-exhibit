@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+type: dataset
+title: "Sealed Judge Enumeration Exhibit"
+authors:
+  - family-names: "Clouatre"
+    given-names: "Hugues"
+    orcid: "https://orcid.org/0009-0002-4291-1999"
+repository-code: https://github.com/clouatre-labs/judge-enumeration-exhibit
+license: Apache-2.0
+date-released: "2026-10-11"
+version: "1.0.0"
+abstract: >
+  Sealed n=5 exhibit comparing exact linear-programming vertex
+  enumeration with typed probabilistic judge selections on a frozen
+  blending problem. The feasible vertices, the preregistered question,
+  and the sealed reading criterion are committed before any judge call.
+keywords:
+  - llm-agents
+  - pre-registered-experiment
+  - reproducibility
+  - llm-evaluation

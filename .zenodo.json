@@ -1,0 +1,31 @@
+{
+  "title": "Sealed Judge Enumeration Exhibit",
+  "description": "Sealed n=5 exhibit comparing exact linear-programming vertex enumeration with typed probabilistic judge selections on a frozen blending problem. The feasible vertices, the preregistered question, and the sealed reading criterion are committed before any judge call.",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "publication_date": "2026-10-11",
+  "creators": [
+    {
+      "name": "Clouatre, Hugues",
+      "orcid": "0009-0002-4291-1999"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/clouatre-labs/judge-enumeration-exhibit",
+      "relation": "isIdenticalTo",
+      "resource_type": "software"
+    }
+  ],
+  "keywords": [
+    "llm-agents",
+    "pre-registered-experiment",
+    "reproducibility",
+    "llm-evaluation"
+  ],
+  "custom": {
+    "code:codeRepository": "https://github.com/clouatre-labs/judge-enumeration-exhibit"
+  }
+}
