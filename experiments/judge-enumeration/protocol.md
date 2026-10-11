@@ -24,9 +24,11 @@ this file points to it and records the exhibit-specific design.
 
 ## Result-dependent fields
 
-`analysis.json` and `scores.json` in this directory are committed in
+`analysis.json` and `scores.json` in this directory were committed in
 the pre-registration commit in a schema-valid pre-run state (zero
-runs). They are structured for post-run update in a second PR: the
-five run records (`treatment_1` .. `treatment_5`), their scores, and
-the final conclusion will be filled from `results/raw/run-0N.json`
-after the judge calls complete. No judge result is fabricated here.
+runs). They have been updated in the post-run PR from
+`results/raw/run-01.json` .. `results/raw/run-05.json`: the five run
+records (`treatment_1` .. `treatment_5`), their scores under the
+sealed reading criterion, and the final conclusion. The sealed reading
+criterion and its outcome are recorded in
+[findings.md](findings.md). No judge result was fabricated.

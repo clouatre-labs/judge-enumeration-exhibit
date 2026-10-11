@@ -10,14 +10,76 @@
   "treatment_condition": "choice-type arbitration over pre-enumerated feasible LP vertices frozen in frozen_state.json, model jev-1.13.0 pinned, provider-default sampling",
   "rubric_version": "sealed-reading-criterion-v1.0.0",
   "orchestrator_session": null,
-  "repo_head": "2052ad6c4e877009aebb11b5ddf875b2c47b67a5",
-  "experiment_start": "2026-10-11T00:00:00+00:00",
-  "experiment_end": "2026-10-11T00:00:00+00:00",
-  "analyzed_at": "2026-10-11T00:00:00+00:00",
-  "runs": {},
-  "scores": {},
+  "repo_head": "4d19810b8c7ad0c6c2ee1a8d8740cc9f203b694c",
+  "experiment_start": "2026-10-11T23:23:19+00:00",
+  "experiment_end": "2026-10-11T23:23:20+00:00",
+  "analyzed_at": "2026-10-11T23:24:55+00:00",
+  "runs": {
+    "treatment_1": {
+      "group": "treatment",
+      "session_id": "run-01",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-01.json)"
+    },
+    "treatment_2": {
+      "group": "treatment",
+      "session_id": "run-02",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-02.json)"
+    },
+    "treatment_3": {
+      "group": "treatment",
+      "session_id": "run-03",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-03.json)"
+    },
+    "treatment_4": {
+      "group": "treatment",
+      "session_id": "run-04",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2712,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-04.json)"
+    },
+    "treatment_5": {
+      "group": "treatment",
+      "session_id": "run-05",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-05.json)"
+    }
+  },
+  "scores": {
+    "treatment_1": {"selected": "G", "agrees_with_optimum": true, "is_modal": true},
+    "treatment_2": {"selected": "G", "agrees_with_optimum": true, "is_modal": true},
+    "treatment_3": {"selected": "G", "agrees_with_optimum": true, "is_modal": true},
+    "treatment_4": {"selected": "G", "agrees_with_optimum": true, "is_modal": true},
+    "treatment_5": {"selected": "G", "agrees_with_optimum": true, "is_modal": true}
+  },
   "statistical_test": "descriptive: per-run agreement with exact optimum M*=14480 and modal-option consistency across n=5",
-  "conclusion": "pending: awaiting 5 judge runs; analysis.json and scores.json will be updated in the post-run PR",
+  "conclusion": "observed stability under the sealed reading criterion: 5/5 runs selected candidate G (the M*=14480 optimum) and 5/5 runs selected the modal option; this is a finding of stability, not quality; n=5 supports no claim about calibration or accuracy; no fallback envelopes occurred (results/calls.jsonl)",
   "pre_acknowledged_limitations": [
     "n=5 bounds claims to variance/stability, not calibration",
     "the frozen state presents pre-enumerated feasible vertices, not raw constraints",
