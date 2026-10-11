@@ -1,0 +1,27 @@
+{
+  "experiment": "judge-enumeration",
+  "schema_version": "1.0.0",
+  "title": "Sealed Judge Enumeration Exhibit",
+  "issue": null,
+  "date": "2026-10-11",
+  "model": "jev-1.13.0",
+  "n_per_group": 5,
+  "control_condition": "not applicable: single-arm exhibit, all five runs use the identical preregistered question and frozen state",
+  "treatment_condition": "choice-type arbitration over pre-enumerated feasible LP vertices frozen in frozen_state.json, model jev-1.13.0 pinned, provider-default sampling",
+  "rubric_version": "sealed-reading-criterion-v1.0.0",
+  "orchestrator_session": null,
+  "repo_head": "2052ad6c4e877009aebb11b5ddf875b2c47b67a5",
+  "experiment_start": "2026-10-11T00:00:00+00:00",
+  "experiment_end": "2026-10-11T00:00:00+00:00",
+  "analyzed_at": "2026-10-11T00:00:00+00:00",
+  "runs": {},
+  "scores": {},
+  "statistical_test": "descriptive: per-run agreement with exact optimum M*=14480 and modal-option consistency across n=5",
+  "conclusion": "pending: awaiting 5 judge runs; analysis.json and scores.json will be updated in the post-run PR",
+  "pre_acknowledged_limitations": [
+    "n=5 bounds claims to variance/stability, not calibration",
+    "the frozen state presents pre-enumerated feasible vertices, not raw constraints",
+    "no temperature control is exposed; provider defaults apply and none is published",
+    "the protocol author maintains the judge tool under test; findings are about the exhibit, not the product"
+  ]
+}
