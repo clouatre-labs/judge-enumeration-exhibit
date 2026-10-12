@@ -1,0 +1,137 @@
+{
+  "run": 206,
+  "pass": 2,
+  "problem_id": "p-108",
+  "timestamp": "2026-10-12T00:56:35+00:00",
+  "http_status": 200,
+  "request": {
+    "state": {
+      "problem_id": "p-108",
+      "stratum": "S3",
+      "objective": [
+        1,
+        5,
+        4
+      ],
+      "constraints": {
+        "A": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            -1
+          ]
+        ],
+        "b": [
+          5,
+          26,
+          28,
+          0,
+          0,
+          0
+        ]
+      },
+      "candidates": [
+        {
+          "id": "A",
+          "x": [
+            5,
+            26,
+            28
+          ]
+        },
+        {
+          "id": "B",
+          "x": [
+            0,
+            26,
+            28
+          ]
+        },
+        {
+          "id": "C",
+          "x": [
+            5,
+            26,
+            0
+          ]
+        },
+        {
+          "id": "D",
+          "x": [
+            5,
+            38,
+            28
+          ]
+        },
+        {
+          "id": "E",
+          "x": [
+            0,
+            26,
+            0
+          ]
+        }
+      ]
+    },
+    "questions": {
+      "selection": {
+        "type": "choice",
+        "instructions": "Which candidate production plan should be selected for this production decision, given the stated constraints and objective?",
+        "criteria": {
+          "A": "Candidate A: production levels x=(5, 26, 28).",
+          "B": "Candidate B: production levels x=(0, 26, 28).",
+          "C": "Candidate C: production levels x=(5, 26, 0).",
+          "D": "Candidate D: production levels x=(5, 38, 28).",
+          "E": "Candidate E: production levels x=(0, 26, 0)."
+        }
+      }
+    },
+    "model": "jev-1.13.0"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "selection": {
+        "type": "choice",
+        "choice": "A",
+        "confidence": 0.79,
+        "probabilities": {
+          "A": 0.83,
+          "B": 0.05,
+          "C": 0.06,
+          "D": 0.05,
+          "E": 0.01
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 676,
+      "output_tokens": 52
+    }
+  }
+}

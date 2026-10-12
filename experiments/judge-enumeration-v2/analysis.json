@@ -1,0 +1,7230 @@
+{
+  "experiment": "judge-enumeration-v2",
+  "schema_version": "1.0.0",
+  "title": "Sealed Judge Enumeration Exhibit v2.0.0 Discrimination Phase",
+  "issue": null,
+  "date": "2026-10-12",
+  "model": "jev-1.13.0",
+  "n_per_group": 120,
+  "control_condition": "not applicable: single-arm discrimination exhibit, all 120 problems use the identical preregistered question and frozen v2.0 states under the sealed reading criterion v2",
+  "treatment_condition": "choice-type selection over 4 feasible LP vertices plus 1 infeasible super-optimal decoy, objective values hidden, model jev-1.13.0 pinned, provider-default sampling, two passes (runs 1-120 committed order, runs 121-240 pass2_order permutation)",
+  "rubric_version": "sealed-reading-criterion-v2.0.0",
+  "orchestrator_session": null,
+  "repo_head": "bf95cf3",
+  "experiment_start": "2026-10-12T00:55:52+00:00",
+  "experiment_end": "2026-10-12T00:56:42+00:00",
+  "analyzed_at": "2026-10-12T00:56:42+00:00",
+  "runs": {
+    "run_1": {
+      "group": "treatment",
+      "session_id": "run-001",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-001.json"
+    },
+    "run_2": {
+      "group": "treatment",
+      "session_id": "run-002",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-002.json"
+    },
+    "run_3": {
+      "group": "treatment",
+      "session_id": "run-003",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2466,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-003.json"
+    },
+    "run_4": {
+      "group": "treatment",
+      "session_id": "run-004",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2489,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-004.json"
+    },
+    "run_5": {
+      "group": "treatment",
+      "session_id": "run-005",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-005.json"
+    },
+    "run_6": {
+      "group": "treatment",
+      "session_id": "run-006",
+      "messages": 2,
+      "input_tokens": 678,
+      "output_tokens": 52,
+      "total_tokens": 730,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2482,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-006.json"
+    },
+    "run_7": {
+      "group": "treatment",
+      "session_id": "run-007",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-007.json"
+    },
+    "run_8": {
+      "group": "treatment",
+      "session_id": "run-008",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-008.json"
+    },
+    "run_9": {
+      "group": "treatment",
+      "session_id": "run-009",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-009.json"
+    },
+    "run_10": {
+      "group": "treatment",
+      "session_id": "run-010",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-010.json"
+    },
+    "run_11": {
+      "group": "treatment",
+      "session_id": "run-011",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-011.json"
+    },
+    "run_12": {
+      "group": "treatment",
+      "session_id": "run-012",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-012.json"
+    },
+    "run_13": {
+      "group": "treatment",
+      "session_id": "run-013",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-013.json"
+    },
+    "run_14": {
+      "group": "treatment",
+      "session_id": "run-014",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-014.json"
+    },
+    "run_15": {
+      "group": "treatment",
+      "session_id": "run-015",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-015.json"
+    },
+    "run_16": {
+      "group": "treatment",
+      "session_id": "run-016",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-016.json"
+    },
+    "run_17": {
+      "group": "treatment",
+      "session_id": "run-017",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-017.json"
+    },
+    "run_18": {
+      "group": "treatment",
+      "session_id": "run-018",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-018.json"
+    },
+    "run_19": {
+      "group": "treatment",
+      "session_id": "run-019",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-019.json"
+    },
+    "run_20": {
+      "group": "treatment",
+      "session_id": "run-020",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-020.json"
+    },
+    "run_21": {
+      "group": "treatment",
+      "session_id": "run-021",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-021.json"
+    },
+    "run_22": {
+      "group": "treatment",
+      "session_id": "run-022",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-022.json"
+    },
+    "run_23": {
+      "group": "treatment",
+      "session_id": "run-023",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-023.json"
+    },
+    "run_24": {
+      "group": "treatment",
+      "session_id": "run-024",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-024.json"
+    },
+    "run_25": {
+      "group": "treatment",
+      "session_id": "run-025",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-025.json"
+    },
+    "run_26": {
+      "group": "treatment",
+      "session_id": "run-026",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2466,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-026.json"
+    },
+    "run_27": {
+      "group": "treatment",
+      "session_id": "run-027",
+      "messages": 2,
+      "input_tokens": 671,
+      "output_tokens": 52,
+      "total_tokens": 723,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2461,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-027.json"
+    },
+    "run_28": {
+      "group": "treatment",
+      "session_id": "run-028",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-028.json"
+    },
+    "run_29": {
+      "group": "treatment",
+      "session_id": "run-029",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-029.json"
+    },
+    "run_30": {
+      "group": "treatment",
+      "session_id": "run-030",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2490,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-030.json"
+    },
+    "run_31": {
+      "group": "treatment",
+      "session_id": "run-031",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-031.json"
+    },
+    "run_32": {
+      "group": "treatment",
+      "session_id": "run-032",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-032.json"
+    },
+    "run_33": {
+      "group": "treatment",
+      "session_id": "run-033",
+      "messages": 2,
+      "input_tokens": 667,
+      "output_tokens": 52,
+      "total_tokens": 719,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2458,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-033.json"
+    },
+    "run_34": {
+      "group": "treatment",
+      "session_id": "run-034",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-034.json"
+    },
+    "run_35": {
+      "group": "treatment",
+      "session_id": "run-035",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-035.json"
+    },
+    "run_36": {
+      "group": "treatment",
+      "session_id": "run-036",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-036.json"
+    },
+    "run_37": {
+      "group": "treatment",
+      "session_id": "run-037",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2466,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-037.json"
+    },
+    "run_38": {
+      "group": "treatment",
+      "session_id": "run-038",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-038.json"
+    },
+    "run_39": {
+      "group": "treatment",
+      "session_id": "run-039",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-039.json"
+    },
+    "run_40": {
+      "group": "treatment",
+      "session_id": "run-040",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-040.json"
+    },
+    "run_41": {
+      "group": "treatment",
+      "session_id": "run-041",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-041.json"
+    },
+    "run_42": {
+      "group": "treatment",
+      "session_id": "run-042",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-042.json"
+    },
+    "run_43": {
+      "group": "treatment",
+      "session_id": "run-043",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-043.json"
+    },
+    "run_44": {
+      "group": "treatment",
+      "session_id": "run-044",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-044.json"
+    },
+    "run_45": {
+      "group": "treatment",
+      "session_id": "run-045",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-045.json"
+    },
+    "run_46": {
+      "group": "treatment",
+      "session_id": "run-046",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-046.json"
+    },
+    "run_47": {
+      "group": "treatment",
+      "session_id": "run-047",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-047.json"
+    },
+    "run_48": {
+      "group": "treatment",
+      "session_id": "run-048",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-048.json"
+    },
+    "run_49": {
+      "group": "treatment",
+      "session_id": "run-049",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-049.json"
+    },
+    "run_50": {
+      "group": "treatment",
+      "session_id": "run-050",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-050.json"
+    },
+    "run_51": {
+      "group": "treatment",
+      "session_id": "run-051",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2465,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-051.json"
+    },
+    "run_52": {
+      "group": "treatment",
+      "session_id": "run-052",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-052.json"
+    },
+    "run_53": {
+      "group": "treatment",
+      "session_id": "run-053",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-053.json"
+    },
+    "run_54": {
+      "group": "treatment",
+      "session_id": "run-054",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2466,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-054.json"
+    },
+    "run_55": {
+      "group": "treatment",
+      "session_id": "run-055",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-055.json"
+    },
+    "run_56": {
+      "group": "treatment",
+      "session_id": "run-056",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2466,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-056.json"
+    },
+    "run_57": {
+      "group": "treatment",
+      "session_id": "run-057",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-057.json"
+    },
+    "run_58": {
+      "group": "treatment",
+      "session_id": "run-058",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-058.json"
+    },
+    "run_59": {
+      "group": "treatment",
+      "session_id": "run-059",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2465,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-059.json"
+    },
+    "run_60": {
+      "group": "treatment",
+      "session_id": "run-060",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-060.json"
+    },
+    "run_61": {
+      "group": "treatment",
+      "session_id": "run-061",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-061.json"
+    },
+    "run_62": {
+      "group": "treatment",
+      "session_id": "run-062",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-062.json"
+    },
+    "run_63": {
+      "group": "treatment",
+      "session_id": "run-063",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2464,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-063.json"
+    },
+    "run_64": {
+      "group": "treatment",
+      "session_id": "run-064",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-064.json"
+    },
+    "run_65": {
+      "group": "treatment",
+      "session_id": "run-065",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-065.json"
+    },
+    "run_66": {
+      "group": "treatment",
+      "session_id": "run-066",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2488,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-066.json"
+    },
+    "run_67": {
+      "group": "treatment",
+      "session_id": "run-067",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-067.json"
+    },
+    "run_68": {
+      "group": "treatment",
+      "session_id": "run-068",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-068.json"
+    },
+    "run_69": {
+      "group": "treatment",
+      "session_id": "run-069",
+      "messages": 2,
+      "input_tokens": 669,
+      "output_tokens": 52,
+      "total_tokens": 721,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2459,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-069.json"
+    },
+    "run_70": {
+      "group": "treatment",
+      "session_id": "run-070",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-070.json"
+    },
+    "run_71": {
+      "group": "treatment",
+      "session_id": "run-071",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-071.json"
+    },
+    "run_72": {
+      "group": "treatment",
+      "session_id": "run-072",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2488,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-072.json"
+    },
+    "run_73": {
+      "group": "treatment",
+      "session_id": "run-073",
+      "messages": 2,
+      "input_tokens": 678,
+      "output_tokens": 52,
+      "total_tokens": 730,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-073.json"
+    },
+    "run_74": {
+      "group": "treatment",
+      "session_id": "run-074",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-074.json"
+    },
+    "run_75": {
+      "group": "treatment",
+      "session_id": "run-075",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-075.json"
+    },
+    "run_76": {
+      "group": "treatment",
+      "session_id": "run-076",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-076.json"
+    },
+    "run_77": {
+      "group": "treatment",
+      "session_id": "run-077",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-077.json"
+    },
+    "run_78": {
+      "group": "treatment",
+      "session_id": "run-078",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2472,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-078.json"
+    },
+    "run_79": {
+      "group": "treatment",
+      "session_id": "run-079",
+      "messages": 2,
+      "input_tokens": 678,
+      "output_tokens": 52,
+      "total_tokens": 730,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2469,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-079.json"
+    },
+    "run_80": {
+      "group": "treatment",
+      "session_id": "run-080",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-080.json"
+    },
+    "run_81": {
+      "group": "treatment",
+      "session_id": "run-081",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-081.json"
+    },
+    "run_82": {
+      "group": "treatment",
+      "session_id": "run-082",
+      "messages": 2,
+      "input_tokens": 671,
+      "output_tokens": 52,
+      "total_tokens": 723,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2462,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-082.json"
+    },
+    "run_83": {
+      "group": "treatment",
+      "session_id": "run-083",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-083.json"
+    },
+    "run_84": {
+      "group": "treatment",
+      "session_id": "run-084",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2466,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-084.json"
+    },
+    "run_85": {
+      "group": "treatment",
+      "session_id": "run-085",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-085.json"
+    },
+    "run_86": {
+      "group": "treatment",
+      "session_id": "run-086",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-086.json"
+    },
+    "run_87": {
+      "group": "treatment",
+      "session_id": "run-087",
+      "messages": 2,
+      "input_tokens": 678,
+      "output_tokens": 52,
+      "total_tokens": 730,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-087.json"
+    },
+    "run_88": {
+      "group": "treatment",
+      "session_id": "run-088",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-088.json"
+    },
+    "run_89": {
+      "group": "treatment",
+      "session_id": "run-089",
+      "messages": 2,
+      "input_tokens": 671,
+      "output_tokens": 52,
+      "total_tokens": 723,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2460,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-089.json"
+    },
+    "run_90": {
+      "group": "treatment",
+      "session_id": "run-090",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-090.json"
+    },
+    "run_91": {
+      "group": "treatment",
+      "session_id": "run-091",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2465,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-091.json"
+    },
+    "run_92": {
+      "group": "treatment",
+      "session_id": "run-092",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-092.json"
+    },
+    "run_93": {
+      "group": "treatment",
+      "session_id": "run-093",
+      "messages": 2,
+      "input_tokens": 678,
+      "output_tokens": 52,
+      "total_tokens": 730,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-093.json"
+    },
+    "run_94": {
+      "group": "treatment",
+      "session_id": "run-094",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-094.json"
+    },
+    "run_95": {
+      "group": "treatment",
+      "session_id": "run-095",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2466,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-095.json"
+    },
+    "run_96": {
+      "group": "treatment",
+      "session_id": "run-096",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-096.json"
+    },
+    "run_97": {
+      "group": "treatment",
+      "session_id": "run-097",
+      "messages": 2,
+      "input_tokens": 671,
+      "output_tokens": 52,
+      "total_tokens": 723,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2460,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-097.json"
+    },
+    "run_98": {
+      "group": "treatment",
+      "session_id": "run-098",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-098.json"
+    },
+    "run_99": {
+      "group": "treatment",
+      "session_id": "run-099",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-099.json"
+    },
+    "run_100": {
+      "group": "treatment",
+      "session_id": "run-100",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-100.json"
+    },
+    "run_101": {
+      "group": "treatment",
+      "session_id": "run-101",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-101.json"
+    },
+    "run_102": {
+      "group": "treatment",
+      "session_id": "run-102",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-102.json"
+    },
+    "run_103": {
+      "group": "treatment",
+      "session_id": "run-103",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-103.json"
+    },
+    "run_104": {
+      "group": "treatment",
+      "session_id": "run-104",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-104.json"
+    },
+    "run_105": {
+      "group": "treatment",
+      "session_id": "run-105",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-105.json"
+    },
+    "run_106": {
+      "group": "treatment",
+      "session_id": "run-106",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-106.json"
+    },
+    "run_107": {
+      "group": "treatment",
+      "session_id": "run-107",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-107.json"
+    },
+    "run_108": {
+      "group": "treatment",
+      "session_id": "run-108",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-108.json"
+    },
+    "run_109": {
+      "group": "treatment",
+      "session_id": "run-109",
+      "messages": 2,
+      "input_tokens": 671,
+      "output_tokens": 52,
+      "total_tokens": 723,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2463,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-109.json"
+    },
+    "run_110": {
+      "group": "treatment",
+      "session_id": "run-110",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-110.json"
+    },
+    "run_111": {
+      "group": "treatment",
+      "session_id": "run-111",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-111.json"
+    },
+    "run_112": {
+      "group": "treatment",
+      "session_id": "run-112",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-112.json"
+    },
+    "run_113": {
+      "group": "treatment",
+      "session_id": "run-113",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-113.json"
+    },
+    "run_114": {
+      "group": "treatment",
+      "session_id": "run-114",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-114.json"
+    },
+    "run_115": {
+      "group": "treatment",
+      "session_id": "run-115",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-115.json"
+    },
+    "run_116": {
+      "group": "treatment",
+      "session_id": "run-116",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-116.json"
+    },
+    "run_117": {
+      "group": "treatment",
+      "session_id": "run-117",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-117.json"
+    },
+    "run_118": {
+      "group": "treatment",
+      "session_id": "run-118",
+      "messages": 2,
+      "input_tokens": 678,
+      "output_tokens": 52,
+      "total_tokens": 730,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2483,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-118.json"
+    },
+    "run_119": {
+      "group": "treatment",
+      "session_id": "run-119",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-119.json"
+    },
+    "run_120": {
+      "group": "treatment",
+      "session_id": "run-120",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-120.json"
+    },
+    "run_121": {
+      "group": "treatment",
+      "session_id": "run-121",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-121.json"
+    },
+    "run_122": {
+      "group": "treatment",
+      "session_id": "run-122",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-122.json"
+    },
+    "run_123": {
+      "group": "treatment",
+      "session_id": "run-123",
+      "messages": 2,
+      "input_tokens": 671,
+      "output_tokens": 52,
+      "total_tokens": 723,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2463,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-123.json"
+    },
+    "run_124": {
+      "group": "treatment",
+      "session_id": "run-124",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-124.json"
+    },
+    "run_125": {
+      "group": "treatment",
+      "session_id": "run-125",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-125.json"
+    },
+    "run_126": {
+      "group": "treatment",
+      "session_id": "run-126",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-126.json"
+    },
+    "run_127": {
+      "group": "treatment",
+      "session_id": "run-127",
+      "messages": 2,
+      "input_tokens": 678,
+      "output_tokens": 52,
+      "total_tokens": 730,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2469,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-127.json"
+    },
+    "run_128": {
+      "group": "treatment",
+      "session_id": "run-128",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-128.json"
+    },
+    "run_129": {
+      "group": "treatment",
+      "session_id": "run-129",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-129.json"
+    },
+    "run_130": {
+      "group": "treatment",
+      "session_id": "run-130",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-130.json"
+    },
+    "run_131": {
+      "group": "treatment",
+      "session_id": "run-131",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-131.json"
+    },
+    "run_132": {
+      "group": "treatment",
+      "session_id": "run-132",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-132.json"
+    },
+    "run_133": {
+      "group": "treatment",
+      "session_id": "run-133",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-133.json"
+    },
+    "run_134": {
+      "group": "treatment",
+      "session_id": "run-134",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-134.json"
+    },
+    "run_135": {
+      "group": "treatment",
+      "session_id": "run-135",
+      "messages": 2,
+      "input_tokens": 671,
+      "output_tokens": 52,
+      "total_tokens": 723,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2463,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-135.json"
+    },
+    "run_136": {
+      "group": "treatment",
+      "session_id": "run-136",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2466,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-136.json"
+    },
+    "run_137": {
+      "group": "treatment",
+      "session_id": "run-137",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-137.json"
+    },
+    "run_138": {
+      "group": "treatment",
+      "session_id": "run-138",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-138.json"
+    },
+    "run_139": {
+      "group": "treatment",
+      "session_id": "run-139",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-139.json"
+    },
+    "run_140": {
+      "group": "treatment",
+      "session_id": "run-140",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-140.json"
+    },
+    "run_141": {
+      "group": "treatment",
+      "session_id": "run-141",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-141.json"
+    },
+    "run_142": {
+      "group": "treatment",
+      "session_id": "run-142",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2489,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-142.json"
+    },
+    "run_143": {
+      "group": "treatment",
+      "session_id": "run-143",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-143.json"
+    },
+    "run_144": {
+      "group": "treatment",
+      "session_id": "run-144",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-144.json"
+    },
+    "run_145": {
+      "group": "treatment",
+      "session_id": "run-145",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-145.json"
+    },
+    "run_146": {
+      "group": "treatment",
+      "session_id": "run-146",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-146.json"
+    },
+    "run_147": {
+      "group": "treatment",
+      "session_id": "run-147",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-147.json"
+    },
+    "run_148": {
+      "group": "treatment",
+      "session_id": "run-148",
+      "messages": 2,
+      "input_tokens": 667,
+      "output_tokens": 52,
+      "total_tokens": 719,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2458,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-148.json"
+    },
+    "run_149": {
+      "group": "treatment",
+      "session_id": "run-149",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-149.json"
+    },
+    "run_150": {
+      "group": "treatment",
+      "session_id": "run-150",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-150.json"
+    },
+    "run_151": {
+      "group": "treatment",
+      "session_id": "run-151",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-151.json"
+    },
+    "run_152": {
+      "group": "treatment",
+      "session_id": "run-152",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-152.json"
+    },
+    "run_153": {
+      "group": "treatment",
+      "session_id": "run-153",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-153.json"
+    },
+    "run_154": {
+      "group": "treatment",
+      "session_id": "run-154",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2473,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-154.json"
+    },
+    "run_155": {
+      "group": "treatment",
+      "session_id": "run-155",
+      "messages": 2,
+      "input_tokens": 671,
+      "output_tokens": 52,
+      "total_tokens": 723,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2460,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-155.json"
+    },
+    "run_156": {
+      "group": "treatment",
+      "session_id": "run-156",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-156.json"
+    },
+    "run_157": {
+      "group": "treatment",
+      "session_id": "run-157",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-157.json"
+    },
+    "run_158": {
+      "group": "treatment",
+      "session_id": "run-158",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-158.json"
+    },
+    "run_159": {
+      "group": "treatment",
+      "session_id": "run-159",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-159.json"
+    },
+    "run_160": {
+      "group": "treatment",
+      "session_id": "run-160",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-160.json"
+    },
+    "run_161": {
+      "group": "treatment",
+      "session_id": "run-161",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-161.json"
+    },
+    "run_162": {
+      "group": "treatment",
+      "session_id": "run-162",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-162.json"
+    },
+    "run_163": {
+      "group": "treatment",
+      "session_id": "run-163",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-163.json"
+    },
+    "run_164": {
+      "group": "treatment",
+      "session_id": "run-164",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-164.json"
+    },
+    "run_165": {
+      "group": "treatment",
+      "session_id": "run-165",
+      "messages": 2,
+      "input_tokens": 669,
+      "output_tokens": 52,
+      "total_tokens": 721,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2460,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-165.json"
+    },
+    "run_166": {
+      "group": "treatment",
+      "session_id": "run-166",
+      "messages": 2,
+      "input_tokens": 678,
+      "output_tokens": 52,
+      "total_tokens": 730,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2470,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-166.json"
+    },
+    "run_167": {
+      "group": "treatment",
+      "session_id": "run-167",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-167.json"
+    },
+    "run_168": {
+      "group": "treatment",
+      "session_id": "run-168",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2466,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-168.json"
+    },
+    "run_169": {
+      "group": "treatment",
+      "session_id": "run-169",
+      "messages": 2,
+      "input_tokens": 678,
+      "output_tokens": 52,
+      "total_tokens": 730,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2470,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-169.json"
+    },
+    "run_170": {
+      "group": "treatment",
+      "session_id": "run-170",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-170.json"
+    },
+    "run_171": {
+      "group": "treatment",
+      "session_id": "run-171",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-171.json"
+    },
+    "run_172": {
+      "group": "treatment",
+      "session_id": "run-172",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-172.json"
+    },
+    "run_173": {
+      "group": "treatment",
+      "session_id": "run-173",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-173.json"
+    },
+    "run_174": {
+      "group": "treatment",
+      "session_id": "run-174",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-174.json"
+    },
+    "run_175": {
+      "group": "treatment",
+      "session_id": "run-175",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-175.json"
+    },
+    "run_176": {
+      "group": "treatment",
+      "session_id": "run-176",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-176.json"
+    },
+    "run_177": {
+      "group": "treatment",
+      "session_id": "run-177",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-177.json"
+    },
+    "run_178": {
+      "group": "treatment",
+      "session_id": "run-178",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-178.json"
+    },
+    "run_179": {
+      "group": "treatment",
+      "session_id": "run-179",
+      "messages": 2,
+      "input_tokens": 671,
+      "output_tokens": 52,
+      "total_tokens": 723,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2463,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-179.json"
+    },
+    "run_180": {
+      "group": "treatment",
+      "session_id": "run-180",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-180.json"
+    },
+    "run_181": {
+      "group": "treatment",
+      "session_id": "run-181",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-181.json"
+    },
+    "run_182": {
+      "group": "treatment",
+      "session_id": "run-182",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-182.json"
+    },
+    "run_183": {
+      "group": "treatment",
+      "session_id": "run-183",
+      "messages": 2,
+      "input_tokens": 678,
+      "output_tokens": 52,
+      "total_tokens": 730,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2470,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-183.json"
+    },
+    "run_184": {
+      "group": "treatment",
+      "session_id": "run-184",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-184.json"
+    },
+    "run_185": {
+      "group": "treatment",
+      "session_id": "run-185",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-185.json"
+    },
+    "run_186": {
+      "group": "treatment",
+      "session_id": "run-186",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-186.json"
+    },
+    "run_187": {
+      "group": "treatment",
+      "session_id": "run-187",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-187.json"
+    },
+    "run_188": {
+      "group": "treatment",
+      "session_id": "run-188",
+      "messages": 2,
+      "input_tokens": 671,
+      "output_tokens": 52,
+      "total_tokens": 723,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2462,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-188.json"
+    },
+    "run_189": {
+      "group": "treatment",
+      "session_id": "run-189",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-189.json"
+    },
+    "run_190": {
+      "group": "treatment",
+      "session_id": "run-190",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-190.json"
+    },
+    "run_191": {
+      "group": "treatment",
+      "session_id": "run-191",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-191.json"
+    },
+    "run_192": {
+      "group": "treatment",
+      "session_id": "run-192",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-192.json"
+    },
+    "run_193": {
+      "group": "treatment",
+      "session_id": "run-193",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-193.json"
+    },
+    "run_194": {
+      "group": "treatment",
+      "session_id": "run-194",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-194.json"
+    },
+    "run_195": {
+      "group": "treatment",
+      "session_id": "run-195",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-195.json"
+    },
+    "run_196": {
+      "group": "treatment",
+      "session_id": "run-196",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-196.json"
+    },
+    "run_197": {
+      "group": "treatment",
+      "session_id": "run-197",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-197.json"
+    },
+    "run_198": {
+      "group": "treatment",
+      "session_id": "run-198",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2491,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-198.json"
+    },
+    "run_199": {
+      "group": "treatment",
+      "session_id": "run-199",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-199.json"
+    },
+    "run_200": {
+      "group": "treatment",
+      "session_id": "run-200",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2466,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-200.json"
+    },
+    "run_201": {
+      "group": "treatment",
+      "session_id": "run-201",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-201.json"
+    },
+    "run_202": {
+      "group": "treatment",
+      "session_id": "run-202",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-202.json"
+    },
+    "run_203": {
+      "group": "treatment",
+      "session_id": "run-203",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-203.json"
+    },
+    "run_204": {
+      "group": "treatment",
+      "session_id": "run-204",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-204.json"
+    },
+    "run_205": {
+      "group": "treatment",
+      "session_id": "run-205",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-205.json"
+    },
+    "run_206": {
+      "group": "treatment",
+      "session_id": "run-206",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-206.json"
+    },
+    "run_207": {
+      "group": "treatment",
+      "session_id": "run-207",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-207.json"
+    },
+    "run_208": {
+      "group": "treatment",
+      "session_id": "run-208",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-208.json"
+    },
+    "run_209": {
+      "group": "treatment",
+      "session_id": "run-209",
+      "messages": 2,
+      "input_tokens": 678,
+      "output_tokens": 52,
+      "total_tokens": 730,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2470,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-209.json"
+    },
+    "run_210": {
+      "group": "treatment",
+      "session_id": "run-210",
+      "messages": 2,
+      "input_tokens": 678,
+      "output_tokens": 52,
+      "total_tokens": 730,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2469,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-210.json"
+    },
+    "run_211": {
+      "group": "treatment",
+      "session_id": "run-211",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-211.json"
+    },
+    "run_212": {
+      "group": "treatment",
+      "session_id": "run-212",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-212.json"
+    },
+    "run_213": {
+      "group": "treatment",
+      "session_id": "run-213",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2466,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-213.json"
+    },
+    "run_214": {
+      "group": "treatment",
+      "session_id": "run-214",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2466,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-214.json"
+    },
+    "run_215": {
+      "group": "treatment",
+      "session_id": "run-215",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-215.json"
+    },
+    "run_216": {
+      "group": "treatment",
+      "session_id": "run-216",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-216.json"
+    },
+    "run_217": {
+      "group": "treatment",
+      "session_id": "run-217",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-217.json"
+    },
+    "run_218": {
+      "group": "treatment",
+      "session_id": "run-218",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-218.json"
+    },
+    "run_219": {
+      "group": "treatment",
+      "session_id": "run-219",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-219.json"
+    },
+    "run_220": {
+      "group": "treatment",
+      "session_id": "run-220",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-220.json"
+    },
+    "run_221": {
+      "group": "treatment",
+      "session_id": "run-221",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-221.json"
+    },
+    "run_222": {
+      "group": "treatment",
+      "session_id": "run-222",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-222.json"
+    },
+    "run_223": {
+      "group": "treatment",
+      "session_id": "run-223",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-223.json"
+    },
+    "run_224": {
+      "group": "treatment",
+      "session_id": "run-224",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2482,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-224.json"
+    },
+    "run_225": {
+      "group": "treatment",
+      "session_id": "run-225",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-225.json"
+    },
+    "run_226": {
+      "group": "treatment",
+      "session_id": "run-226",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-226.json"
+    },
+    "run_227": {
+      "group": "treatment",
+      "session_id": "run-227",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-227.json"
+    },
+    "run_228": {
+      "group": "treatment",
+      "session_id": "run-228",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-228.json"
+    },
+    "run_229": {
+      "group": "treatment",
+      "session_id": "run-229",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-229.json"
+    },
+    "run_230": {
+      "group": "treatment",
+      "session_id": "run-230",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2468,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-230.json"
+    },
+    "run_231": {
+      "group": "treatment",
+      "session_id": "run-231",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2476,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-231.json"
+    },
+    "run_232": {
+      "group": "treatment",
+      "session_id": "run-232",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-232.json"
+    },
+    "run_233": {
+      "group": "treatment",
+      "session_id": "run-233",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-233.json"
+    },
+    "run_234": {
+      "group": "treatment",
+      "session_id": "run-234",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-234.json"
+    },
+    "run_235": {
+      "group": "treatment",
+      "session_id": "run-235",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-235.json"
+    },
+    "run_236": {
+      "group": "treatment",
+      "session_id": "run-236",
+      "messages": 2,
+      "input_tokens": 676,
+      "output_tokens": 52,
+      "total_tokens": 728,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2467,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-236.json"
+    },
+    "run_237": {
+      "group": "treatment",
+      "session_id": "run-237",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2474,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-237.json"
+    },
+    "run_238": {
+      "group": "treatment",
+      "session_id": "run-238",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-238.json"
+    },
+    "run_239": {
+      "group": "treatment",
+      "session_id": "run-239",
+      "messages": 2,
+      "input_tokens": 685,
+      "output_tokens": 52,
+      "total_tokens": 737,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2477,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-239.json"
+    },
+    "run_240": {
+      "group": "treatment",
+      "session_id": "run-240",
+      "messages": 2,
+      "input_tokens": 683,
+      "output_tokens": 52,
+      "total_tokens": 735,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2475,
+      "note": "wall clock not recorded by runner; per-call pass id, problem id, and verbatim request and response are in results/raw/v2/run-240.json"
+    }
+  },
+  "scores": {
+    "run_1": {
+      "pass": true,
+      "problem_id": "p-001",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.81,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.81,
+        "C": 0.08,
+        "D": 0.07,
+        "E": 0.02
+      }
+    },
+    "run_2": {
+      "pass": true,
+      "problem_id": "p-002",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.87,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.87,
+        "C": 0.03,
+        "D": 0.06,
+        "E": 0.01
+      }
+    },
+    "run_3": {
+      "pass": true,
+      "problem_id": "p-003",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.82,
+      "probabilities": {
+        "A": 0.12,
+        "B": 0.01,
+        "C": 0.01,
+        "D": 0.82,
+        "E": 0.04
+      }
+    },
+    "run_4": {
+      "pass": true,
+      "problem_id": "p-004",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9299999999999999,
+      "probabilities": {
+        "A": 0.9299999999999999,
+        "B": 0.03,
+        "C": 0.01,
+        "D": 0.02,
+        "E": 0.01
+      }
+    },
+    "run_5": {
+      "pass": true,
+      "problem_id": "p-005",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.92,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.03,
+        "C": 0.01,
+        "D": 0.0,
+        "E": 0.92
+      }
+    },
+    "run_6": {
+      "pass": true,
+      "problem_id": "p-006",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8099999999999999,
+      "probabilities": {
+        "A": 0.13,
+        "B": 0.01,
+        "C": 0.04,
+        "D": 0.8099999999999999,
+        "E": 0.01
+      }
+    },
+    "run_7": {
+      "pass": true,
+      "problem_id": "p-007",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.04,
+        "C": 0.8,
+        "D": 0.11,
+        "E": 0.01
+      }
+    },
+    "run_8": {
+      "pass": true,
+      "problem_id": "p-008",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.58,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.12,
+        "C": 0.17,
+        "D": 0.08,
+        "E": 0.58
+      }
+    },
+    "run_9": {
+      "pass": true,
+      "problem_id": "p-009",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.07,
+        "C": 0.9,
+        "D": 0.01,
+        "E": 0.01
+      }
+    },
+    "run_10": {
+      "pass": true,
+      "problem_id": "p-010",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.94,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.01,
+        "C": 0.94,
+        "D": 0.04,
+        "E": 0.0
+      }
+    },
+    "run_11": {
+      "pass": true,
+      "problem_id": "p-011",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.89,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.02,
+        "C": 0.89,
+        "D": 0.02,
+        "E": 0.03
+      }
+    },
+    "run_12": {
+      "pass": true,
+      "problem_id": "p-012",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.86,
+        "B": 0.1,
+        "C": 0.01,
+        "D": 0.01,
+        "E": 0.02
+      }
+    },
+    "run_13": {
+      "pass": true,
+      "problem_id": "p-013",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.98,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.98,
+        "E": 0.01
+      }
+    },
+    "run_14": {
+      "pass": true,
+      "problem_id": "p-014",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.02,
+        "C": 0.03,
+        "D": 0.93,
+        "E": 0.0
+      }
+    },
+    "run_15": {
+      "pass": true,
+      "problem_id": "p-015",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9,
+      "probabilities": {
+        "A": 0.9,
+        "B": 0.03,
+        "C": 0.03,
+        "D": 0.01,
+        "E": 0.03
+      }
+    },
+    "run_16": {
+      "pass": true,
+      "problem_id": "p-016",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.93,
+        "C": 0.01,
+        "D": 0.02,
+        "E": 0.02
+      }
+    },
+    "run_17": {
+      "pass": true,
+      "problem_id": "p-017",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.96,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.02,
+        "C": 0.01,
+        "D": 0.0,
+        "E": 0.96
+      }
+    },
+    "run_18": {
+      "pass": true,
+      "problem_id": "p-018",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.93,
+        "C": 0.0,
+        "D": 0.02,
+        "E": 0.02
+      }
+    },
+    "run_19": {
+      "pass": true,
+      "problem_id": "p-019",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.88,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.01,
+        "C": 0.05,
+        "D": 0.88,
+        "E": 0.02
+      }
+    },
+    "run_20": {
+      "pass": true,
+      "problem_id": "p-020",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.77,
+      "probabilities": {
+        "A": 0.07,
+        "B": 0.1,
+        "C": 0.77,
+        "D": 0.01,
+        "E": 0.05
+      }
+    },
+    "run_21": {
+      "pass": true,
+      "problem_id": "p-021",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.92,
+      "probabilities": {
+        "A": 0.06,
+        "B": 0.0,
+        "C": 0.01,
+        "D": 0.01,
+        "E": 0.92
+      }
+    },
+    "run_22": {
+      "pass": true,
+      "problem_id": "p-022",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.96,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.96,
+        "C": 0.02,
+        "D": 0.0,
+        "E": 0.01
+      }
+    },
+    "run_23": {
+      "pass": true,
+      "problem_id": "p-023",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.02,
+        "C": 0.91,
+        "D": 0.0,
+        "E": 0.04
+      }
+    },
+    "run_24": {
+      "pass": true,
+      "problem_id": "p-024",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.88,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.09,
+        "C": 0.0,
+        "D": 0.02,
+        "E": 0.88
+      }
+    },
+    "run_25": {
+      "pass": true,
+      "problem_id": "p-025",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.93,
+        "B": 0.02,
+        "C": 0.01,
+        "D": 0.02,
+        "E": 0.02
+      }
+    },
+    "run_26": {
+      "pass": true,
+      "problem_id": "p-026",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.02,
+        "C": 0.04,
+        "D": 0.0,
+        "E": 0.93
+      }
+    },
+    "run_27": {
+      "pass": true,
+      "problem_id": "p-027",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.97,
+      "probabilities": {
+        "A": 0.97,
+        "B": 0.01,
+        "C": 0.0,
+        "D": 0.01,
+        "E": 0.01
+      }
+    },
+    "run_28": {
+      "pass": true,
+      "problem_id": "p-028",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.78,
+      "probabilities": {
+        "A": 0.13,
+        "B": 0.02,
+        "C": 0.04,
+        "D": 0.78,
+        "E": 0.03
+      }
+    },
+    "run_29": {
+      "pass": true,
+      "problem_id": "p-029",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.93,
+        "C": 0.01,
+        "D": 0.01,
+        "E": 0.0
+      }
+    },
+    "run_30": {
+      "pass": true,
+      "problem_id": "p-030",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9299999999999999,
+      "probabilities": {
+        "A": 0.9299999999999999,
+        "B": 0.01,
+        "C": 0.01,
+        "D": 0.03,
+        "E": 0.02
+      }
+    },
+    "run_31": {
+      "pass": true,
+      "problem_id": "p-031",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.95,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.95,
+        "C": 0.02,
+        "D": 0.0,
+        "E": 0.01
+      }
+    },
+    "run_32": {
+      "pass": true,
+      "problem_id": "p-032",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.97,
+      "probabilities": {
+        "A": 0.97,
+        "B": 0.03,
+        "C": 0.0,
+        "D": 0.0,
+        "E": 0.0
+      }
+    },
+    "run_33": {
+      "pass": true,
+      "problem_id": "p-033",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.78,
+      "probabilities": {
+        "A": 0.13,
+        "B": 0.02,
+        "C": 0.04,
+        "D": 0.03,
+        "E": 0.78
+      }
+    },
+    "run_34": {
+      "pass": true,
+      "problem_id": "p-034",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.95,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.01,
+        "C": 0.01,
+        "D": 0.01,
+        "E": 0.95
+      }
+    },
+    "run_35": {
+      "pass": true,
+      "problem_id": "p-035",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.81,
+      "probabilities": {
+        "A": 0.08,
+        "B": 0.0,
+        "C": 0.81,
+        "D": 0.05,
+        "E": 0.06
+      }
+    },
+    "run_36": {
+      "pass": true,
+      "problem_id": "p-036",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.01,
+        "C": 0.04,
+        "D": 0.91,
+        "E": 0.01
+      }
+    },
+    "run_37": {
+      "pass": true,
+      "problem_id": "p-037",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.96,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.0,
+        "C": 0.01,
+        "D": 0.96,
+        "E": 0.02
+      }
+    },
+    "run_38": {
+      "pass": true,
+      "problem_id": "p-038",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.13,
+        "C": 0.8,
+        "D": 0.02,
+        "E": 0.02
+      }
+    },
+    "run_39": {
+      "pass": true,
+      "problem_id": "p-039",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9,
+      "probabilities": {
+        "A": 0.9,
+        "B": 0.01,
+        "C": 0.04,
+        "D": 0.04,
+        "E": 0.01
+      }
+    },
+    "run_40": {
+      "pass": true,
+      "problem_id": "p-040",
+      "pass_id": 1,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.87,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.87,
+        "C": 0.05,
+        "D": 0.03,
+        "E": 0.02
+      }
+    },
+    "run_41": {
+      "pass": true,
+      "problem_id": "p-041",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.01,
+        "C": 0.02,
+        "D": 0.01,
+        "E": 0.93
+      }
+    },
+    "run_42": {
+      "pass": true,
+      "problem_id": "p-042",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.9,
+        "C": 0.03,
+        "D": 0.01,
+        "E": 0.04
+      }
+    },
+    "run_43": {
+      "pass": true,
+      "problem_id": "p-043",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.66,
+      "probabilities": {
+        "A": 0.11,
+        "B": 0.66,
+        "C": 0.07,
+        "D": 0.16,
+        "E": 0.0
+      }
+    },
+    "run_44": {
+      "pass": true,
+      "problem_id": "p-044",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.96,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.96,
+        "C": 0.02,
+        "D": 0.0,
+        "E": 0.01
+      }
+    },
+    "run_45": {
+      "pass": true,
+      "problem_id": "p-045",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.94,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.02,
+        "C": 0.02,
+        "D": 0.01,
+        "E": 0.94
+      }
+    },
+    "run_46": {
+      "pass": true,
+      "problem_id": "p-046",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.86,
+        "C": 0.03,
+        "D": 0.09,
+        "E": 0.0
+      }
+    },
+    "run_47": {
+      "pass": true,
+      "problem_id": "p-047",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.85,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.02,
+        "C": 0.85,
+        "D": 0.07,
+        "E": 0.04
+      }
+    },
+    "run_48": {
+      "pass": true,
+      "problem_id": "p-048",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.81,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.04,
+        "C": 0.09,
+        "D": 0.03,
+        "E": 0.81
+      }
+    },
+    "run_49": {
+      "pass": true,
+      "problem_id": "p-049",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.82,
+      "probabilities": {
+        "A": 0.07,
+        "B": 0.01,
+        "C": 0.06,
+        "D": 0.82,
+        "E": 0.04
+      }
+    },
+    "run_50": {
+      "pass": true,
+      "problem_id": "p-050",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.93,
+        "B": 0.05,
+        "C": 0.0,
+        "D": 0.01,
+        "E": 0.01
+      }
+    },
+    "run_51": {
+      "pass": true,
+      "problem_id": "p-051",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.02,
+        "C": 0.9,
+        "D": 0.05,
+        "E": 0.0
+      }
+    },
+    "run_52": {
+      "pass": true,
+      "problem_id": "p-052",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.93,
+        "B": 0.02,
+        "C": 0.03,
+        "D": 0.0,
+        "E": 0.02
+      }
+    },
+    "run_53": {
+      "pass": true,
+      "problem_id": "p-053",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.02,
+        "C": 0.09,
+        "D": 0.86,
+        "E": 0.02
+      }
+    },
+    "run_54": {
+      "pass": true,
+      "problem_id": "p-054",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.95,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.0,
+        "C": 0.02,
+        "D": 0.01,
+        "E": 0.95
+      }
+    },
+    "run_55": {
+      "pass": true,
+      "problem_id": "p-055",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.89,
+      "probabilities": {
+        "A": 0.06,
+        "B": 0.0,
+        "C": 0.89,
+        "D": 0.02,
+        "E": 0.03
+      }
+    },
+    "run_56": {
+      "pass": true,
+      "problem_id": "p-056",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.07,
+        "C": 0.03,
+        "D": 0.06,
+        "E": 0.8
+      }
+    },
+    "run_57": {
+      "pass": true,
+      "problem_id": "p-057",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.83,
+      "probabilities": {
+        "A": 0.83,
+        "B": 0.06,
+        "C": 0.02,
+        "D": 0.05,
+        "E": 0.04
+      }
+    },
+    "run_58": {
+      "pass": true,
+      "problem_id": "p-058",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.88,
+      "probabilities": {
+        "A": 0.88,
+        "B": 0.04,
+        "C": 0.02,
+        "D": 0.03,
+        "E": 0.03
+      }
+    },
+    "run_59": {
+      "pass": true,
+      "problem_id": "p-059",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.84,
+      "probabilities": {
+        "A": 0.84,
+        "B": 0.01,
+        "C": 0.02,
+        "D": 0.03,
+        "E": 0.1
+      }
+    },
+    "run_60": {
+      "pass": true,
+      "problem_id": "p-060",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.95,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.02,
+        "C": 0.02,
+        "D": 0.0,
+        "E": 0.95
+      }
+    },
+    "run_61": {
+      "pass": true,
+      "problem_id": "p-061",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.07,
+        "B": 0.03,
+        "C": 0.01,
+        "D": 0.86,
+        "E": 0.03
+      }
+    },
+    "run_62": {
+      "pass": true,
+      "problem_id": "p-062",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.89,
+      "probabilities": {
+        "A": 0.89,
+        "B": 0.01,
+        "C": 0.01,
+        "D": 0.06,
+        "E": 0.03
+      }
+    },
+    "run_63": {
+      "pass": true,
+      "problem_id": "p-063",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.1,
+        "C": 0.8,
+        "D": 0.0,
+        "E": 0.07
+      }
+    },
+    "run_64": {
+      "pass": true,
+      "problem_id": "p-064",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.87,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.01,
+        "C": 0.87,
+        "D": 0.02,
+        "E": 0.08
+      }
+    },
+    "run_65": {
+      "pass": true,
+      "problem_id": "p-065",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.85,
+      "probabilities": {
+        "A": 0.85,
+        "B": 0.05,
+        "C": 0.03,
+        "D": 0.06,
+        "E": 0.01
+      }
+    },
+    "run_66": {
+      "pass": true,
+      "problem_id": "p-066",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8099999999999999,
+      "probabilities": {
+        "A": 0.08,
+        "B": 0.8099999999999999,
+        "C": 0.05,
+        "D": 0.02,
+        "E": 0.04
+      }
+    },
+    "run_67": {
+      "pass": true,
+      "problem_id": "p-067",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.91,
+        "C": 0.02,
+        "D": 0.01,
+        "E": 0.03
+      }
+    },
+    "run_68": {
+      "pass": true,
+      "problem_id": "p-068",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.05,
+        "C": 0.01,
+        "D": 0.86,
+        "E": 0.05
+      }
+    },
+    "run_69": {
+      "pass": true,
+      "problem_id": "p-069",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.95,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.0,
+        "C": 0.01,
+        "D": 0.95,
+        "E": 0.03
+      }
+    },
+    "run_70": {
+      "pass": true,
+      "problem_id": "p-070",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.06,
+        "C": 0.86,
+        "D": 0.01,
+        "E": 0.05
+      }
+    },
+    "run_71": {
+      "pass": true,
+      "problem_id": "p-071",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.66,
+      "probabilities": {
+        "A": 0.66,
+        "B": 0.09,
+        "C": 0.06,
+        "D": 0.18,
+        "E": 0.01
+      }
+    },
+    "run_72": {
+      "pass": true,
+      "problem_id": "p-072",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9299999999999999,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.01,
+        "C": 0.01,
+        "D": 0.03,
+        "E": 0.9299999999999999
+      }
+    },
+    "run_73": {
+      "pass": true,
+      "problem_id": "p-073",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.7,
+      "probabilities": {
+        "A": 0.15,
+        "B": 0.03,
+        "C": 0.7,
+        "D": 0.1,
+        "E": 0.02
+      }
+    },
+    "run_74": {
+      "pass": true,
+      "problem_id": "p-074",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.91,
+        "C": 0.01,
+        "D": 0.04,
+        "E": 0.02
+      }
+    },
+    "run_75": {
+      "pass": true,
+      "problem_id": "p-075",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.83,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.01,
+        "C": 0.02,
+        "D": 0.83,
+        "E": 0.09
+      }
+    },
+    "run_76": {
+      "pass": true,
+      "problem_id": "p-076",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.74,
+      "probabilities": {
+        "A": 0.16,
+        "B": 0.74,
+        "C": 0.0,
+        "D": 0.08,
+        "E": 0.02
+      }
+    },
+    "run_77": {
+      "pass": true,
+      "problem_id": "p-077",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.06,
+        "B": 0.01,
+        "C": 0.0,
+        "D": 0.91,
+        "E": 0.02
+      }
+    },
+    "run_78": {
+      "pass": true,
+      "problem_id": "p-078",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.84,
+      "probabilities": {
+        "A": 0.06,
+        "B": 0.03,
+        "C": 0.84,
+        "D": 0.07,
+        "E": 0.0
+      }
+    },
+    "run_79": {
+      "pass": true,
+      "problem_id": "p-079",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.02,
+        "C": 0.04,
+        "D": 0.91,
+        "E": 0.02
+      }
+    },
+    "run_80": {
+      "pass": true,
+      "problem_id": "p-080",
+      "pass_id": 1,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.81,
+      "probabilities": {
+        "A": 0.06,
+        "B": 0.1,
+        "C": 0.01,
+        "D": 0.02,
+        "E": 0.81
+      }
+    },
+    "run_81": {
+      "pass": true,
+      "problem_id": "p-081",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.02,
+        "C": 0.91,
+        "D": 0.03,
+        "E": 0.02
+      }
+    },
+    "run_82": {
+      "pass": true,
+      "problem_id": "p-082",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.82,
+      "probabilities": {
+        "A": 0.09,
+        "B": 0.01,
+        "C": 0.03,
+        "D": 0.05,
+        "E": 0.82
+      }
+    },
+    "run_83": {
+      "pass": true,
+      "problem_id": "p-083",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.95,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.95,
+        "C": 0.02,
+        "D": 0.01,
+        "E": 0.01
+      }
+    },
+    "run_84": {
+      "pass": true,
+      "problem_id": "p-084",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.91,
+        "C": 0.0,
+        "D": 0.02,
+        "E": 0.03
+      }
+    },
+    "run_85": {
+      "pass": true,
+      "problem_id": "p-085",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.03,
+        "C": 0.9,
+        "D": 0.01,
+        "E": 0.04
+      }
+    },
+    "run_86": {
+      "pass": true,
+      "problem_id": "p-086",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.92,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.04,
+        "C": 0.92,
+        "D": 0.02,
+        "E": 0.01
+      }
+    },
+    "run_87": {
+      "pass": true,
+      "problem_id": "p-087",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.85,
+      "probabilities": {
+        "A": 0.12,
+        "B": 0.01,
+        "C": 0.0,
+        "D": 0.85,
+        "E": 0.02
+      }
+    },
+    "run_88": {
+      "pass": true,
+      "problem_id": "p-088",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.78,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.13,
+        "C": 0.01,
+        "D": 0.03,
+        "E": 0.78
+      }
+    },
+    "run_89": {
+      "pass": true,
+      "problem_id": "p-089",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.76,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.1,
+        "C": 0.76,
+        "D": 0.03,
+        "E": 0.07
+      }
+    },
+    "run_90": {
+      "pass": true,
+      "problem_id": "p-090",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.83,
+      "probabilities": {
+        "A": 0.09,
+        "B": 0.01,
+        "C": 0.83,
+        "D": 0.01,
+        "E": 0.06
+      }
+    },
+    "run_91": {
+      "pass": true,
+      "problem_id": "p-091",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.98,
+      "probabilities": {
+        "A": 0.0,
+        "B": 0.98,
+        "C": 0.0,
+        "D": 0.01,
+        "E": 0.01
+      }
+    },
+    "run_92": {
+      "pass": true,
+      "problem_id": "p-092",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.77,
+      "probabilities": {
+        "A": 0.08,
+        "B": 0.0,
+        "C": 0.77,
+        "D": 0.07,
+        "E": 0.08
+      }
+    },
+    "run_93": {
+      "pass": true,
+      "problem_id": "p-093",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.77,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.08,
+        "C": 0.1,
+        "D": 0.77,
+        "E": 0.01
+      }
+    },
+    "run_94": {
+      "pass": true,
+      "problem_id": "p-094",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.04,
+        "C": 0.02,
+        "D": 0.01,
+        "E": 0.91
+      }
+    },
+    "run_95": {
+      "pass": true,
+      "problem_id": "p-095",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.89,
+      "probabilities": {
+        "A": 0.06,
+        "B": 0.89,
+        "C": 0.03,
+        "D": 0.02,
+        "E": 0.0
+      }
+    },
+    "run_96": {
+      "pass": true,
+      "problem_id": "p-096",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.07,
+        "C": 0.01,
+        "D": 0.01,
+        "E": 0.86
+      }
+    },
+    "run_97": {
+      "pass": true,
+      "problem_id": "p-097",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.1,
+        "C": 0.06,
+        "D": 0.01,
+        "E": 0.8
+      }
+    },
+    "run_98": {
+      "pass": true,
+      "problem_id": "p-098",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.84,
+      "probabilities": {
+        "A": 0.84,
+        "B": 0.01,
+        "C": 0.09,
+        "D": 0.01,
+        "E": 0.05
+      }
+    },
+    "run_99": {
+      "pass": true,
+      "problem_id": "p-099",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.02,
+        "C": 0.02,
+        "D": 0.93,
+        "E": 0.02
+      }
+    },
+    "run_100": {
+      "pass": true,
+      "problem_id": "p-100",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.74,
+      "probabilities": {
+        "A": 0.15,
+        "B": 0.03,
+        "C": 0.01,
+        "D": 0.07,
+        "E": 0.74
+      }
+    },
+    "run_101": {
+      "pass": true,
+      "problem_id": "p-101",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.93,
+        "B": 0.0,
+        "C": 0.01,
+        "D": 0.05,
+        "E": 0.01
+      }
+    },
+    "run_102": {
+      "pass": true,
+      "problem_id": "p-102",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.8,
+        "C": 0.09,
+        "D": 0.01,
+        "E": 0.08
+      }
+    },
+    "run_103": {
+      "pass": true,
+      "problem_id": "p-103",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.89,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.89,
+        "C": 0.02,
+        "D": 0.05,
+        "E": 0.01
+      }
+    },
+    "run_104": {
+      "pass": true,
+      "problem_id": "p-104",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.04,
+        "C": 0.86,
+        "D": 0.04,
+        "E": 0.01
+      }
+    },
+    "run_105": {
+      "pass": true,
+      "problem_id": "p-105",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.82,
+      "probabilities": {
+        "A": 0.08,
+        "B": 0.02,
+        "C": 0.07,
+        "D": 0.82,
+        "E": 0.01
+      }
+    },
+    "run_106": {
+      "pass": true,
+      "problem_id": "p-106",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.69,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.69,
+        "C": 0.03,
+        "D": 0.21,
+        "E": 0.05
+      }
+    },
+    "run_107": {
+      "pass": true,
+      "problem_id": "p-107",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.96,
+      "probabilities": {
+        "A": 0.0,
+        "B": 0.96,
+        "C": 0.03,
+        "D": 0.0,
+        "E": 0.01
+      }
+    },
+    "run_108": {
+      "pass": true,
+      "problem_id": "p-108",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.86,
+        "B": 0.04,
+        "C": 0.04,
+        "D": 0.05,
+        "E": 0.01
+      }
+    },
+    "run_109": {
+      "pass": true,
+      "problem_id": "p-109",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.73,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.09,
+        "C": 0.09,
+        "D": 0.73,
+        "E": 0.06
+      }
+    },
+    "run_110": {
+      "pass": true,
+      "problem_id": "p-110",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.82,
+      "probabilities": {
+        "A": 0.13,
+        "B": 0.0,
+        "C": 0.02,
+        "D": 0.82,
+        "E": 0.03
+      }
+    },
+    "run_111": {
+      "pass": true,
+      "problem_id": "p-111",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.79,
+      "probabilities": {
+        "A": 0.79,
+        "B": 0.06,
+        "C": 0.04,
+        "D": 0.1,
+        "E": 0.01
+      }
+    },
+    "run_112": {
+      "pass": true,
+      "problem_id": "p-112",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.78,
+      "probabilities": {
+        "A": 0.07,
+        "B": 0.02,
+        "C": 0.08,
+        "D": 0.78,
+        "E": 0.05
+      }
+    },
+    "run_113": {
+      "pass": true,
+      "problem_id": "p-113",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.88,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.04,
+        "C": 0.01,
+        "D": 0.88,
+        "E": 0.04
+      }
+    },
+    "run_114": {
+      "pass": true,
+      "problem_id": "p-114",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.87,
+      "probabilities": {
+        "A": 0.0,
+        "B": 0.09,
+        "C": 0.01,
+        "D": 0.03,
+        "E": 0.87
+      }
+    },
+    "run_115": {
+      "pass": true,
+      "problem_id": "p-115",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.88,
+      "probabilities": {
+        "A": 0.88,
+        "B": 0.02,
+        "C": 0.0,
+        "D": 0.01,
+        "E": 0.09
+      }
+    },
+    "run_116": {
+      "pass": true,
+      "problem_id": "p-116",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8,
+      "probabilities": {
+        "A": 0.8,
+        "B": 0.02,
+        "C": 0.04,
+        "D": 0.13,
+        "E": 0.01
+      }
+    },
+    "run_117": {
+      "pass": true,
+      "problem_id": "p-117",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.95,
+      "probabilities": {
+        "A": 0.95,
+        "B": 0.01,
+        "C": 0.0,
+        "D": 0.02,
+        "E": 0.02
+      }
+    },
+    "run_118": {
+      "pass": true,
+      "problem_id": "p-118",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.6799999999999999,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.11,
+        "C": 0.6799999999999999,
+        "D": 0.16,
+        "E": 0.01
+      }
+    },
+    "run_119": {
+      "pass": true,
+      "problem_id": "p-119",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.09,
+        "C": 0.01,
+        "D": 0.02,
+        "E": 0.86
+      }
+    },
+    "run_120": {
+      "pass": true,
+      "problem_id": "p-120",
+      "pass_id": 1,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.74,
+      "probabilities": {
+        "A": 0.74,
+        "B": 0.02,
+        "C": 0.07,
+        "D": 0.11,
+        "E": 0.06
+      }
+    },
+    "run_121": {
+      "pass": true,
+      "problem_id": "p-114",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.88,
+      "probabilities": {
+        "A": 0.0,
+        "B": 0.08,
+        "C": 0.01,
+        "D": 0.03,
+        "E": 0.88
+      }
+    },
+    "run_122": {
+      "pass": true,
+      "problem_id": "p-103",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.88,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.88,
+        "C": 0.02,
+        "D": 0.06,
+        "E": 0.01
+      }
+    },
+    "run_123": {
+      "pass": true,
+      "problem_id": "p-097",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.82,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.08,
+        "C": 0.06,
+        "D": 0.01,
+        "E": 0.82
+      }
+    },
+    "run_124": {
+      "pass": true,
+      "problem_id": "p-071",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.67,
+      "probabilities": {
+        "A": 0.67,
+        "B": 0.09,
+        "C": 0.07,
+        "D": 0.16,
+        "E": 0.01
+      }
+    },
+    "run_125": {
+      "pass": true,
+      "problem_id": "p-040",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.87,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.87,
+        "C": 0.05,
+        "D": 0.04,
+        "E": 0.02
+      }
+    },
+    "run_126": {
+      "pass": true,
+      "problem_id": "p-062",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.89,
+      "probabilities": {
+        "A": 0.89,
+        "B": 0.01,
+        "C": 0.01,
+        "D": 0.07,
+        "E": 0.02
+      }
+    },
+    "run_127": {
+      "pass": true,
+      "problem_id": "p-087",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.01,
+        "C": 0.0,
+        "D": 0.93,
+        "E": 0.01
+      }
+    },
+    "run_128": {
+      "pass": true,
+      "problem_id": "p-037",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.0,
+        "C": 0.02,
+        "D": 0.93,
+        "E": 0.03
+      }
+    },
+    "run_129": {
+      "pass": true,
+      "problem_id": "p-067",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.95,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.95,
+        "C": 0.01,
+        "D": 0.0,
+        "E": 0.02
+      }
+    },
+    "run_130": {
+      "pass": true,
+      "problem_id": "p-011",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.92,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.02,
+        "C": 0.92,
+        "D": 0.02,
+        "E": 0.02
+      }
+    },
+    "run_131": {
+      "pass": true,
+      "problem_id": "p-008",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.66,
+      "probabilities": {
+        "A": 0.09,
+        "B": 0.09,
+        "C": 0.12,
+        "D": 0.04,
+        "E": 0.66
+      }
+    },
+    "run_132": {
+      "pass": true,
+      "problem_id": "p-052",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.92,
+      "probabilities": {
+        "A": 0.92,
+        "B": 0.02,
+        "C": 0.03,
+        "D": 0.0,
+        "E": 0.03
+      }
+    },
+    "run_133": {
+      "pass": true,
+      "problem_id": "p-043",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.65,
+      "probabilities": {
+        "A": 0.09,
+        "B": 0.65,
+        "C": 0.08,
+        "D": 0.18,
+        "E": 0.0
+      }
+    },
+    "run_134": {
+      "pass": true,
+      "problem_id": "p-101",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.93,
+        "B": 0.0,
+        "C": 0.01,
+        "D": 0.05,
+        "E": 0.01
+      }
+    },
+    "run_135": {
+      "pass": true,
+      "problem_id": "p-082",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.83,
+      "probabilities": {
+        "A": 0.08,
+        "B": 0.01,
+        "C": 0.04,
+        "D": 0.04,
+        "E": 0.83
+      }
+    },
+    "run_136": {
+      "pass": true,
+      "problem_id": "p-063",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.7,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.14,
+        "C": 0.7,
+        "D": 0.01,
+        "E": 0.1
+      }
+    },
+    "run_137": {
+      "pass": true,
+      "problem_id": "p-074",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.93,
+        "C": 0.0,
+        "D": 0.04,
+        "E": 0.01
+      }
+    },
+    "run_138": {
+      "pass": true,
+      "problem_id": "p-032",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.97,
+      "probabilities": {
+        "A": 0.97,
+        "B": 0.03,
+        "C": 0.0,
+        "D": 0.0,
+        "E": 0.0
+      }
+    },
+    "run_139": {
+      "pass": true,
+      "problem_id": "p-056",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.76,
+      "probabilities": {
+        "A": 0.06,
+        "B": 0.09,
+        "C": 0.03,
+        "D": 0.06,
+        "E": 0.76
+      }
+    },
+    "run_140": {
+      "pass": true,
+      "problem_id": "p-013",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.99,
+      "probabilities": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.99,
+        "E": 0.01
+      }
+    },
+    "run_141": {
+      "pass": true,
+      "problem_id": "p-106",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.66,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.66,
+        "C": 0.01,
+        "D": 0.26,
+        "E": 0.04
+      }
+    },
+    "run_142": {
+      "pass": true,
+      "problem_id": "p-049",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8099999999999999,
+      "probabilities": {
+        "A": 0.08,
+        "B": 0.01,
+        "C": 0.06,
+        "D": 0.8099999999999999,
+        "E": 0.04
+      }
+    },
+    "run_143": {
+      "pass": true,
+      "problem_id": "p-055",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.92,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.0,
+        "C": 0.92,
+        "D": 0.01,
+        "E": 0.03
+      }
+    },
+    "run_144": {
+      "pass": true,
+      "problem_id": "p-034",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.01,
+        "C": 0.01,
+        "D": 0.02,
+        "E": 0.93
+      }
+    },
+    "run_145": {
+      "pass": true,
+      "problem_id": "p-012",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.88,
+      "probabilities": {
+        "A": 0.88,
+        "B": 0.07,
+        "C": 0.01,
+        "D": 0.01,
+        "E": 0.03
+      }
+    },
+    "run_146": {
+      "pass": true,
+      "problem_id": "p-090",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.85,
+      "probabilities": {
+        "A": 0.08,
+        "B": 0.01,
+        "C": 0.85,
+        "D": 0.01,
+        "E": 0.05
+      }
+    },
+    "run_147": {
+      "pass": true,
+      "problem_id": "p-042",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.92,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.92,
+        "C": 0.02,
+        "D": 0.0,
+        "E": 0.03
+      }
+    },
+    "run_148": {
+      "pass": true,
+      "problem_id": "p-033",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8,
+      "probabilities": {
+        "A": 0.11,
+        "B": 0.02,
+        "C": 0.04,
+        "D": 0.03,
+        "E": 0.8
+      }
+    },
+    "run_149": {
+      "pass": true,
+      "problem_id": "p-060",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.95,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.03,
+        "C": 0.01,
+        "D": 0.0,
+        "E": 0.95
+      }
+    },
+    "run_150": {
+      "pass": true,
+      "problem_id": "p-005",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.04,
+        "C": 0.01,
+        "D": 0.0,
+        "E": 0.9
+      }
+    },
+    "run_151": {
+      "pass": true,
+      "problem_id": "p-117",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.93,
+        "B": 0.01,
+        "C": 0.0,
+        "D": 0.04,
+        "E": 0.02
+      }
+    },
+    "run_152": {
+      "pass": true,
+      "problem_id": "p-104",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.89,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.03,
+        "C": 0.89,
+        "D": 0.04,
+        "E": 0.01
+      }
+    },
+    "run_153": {
+      "pass": true,
+      "problem_id": "p-092",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.73,
+      "probabilities": {
+        "A": 0.11,
+        "B": 0.0,
+        "C": 0.73,
+        "D": 0.07,
+        "E": 0.09
+      }
+    },
+    "run_154": {
+      "pass": true,
+      "problem_id": "p-046",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.86,
+        "C": 0.02,
+        "D": 0.1,
+        "E": 0.0
+      }
+    },
+    "run_155": {
+      "pass": true,
+      "problem_id": "p-027",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.99,
+      "probabilities": {
+        "A": 0.99,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0,
+        "E": 0.01
+      }
+    },
+    "run_156": {
+      "pass": true,
+      "problem_id": "p-036",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.02,
+        "C": 0.04,
+        "D": 0.91,
+        "E": 0.01
+      }
+    },
+    "run_157": {
+      "pass": true,
+      "problem_id": "p-003",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.87,
+      "probabilities": {
+        "A": 0.08,
+        "B": 0.01,
+        "C": 0.01,
+        "D": 0.87,
+        "E": 0.03
+      }
+    },
+    "run_158": {
+      "pass": true,
+      "problem_id": "p-039",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.92,
+      "probabilities": {
+        "A": 0.92,
+        "B": 0.01,
+        "C": 0.03,
+        "D": 0.03,
+        "E": 0.01
+      }
+    },
+    "run_159": {
+      "pass": true,
+      "problem_id": "p-094",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.88,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.05,
+        "C": 0.03,
+        "D": 0.02,
+        "E": 0.88
+      }
+    },
+    "run_160": {
+      "pass": true,
+      "problem_id": "p-120",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.77,
+      "probabilities": {
+        "A": 0.77,
+        "B": 0.01,
+        "C": 0.07,
+        "D": 0.09,
+        "E": 0.06
+      }
+    },
+    "run_161": {
+      "pass": true,
+      "problem_id": "p-113",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.03,
+        "C": 0.01,
+        "D": 0.9,
+        "E": 0.03
+      }
+    },
+    "run_162": {
+      "pass": true,
+      "problem_id": "p-047",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.01,
+        "C": 0.86,
+        "D": 0.07,
+        "E": 0.05
+      }
+    },
+    "run_163": {
+      "pass": true,
+      "problem_id": "p-119",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.85,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.09,
+        "C": 0.01,
+        "D": 0.03,
+        "E": 0.85
+      }
+    },
+    "run_164": {
+      "pass": true,
+      "problem_id": "p-016",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.91,
+        "C": 0.02,
+        "D": 0.02,
+        "E": 0.03
+      }
+    },
+    "run_165": {
+      "pass": true,
+      "problem_id": "p-069",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.0,
+        "C": 0.01,
+        "D": 0.93,
+        "E": 0.04
+      }
+    },
+    "run_166": {
+      "pass": true,
+      "problem_id": "p-073",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.71,
+      "probabilities": {
+        "A": 0.13,
+        "B": 0.03,
+        "C": 0.71,
+        "D": 0.11,
+        "E": 0.02
+      }
+    },
+    "run_167": {
+      "pass": true,
+      "problem_id": "p-024",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.84,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.12,
+        "C": 0.0,
+        "D": 0.02,
+        "E": 0.84
+      }
+    },
+    "run_168": {
+      "pass": true,
+      "problem_id": "p-084",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.9,
+        "C": 0.0,
+        "D": 0.02,
+        "E": 0.04
+      }
+    },
+    "run_169": {
+      "pass": true,
+      "problem_id": "p-118",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.65,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.12,
+        "C": 0.65,
+        "D": 0.18,
+        "E": 0.01
+      }
+    },
+    "run_170": {
+      "pass": true,
+      "problem_id": "p-059",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.86,
+        "B": 0.01,
+        "C": 0.02,
+        "D": 0.03,
+        "E": 0.08
+      }
+    },
+    "run_171": {
+      "pass": true,
+      "problem_id": "p-080",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.81,
+      "probabilities": {
+        "A": 0.06,
+        "B": 0.11,
+        "C": 0.0,
+        "D": 0.02,
+        "E": 0.81
+      }
+    },
+    "run_172": {
+      "pass": true,
+      "problem_id": "p-081",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.02,
+        "C": 0.91,
+        "D": 0.03,
+        "E": 0.02
+      }
+    },
+    "run_173": {
+      "pass": true,
+      "problem_id": "p-007",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.85,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.02,
+        "C": 0.85,
+        "D": 0.09,
+        "E": 0.01
+      }
+    },
+    "run_174": {
+      "pass": true,
+      "problem_id": "p-068",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.87,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.04,
+        "C": 0.01,
+        "D": 0.87,
+        "E": 0.05
+      }
+    },
+    "run_175": {
+      "pass": true,
+      "problem_id": "p-004",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.92,
+      "probabilities": {
+        "A": 0.92,
+        "B": 0.03,
+        "C": 0.02,
+        "D": 0.02,
+        "E": 0.01
+      }
+    },
+    "run_176": {
+      "pass": true,
+      "problem_id": "p-001",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.84,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.84,
+        "C": 0.07,
+        "D": 0.06,
+        "E": 0.01
+      }
+    },
+    "run_177": {
+      "pass": true,
+      "problem_id": "p-076",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.72,
+      "probabilities": {
+        "A": 0.18,
+        "B": 0.72,
+        "C": 0.0,
+        "D": 0.08,
+        "E": 0.02
+      }
+    },
+    "run_178": {
+      "pass": true,
+      "problem_id": "p-111",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.76,
+      "probabilities": {
+        "A": 0.76,
+        "B": 0.07,
+        "C": 0.05,
+        "D": 0.11,
+        "E": 0.01
+      }
+    },
+    "run_179": {
+      "pass": true,
+      "problem_id": "p-109",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.67,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.09,
+        "C": 0.12,
+        "D": 0.67,
+        "E": 0.07
+      }
+    },
+    "run_180": {
+      "pass": true,
+      "problem_id": "p-058",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.88,
+      "probabilities": {
+        "A": 0.88,
+        "B": 0.04,
+        "C": 0.03,
+        "D": 0.02,
+        "E": 0.03
+      }
+    },
+    "run_181": {
+      "pass": true,
+      "problem_id": "p-096",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.07,
+        "C": 0.01,
+        "D": 0.01,
+        "E": 0.86
+      }
+    },
+    "run_182": {
+      "pass": true,
+      "problem_id": "p-110",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.77,
+      "probabilities": {
+        "A": 0.16,
+        "B": 0.0,
+        "C": 0.03,
+        "D": 0.77,
+        "E": 0.04
+      }
+    },
+    "run_183": {
+      "pass": true,
+      "problem_id": "p-093",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.74,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.09,
+        "C": 0.11,
+        "D": 0.74,
+        "E": 0.01
+      }
+    },
+    "run_184": {
+      "pass": true,
+      "problem_id": "p-018",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.93,
+        "C": 0.0,
+        "D": 0.02,
+        "E": 0.02
+      }
+    },
+    "run_185": {
+      "pass": true,
+      "problem_id": "p-021",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.06,
+        "B": 0.0,
+        "C": 0.01,
+        "D": 0.02,
+        "E": 0.91
+      }
+    },
+    "run_186": {
+      "pass": true,
+      "problem_id": "p-107",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.94,
+      "probabilities": {
+        "A": 0.0,
+        "B": 0.94,
+        "C": 0.03,
+        "D": 0.01,
+        "E": 0.02
+      }
+    },
+    "run_187": {
+      "pass": true,
+      "problem_id": "p-048",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.81,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.04,
+        "C": 0.07,
+        "D": 0.03,
+        "E": 0.81
+      }
+    },
+    "run_188": {
+      "pass": true,
+      "problem_id": "p-089",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.09,
+        "C": 0.8,
+        "D": 0.02,
+        "E": 0.06
+      }
+    },
+    "run_189": {
+      "pass": true,
+      "problem_id": "p-077",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.94,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.01,
+        "C": 0.0,
+        "D": 0.94,
+        "E": 0.01
+      }
+    },
+    "run_190": {
+      "pass": true,
+      "problem_id": "p-065",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.82,
+      "probabilities": {
+        "A": 0.82,
+        "B": 0.06,
+        "C": 0.04,
+        "D": 0.06,
+        "E": 0.02
+      }
+    },
+    "run_191": {
+      "pass": true,
+      "problem_id": "p-020",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.85,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.06,
+        "C": 0.85,
+        "D": 0.01,
+        "E": 0.03
+      }
+    },
+    "run_192": {
+      "pass": true,
+      "problem_id": "p-019",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.01,
+        "C": 0.05,
+        "D": 0.91,
+        "E": 0.02
+      }
+    },
+    "run_193": {
+      "pass": true,
+      "problem_id": "p-057",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8,
+      "probabilities": {
+        "A": 0.8,
+        "B": 0.08,
+        "C": 0.03,
+        "D": 0.03,
+        "E": 0.06
+      }
+    },
+    "run_194": {
+      "pass": true,
+      "problem_id": "p-070",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.85,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.06,
+        "C": 0.85,
+        "D": 0.0,
+        "E": 0.07
+      }
+    },
+    "run_195": {
+      "pass": true,
+      "problem_id": "p-026",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.03,
+        "C": 0.04,
+        "D": 0.0,
+        "E": 0.91
+      }
+    },
+    "run_196": {
+      "pass": true,
+      "problem_id": "p-061",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.87,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.04,
+        "C": 0.01,
+        "D": 0.87,
+        "E": 0.03
+      }
+    },
+    "run_197": {
+      "pass": true,
+      "problem_id": "p-064",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.01,
+        "C": 0.9,
+        "D": 0.02,
+        "E": 0.06
+      }
+    },
+    "run_198": {
+      "pass": true,
+      "problem_id": "p-009",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9299999999999999,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.04,
+        "C": 0.9299999999999999,
+        "D": 0.01,
+        "E": 0.01
+      }
+    },
+    "run_199": {
+      "pass": true,
+      "problem_id": "p-086",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.04,
+        "C": 0.93,
+        "D": 0.01,
+        "E": 0.01
+      }
+    },
+    "run_200": {
+      "pass": true,
+      "problem_id": "p-051",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.02,
+        "C": 0.9,
+        "D": 0.05,
+        "E": 0.0
+      }
+    },
+    "run_201": {
+      "pass": true,
+      "problem_id": "p-088",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.8,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.13,
+        "C": 0.01,
+        "D": 0.03,
+        "E": 0.8
+      }
+    },
+    "run_202": {
+      "pass": true,
+      "problem_id": "p-095",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.87,
+      "probabilities": {
+        "A": 0.08,
+        "B": 0.87,
+        "C": 0.03,
+        "D": 0.02,
+        "E": 0.0
+      }
+    },
+    "run_203": {
+      "pass": true,
+      "problem_id": "p-031",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.95,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.95,
+        "C": 0.02,
+        "D": 0.0,
+        "E": 0.01
+      }
+    },
+    "run_204": {
+      "pass": true,
+      "problem_id": "p-002",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.9,
+        "C": 0.02,
+        "D": 0.05,
+        "E": 0.01
+      }
+    },
+    "run_205": {
+      "pass": true,
+      "problem_id": "p-041",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.87,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.02,
+        "C": 0.04,
+        "D": 0.02,
+        "E": 0.87
+      }
+    },
+    "run_206": {
+      "pass": true,
+      "problem_id": "p-108",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.83,
+      "probabilities": {
+        "A": 0.83,
+        "B": 0.05,
+        "C": 0.06,
+        "D": 0.05,
+        "E": 0.01
+      }
+    },
+    "run_207": {
+      "pass": true,
+      "problem_id": "p-014",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.96,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.01,
+        "C": 0.02,
+        "D": 0.96,
+        "E": 0.0
+      }
+    },
+    "run_208": {
+      "pass": true,
+      "problem_id": "p-010",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.95,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.01,
+        "C": 0.95,
+        "D": 0.03,
+        "E": 0.0
+      }
+    },
+    "run_209": {
+      "pass": true,
+      "problem_id": "p-006",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.04,
+        "B": 0.01,
+        "C": 0.03,
+        "D": 0.91,
+        "E": 0.01
+      }
+    },
+    "run_210": {
+      "pass": true,
+      "problem_id": "p-079",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.92,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.01,
+        "C": 0.04,
+        "D": 0.92,
+        "E": 0.02
+      }
+    },
+    "run_211": {
+      "pass": true,
+      "problem_id": "p-044",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.98,
+      "probabilities": {
+        "A": 0.0,
+        "B": 0.98,
+        "C": 0.01,
+        "D": 0.0,
+        "E": 0.01
+      }
+    },
+    "run_212": {
+      "pass": true,
+      "problem_id": "p-053",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.78,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.05,
+        "C": 0.11,
+        "D": 0.78,
+        "E": 0.03
+      }
+    },
+    "run_213": {
+      "pass": true,
+      "problem_id": "p-091",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.98,
+      "probabilities": {
+        "A": 0.0,
+        "B": 0.98,
+        "C": 0.0,
+        "D": 0.01,
+        "E": 0.01
+      }
+    },
+    "run_214": {
+      "pass": true,
+      "problem_id": "p-102",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.77,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.77,
+        "C": 0.1,
+        "D": 0.01,
+        "E": 0.1
+      }
+    },
+    "run_215": {
+      "pass": true,
+      "problem_id": "p-035",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.06,
+        "B": 0.0,
+        "C": 0.86,
+        "D": 0.04,
+        "E": 0.04
+      }
+    },
+    "run_216": {
+      "pass": true,
+      "problem_id": "p-078",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.86,
+      "probabilities": {
+        "A": 0.05,
+        "B": 0.02,
+        "C": 0.86,
+        "D": 0.07,
+        "E": 0.0
+      }
+    },
+    "run_217": {
+      "pass": true,
+      "problem_id": "p-112",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.77,
+      "probabilities": {
+        "A": 0.09,
+        "B": 0.02,
+        "C": 0.07,
+        "D": 0.77,
+        "E": 0.05
+      }
+    },
+    "run_218": {
+      "pass": true,
+      "problem_id": "p-115",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.87,
+      "probabilities": {
+        "A": 0.87,
+        "B": 0.02,
+        "C": 0.0,
+        "D": 0.02,
+        "E": 0.09
+      }
+    },
+    "run_219": {
+      "pass": true,
+      "problem_id": "p-100",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.63,
+      "probabilities": {
+        "A": 0.22,
+        "B": 0.05,
+        "C": 0.01,
+        "D": 0.09,
+        "E": 0.63
+      }
+    },
+    "run_220": {
+      "pass": true,
+      "problem_id": "p-030",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.95,
+      "probabilities": {
+        "A": 0.95,
+        "B": 0.01,
+        "C": 0.01,
+        "D": 0.02,
+        "E": 0.01
+      }
+    },
+    "run_221": {
+      "pass": true,
+      "problem_id": "p-029",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.96,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.96,
+        "C": 0.0,
+        "D": 0.01,
+        "E": 0.0
+      }
+    },
+    "run_222": {
+      "pass": true,
+      "problem_id": "p-072",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.92,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.01,
+        "C": 0.01,
+        "D": 0.03,
+        "E": 0.92
+      }
+    },
+    "run_223": {
+      "pass": true,
+      "problem_id": "p-023",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.01,
+        "C": 0.91,
+        "D": 0.01,
+        "E": 0.04
+      }
+    },
+    "run_224": {
+      "pass": true,
+      "problem_id": "p-054",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.9299999999999999,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.01,
+        "C": 0.02,
+        "D": 0.02,
+        "E": 0.9299999999999999
+      }
+    },
+    "run_225": {
+      "pass": true,
+      "problem_id": "p-025",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.94,
+      "probabilities": {
+        "A": 0.94,
+        "B": 0.02,
+        "C": 0.01,
+        "D": 0.01,
+        "E": 0.02
+      }
+    },
+    "run_226": {
+      "pass": true,
+      "problem_id": "p-050",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "C",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.94,
+      "probabilities": {
+        "A": 0.94,
+        "B": 0.04,
+        "C": 0.0,
+        "D": 0.01,
+        "E": 0.01
+      }
+    },
+    "run_227": {
+      "pass": true,
+      "problem_id": "p-066",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.75,
+      "probabilities": {
+        "A": 0.12,
+        "B": 0.75,
+        "C": 0.05,
+        "D": 0.02,
+        "E": 0.06
+      }
+    },
+    "run_228": {
+      "pass": true,
+      "problem_id": "p-028",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.77,
+      "probabilities": {
+        "A": 0.13,
+        "B": 0.02,
+        "C": 0.04,
+        "D": 0.77,
+        "E": 0.04
+      }
+    },
+    "run_229": {
+      "pass": true,
+      "problem_id": "p-022",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.97,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.97,
+        "C": 0.01,
+        "D": 0.0,
+        "E": 0.01
+      }
+    },
+    "run_230": {
+      "pass": true,
+      "problem_id": "p-099",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.87,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.05,
+        "C": 0.04,
+        "D": 0.87,
+        "E": 0.03
+      }
+    },
+    "run_231": {
+      "pass": true,
+      "problem_id": "p-038",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "A",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.84,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.09,
+        "C": 0.84,
+        "D": 0.03,
+        "E": 0.02
+      }
+    },
+    "run_232": {
+      "pass": true,
+      "problem_id": "p-083",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "B",
+      "optimal_id": "B",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.96,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.96,
+        "C": 0.02,
+        "D": 0.01,
+        "E": 0.0
+      }
+    },
+    "run_233": {
+      "pass": true,
+      "problem_id": "p-075",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "B",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.88,
+      "probabilities": {
+        "A": 0.03,
+        "B": 0.01,
+        "C": 0.01,
+        "D": 0.88,
+        "E": 0.07
+      }
+    },
+    "run_234": {
+      "pass": true,
+      "problem_id": "p-017",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.94,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.03,
+        "C": 0.01,
+        "D": 0.01,
+        "E": 0.94
+      }
+    },
+    "run_235": {
+      "pass": true,
+      "problem_id": "p-045",
+      "pass_id": 2,
+      "stratum": "S2",
+      "selected_id": "E",
+      "optimal_id": "E",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.96,
+      "probabilities": {
+        "A": 0.01,
+        "B": 0.01,
+        "C": 0.02,
+        "D": 0.0,
+        "E": 0.96
+      }
+    },
+    "run_236": {
+      "pass": true,
+      "problem_id": "p-105",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "D",
+      "optimal_id": "D",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.84,
+      "probabilities": {
+        "A": 0.07,
+        "B": 0.02,
+        "C": 0.06,
+        "D": 0.84,
+        "E": 0.01
+      }
+    },
+    "run_237": {
+      "pass": true,
+      "problem_id": "p-098",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.83,
+      "probabilities": {
+        "A": 0.83,
+        "B": 0.01,
+        "C": 0.1,
+        "D": 0.02,
+        "E": 0.04
+      }
+    },
+    "run_238": {
+      "pass": true,
+      "problem_id": "p-085",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "C",
+      "optimal_id": "C",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.91,
+      "probabilities": {
+        "A": 0.02,
+        "B": 0.03,
+        "C": 0.91,
+        "D": 0.01,
+        "E": 0.03
+      }
+    },
+    "run_239": {
+      "pass": true,
+      "problem_id": "p-015",
+      "pass_id": 2,
+      "stratum": "S1",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "D",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.93,
+      "probabilities": {
+        "A": 0.93,
+        "B": 0.02,
+        "C": 0.02,
+        "D": 0.01,
+        "E": 0.02
+      }
+    },
+    "run_240": {
+      "pass": true,
+      "problem_id": "p-116",
+      "pass_id": 2,
+      "stratum": "S3",
+      "selected_id": "A",
+      "optimal_id": "A",
+      "decoy_id": "E",
+      "agreement": true,
+      "prune_failure": false,
+      "selected_prob": 0.75,
+      "probabilities": {
+        "A": 0.75,
+        "B": 0.02,
+        "C": 0.05,
+        "D": 0.16,
+        "E": 0.02
+      }
+    }
+  },
+  "statistical_test": "fisher-exact-two-sided-S1-vs-S3",
+  "conclusion": "Perfect discrimination: agreement holds across both calls for 120/120 problems (per-stratum rates 1.0 with Wilson 95% CI [0.912, 1.0]); Fisher exact S1 vs S3 p=1.0; zero prune failures over 240 calls; zero per-problem disagreement; Brier 0.0251; ECE(5 bins) 0.1366",
+  "pre_acknowledged_limitations": [
+    "single model version; no cross-model generalization claim",
+    "menus are pre-enumerated by the oracle, not discovered by the judge",
+    "stratum boundaries (20%, 5%, 0.5%) are design choices, not nature-estimated thresholds",
+    "d=3 integer class only; no claim beyond this class",
+    "n=2 within-problem replication bounds within-problem stability claims"
+  ]
+}
