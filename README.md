@@ -108,17 +108,17 @@ All figures derive only from the raw v2 run records plus the committed
 oracle, reusing the sealed-criterion code in
 `experiments/judge-enumeration-v2/analyze_v2.py`.
 
-![Per-stratum agreement with Wilson intervals](figures/fig1-stratum-agreement.png)
+![Confidence versus problem difficulty](figures/fig1-confidence-vs-gap.png)
 
-*Figure 2: Both-call agreement per stratum (n=40 each) against the 1/5 chance rate. Every stratum sits at 1.000 with Wilson 95% CI [0.912, 1.000]; the strata are indistinguishable because the measure is saturated.*
+*Figure 2: Exploratory. Per-call selected-option probability against the committed relative optimality gap (log scale), all 240 calls, colored by stratum. Selections are correct everywhere, so the endpoint cannot vary; confidence does. No monotone confidence-versus-difficulty trend is claimed or tested.*
 
 ![Reliability diagram over the ECE bins](figures/fig2-calibration.png)
 
 *Figure 3: Reliability diagram over the 5 equal-width bins behind the ECE of 0.1366. All 240 calls fall in the top three bins; bin accuracy is 1.0 everywhere, so each bin's error is exactly its confidence shortfall.*
 
-![Position-bias check](figures/fig3-position-bias.png)
+![Per-problem confidence across passes](figures/fig3-pass1-vs-pass2.png)
 
-*Figure 4: Agreement and prune-failure rates by optimal-candidate menu position over all 240 calls (n=48 per position). Both series are flat; presentation order has no detectable effect.*
+*Figure 4: Exploratory. Pass-1 versus pass-2 selected-option probability per problem (n=120). Selections agree on every problem; confidence tracks the diagonal closely, with a maximum absolute difference of 0.11.*
 
 ## Reproduction
 
@@ -126,9 +126,9 @@ oracle, reusing the sealed-criterion code in
 uv run python validate_schema.py
 python3 -m unittest -v
 python3 experiments/judge-enumeration-v2/analyze_v2.py
-uv run --with matplotlib python figures/fig1-stratum-agreement.py
+uv run --with matplotlib python figures/fig1-confidence-vs-gap.py
 uv run --with matplotlib python figures/fig2-calibration.py
-uv run --with matplotlib python figures/fig3-position-bias.py
+uv run --with matplotlib python figures/fig3-pass1-vs-pass2.py
 ```
 
 ## License
