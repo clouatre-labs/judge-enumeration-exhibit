@@ -131,3 +131,28 @@ verification."
 This preregistration, the generator, the frozen problem set, and the
 tests are committed BEFORE any v2.0 judge call. Calls are made only
 after this phase is merged to main, in the two passes of section (f).
+
+## Dated addendum (2026-10-11)
+
+This addendum is committed in the same implementation phase, BEFORE
+the merged-to-main v2.0 run, and discloses a deviation for
+transparency.
+
+- Deviation: while smoke-testing the extended runner in the
+  implementation session, an incomplete argument guard let a test
+  invocation reach the live endpoint, producing 120 judge responses
+  (one per problem, pass-1 order, model jev-1.13.0) before the merge
+  to main required by section (i).
+- Disposition: the 120 responses and their call-log entries were
+  deleted WITHOUT examination; no response content entered the
+  analysis, the repository, or any artifact. They are not part of
+  n=240 and cannot affect it.
+- Remediation: the runner guard was corrected so that --problems mode
+  rejects --runs entirely, and a re-run of the same test invocation
+  against the committed runner is refused before any network access.
+- The committed 240-call run (two passes, --start 1) will therefore
+  be a fresh, fully naive execution after merge, unaffected by the
+  discarded responses.
+- Nothing else in this preregistration is amended: the frozen
+  problem set, the question, the model pin, the reading criterion,
+  and the endpoints stand unchanged.
