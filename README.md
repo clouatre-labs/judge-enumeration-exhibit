@@ -10,11 +10,11 @@
 
 ## Abstract
 
-Can a typed probabilistic judge discriminate the optimal candidate from near-optimal and infeasible decoys in small linear-program menus, and are its answers stable across repeated calls? We present two pre-registered phases against a typed probabilistic judge on a frozen 3-variable integer linear-program task. The v1.0.0 stability phase probed run-to-run stability on 60 calls; the v2.0.0 discrimination phase froze a 120-problem set (40/40/40 strata by relative optimality gap) before any call, ran 120 problems x 2 passes at model pin `jev-1.13.0` under a sealed reading criterion, and analyzed preregistered endpoints with exact Fraction arithmetic. The judge answered every problem correctly in both passes: per-stratum both-call agreement is 40/40 with Wilson 95% CI [0.912, 1.000], the infeasible super-optimal decoy is never selected (0/240), Brier score is 0.0251, and ECE is 0.1366. The instrument saturates at this difficulty, so the strata do not discriminate; the Fisher exact S1-versus-S3 test (p = 1.0) is a ceiling artifact. A clearly labeled post-hoc addendum then surfaces a graded structure the pooled framing missed: mean selected-option probability descends monotonically with difficulty (0.894, 0.858, 0.838 across strata; S1 versus S3 Welch t = 4.63) even though selections never flip, the gradient is stratum-level rather than instance-level, and pass-to-pass probabilities drift (mean |delta| = 0.0245) while the argmax stays fixed. The exhibit concludes at v2.0.0 with the ceiling as an instrument property and the headroom to a v2.1 quantified.
+Can a typed probabilistic judge discriminate the optimal candidate from near-optimal and infeasible decoys in small linear-program menus, and are its answers stable across repeated calls? We present two pre-registered phases of a typed probabilistic judge on a frozen 3-variable integer linear-program task. The v1.0.0 stability phase probed run-to-run stability on 60 calls. The v2.0.0 discrimination phase froze a 120-problem set (40/40/40 strata by relative optimality gap) before any call, ran 120 problems x 2 passes at model pin `jev-1.13.0` under a sealed reading criterion, and analyzed preregistered endpoints with exact Fraction arithmetic. The judge answered every problem correctly in both passes: per-stratum both-call agreement is 40/40 with Wilson 95% CI [0.912, 1.000], the infeasible super-optimal decoy is never selected (0/240), Brier score is 0.0251, and ECE is 0.1366. The instrument saturates at this difficulty, so the strata do not discriminate; the Fisher exact S1-versus-S3 test (p = 1.0) is a ceiling artifact. A clearly labeled post-hoc addendum then surfaces a graded structure the pooled framing missed: mean selected-option probability descends monotonically with difficulty (0.894, 0.858, 0.838 across strata; S1 versus S3 Welch t = 4.63) even though selections never flip. The gradient is stratum-level rather than instance-level, and pass-to-pass probabilities drift (mean |delta| = 0.0245) while the argmax stays fixed. The exhibit concludes at v2.0.0 with the ceiling as an instrument property and the headroom to a v2.1 quantified.
 
 ## Status
 
-**120/120 problems answered correctly in both passes: per-stratum both-call agreement 40/40 in every stratum with Wilson 95% CI [0.912, 1.000], prune failures 0/240, disagreement 0/120, Brier 0.0251, ECE 0.1366, position-bias flat at 1.000, Fisher exact S1 vs S3 p = 1.0.** The ceiling is a property of the instrument, not a success metric of the judge: perfect discrimination at a 1/5 chance rate means the frozen menus are too easy for `jev-1.13.0`, so the task fails to discriminate between strata and the p = 1.0 is a ceiling artifact, not evidence of equal stratum difficulty. A post-hoc stratified-calibration addendum documents a graded confidence gradient in the same raw records; see [findings-calibration.md](experiments/judge-enumeration-v2/findings-calibration.md). Full interpretation: [results/v2.md](results/v2.md). Exhibit conclusion: [docs/conclusion.md](docs/conclusion.md).
+**120/120 problems answered correctly in both passes; per-stratum endpoints in Table 2.** The ceiling is a property of the instrument, not a success metric of the judge: perfect discrimination at a 1/5 chance rate means the frozen menus are too easy for `jev-1.13.0`, so the task fails to discriminate between strata and the p = 1.0 is a ceiling artifact, not evidence of equal stratum difficulty. A post-hoc stratified-calibration addendum documents a graded confidence gradient in the same raw records; see [findings-calibration.md](experiments/judge-enumeration-v2/findings-calibration.md). Full interpretation: [results/v2.md](results/v2.md). Exhibit conclusion: [docs/conclusion.md](docs/conclusion.md).
 
 ## Phases
 
@@ -67,19 +67,15 @@ flowchart TD
 
 ## Figures
 
-All figures derive only from the raw v2 run records plus the committed oracle, reusing the sealed-criterion code in `experiments/judge-enumeration-v2/analyze_v2.py`.
+All figures derive only from the raw v2 run records plus the committed oracle, reusing the sealed-criterion code in `experiments/judge-enumeration-v2/analyze_v2.py`. The reliability diagram behind the ECE remains in [results/v2.md](results/v2.md).
 
-![Confidence versus problem difficulty](figures/fig1-confidence-vs-gap.png)
+![Per-call selected-option probability against relative optimality gap for all 240 v2 calls, colored by stratum](figures/fig1-confidence-vs-gap.png)
 
 *Figure 2: Exploratory. Per-call selected-option probability against the committed relative optimality gap (log scale), all 240 calls, colored by stratum. Selections are correct everywhere, so the endpoint cannot vary; confidence does. No monotone confidence-versus-difficulty trend is claimed or tested.*
 
-![Reliability diagram over the ECE bins](figures/fig2-calibration.png)
+![Mean selected-option probability and stated confidence per stratum, S1 through S3 over 80 calls each, both measures descending monotonically with sd error bars](figures/fig3-stratified-confidence.png)
 
-*Figure 3: Reliability diagram over the 5 equal-width bins behind the ECE of 0.1366. All 240 calls fall in the top three bins; bin accuracy is 1.0 everywhere, so each bin's error is exactly its confidence shortfall.*
-
-![Mean selected-option probability and stated confidence by stratum](figures/fig3-stratified-confidence.png)
-
-*Figure 4: Post-hoc (not preregistered). Mean selected-option probability (solid) and stated confidence (faded) per stratum over 80 calls each, with within-stratum sd error bars. Both measures descend monotonically from S1 to S3 although the selected option never flips; see [findings-calibration.md](experiments/judge-enumeration-v2/findings-calibration.md).*
+*Figure 3: Post-hoc (not preregistered). Mean selected-option probability (solid) and stated confidence (faded) per stratum over 80 calls each, with within-stratum sd error bars. Both measures descend monotonically from S1 to S3 although the selected option never flips; see [findings-calibration.md](experiments/judge-enumeration-v2/findings-calibration.md).*
 
 ## Structure
 
@@ -103,7 +99,6 @@ python3 -m unittest -v
 python3 experiments/judge-enumeration-v2/analyze_v2.py
 python3 scripts/stratified-calibration.py
 uv run --with matplotlib python figures/fig1-confidence-vs-gap.py
-uv run --with matplotlib python figures/fig2-calibration.py
 uv run --with matplotlib python figures/fig3-stratified-confidence.py
 ```
 
