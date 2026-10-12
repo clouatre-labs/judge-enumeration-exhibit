@@ -1,0 +1,115 @@
+{
+  "run": 23,
+  "timestamp": "2026-10-12T00:04:42+00:00",
+  "http_status": 200,
+  "request": {
+    "state": {
+      "problem": "blending problem max 900x1+700x2+500x3",
+      "candidates": [
+        {
+          "id": "A",
+          "x": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "objective": 0
+        },
+        {
+          "id": "B",
+          "x": [
+            0.0,
+            0.0,
+            4.0
+          ],
+          "objective": 2000
+        },
+        {
+          "id": "C",
+          "x": [
+            0.0,
+            6.0,
+            0.0
+          ],
+          "objective": 4200
+        },
+        {
+          "id": "D",
+          "x": [
+            0.0,
+            6.0,
+            4.0
+          ],
+          "objective": 6200
+        },
+        {
+          "id": "E",
+          "x": [
+            1.2,
+            6.0,
+            0.0
+          ],
+          "objective": 5280
+        },
+        {
+          "id": "F",
+          "x": [
+            8.0,
+            0.0,
+            4.0
+          ],
+          "objective": 9200
+        },
+        {
+          "id": "G",
+          "x": [
+            9.2,
+            6.0,
+            4.0
+          ],
+          "objective": 14480
+        }
+      ],
+      "n_candidates": 7
+    },
+    "questions": {
+      "selection": {
+        "type": "choice",
+        "instructions": "Which candidate production plan should be selected for this blending decision?",
+        "criteria": {
+          "A": "Select the plan with objective value 0 at production levels x=(0, 0, 0) (candidate A)",
+          "B": "Select the plan with objective value 2000 at production levels x=(0, 0, 4) (candidate B)",
+          "C": "Select the plan with objective value 4200 at production levels x=(0, 6, 0) (candidate C)",
+          "D": "Select the plan with objective value 6200 at production levels x=(0, 6, 4) (candidate D)",
+          "E": "Select the plan with objective value 5280 at production levels x=(1.2, 6, 0) (candidate E)",
+          "F": "Select the plan with objective value 9200 at production levels x=(8, 0, 4) (candidate F)",
+          "G": "Select the plan with objective value 14480 at production levels x=(9.2, 6, 4) (candidate G)"
+        }
+      }
+    },
+    "model": "jev-1.13.0"
+  },
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "selection": {
+        "type": "choice",
+        "choice": "G",
+        "confidence": 0.86,
+        "probabilities": {
+          "A": 0.04,
+          "B": 0.0,
+          "C": 0.01,
+          "D": 0.02,
+          "E": 0.01,
+          "F": 0.04,
+          "G": 0.88
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 864,
+      "output_tokens": 66
+    }
+  }
+}

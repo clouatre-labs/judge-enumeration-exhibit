@@ -5,15 +5,15 @@
   "issue": null,
   "date": "2026-10-11",
   "model": "jev-1.13.0",
-  "n_per_group": 5,
-  "control_condition": "not applicable: single-arm exhibit, all five runs use the identical preregistered question and frozen state",
+  "n_per_group": 60,
+  "control_condition": "not applicable: single-arm exhibit, all sixty runs use the identical preregistered question and frozen state",
   "treatment_condition": "choice-type arbitration over pre-enumerated feasible LP vertices frozen in frozen_state.json, model jev-1.13.0 pinned, provider-default sampling",
   "rubric_version": "sealed-reading-criterion-v1.0.0",
   "orchestrator_session": null,
-  "repo_head": "4d19810b8c7ad0c6c2ee1a8d8740cc9f203b694c",
+  "repo_head": "8b3c25bef49b42176f9eacdc1cefe2bc521fc99d",
   "experiment_start": "2026-10-11T23:23:19+00:00",
-  "experiment_end": "2026-10-11T23:23:20+00:00",
-  "analyzed_at": "2026-10-11T23:24:55+00:00",
+  "experiment_end": "2026-10-12T00:04:51+00:00",
+  "analyzed_at": "2026-10-12T00:04:51+00:00",
   "runs": {
     "treatment_1": {
       "group": "treatment",
@@ -69,19 +69,1015 @@
       "wall_clock_seconds": 0.0,
       "bytes": 2713,
       "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-05.json)"
+    },
+    "treatment_6": {
+      "group": "treatment",
+      "session_id": "run-06",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-06.json)"
+    },
+    "treatment_7": {
+      "group": "treatment",
+      "session_id": "run-07",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2712,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-07.json)"
+    },
+    "treatment_8": {
+      "group": "treatment",
+      "session_id": "run-08",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-08.json)"
+    },
+    "treatment_9": {
+      "group": "treatment",
+      "session_id": "run-09",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-09.json)"
+    },
+    "treatment_10": {
+      "group": "treatment",
+      "session_id": "run-10",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-10.json)"
+    },
+    "treatment_11": {
+      "group": "treatment",
+      "session_id": "run-11",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-11.json)"
+    },
+    "treatment_12": {
+      "group": "treatment",
+      "session_id": "run-12",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-12.json)"
+    },
+    "treatment_13": {
+      "group": "treatment",
+      "session_id": "run-13",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-13.json)"
+    },
+    "treatment_14": {
+      "group": "treatment",
+      "session_id": "run-14",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-14.json)"
+    },
+    "treatment_15": {
+      "group": "treatment",
+      "session_id": "run-15",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-15.json)"
+    },
+    "treatment_16": {
+      "group": "treatment",
+      "session_id": "run-16",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-16.json)"
+    },
+    "treatment_17": {
+      "group": "treatment",
+      "session_id": "run-17",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-17.json)"
+    },
+    "treatment_18": {
+      "group": "treatment",
+      "session_id": "run-18",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-18.json)"
+    },
+    "treatment_19": {
+      "group": "treatment",
+      "session_id": "run-19",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-19.json)"
+    },
+    "treatment_20": {
+      "group": "treatment",
+      "session_id": "run-20",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-20.json)"
+    },
+    "treatment_21": {
+      "group": "treatment",
+      "session_id": "run-21",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-21.json)"
+    },
+    "treatment_22": {
+      "group": "treatment",
+      "session_id": "run-22",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-22.json)"
+    },
+    "treatment_23": {
+      "group": "treatment",
+      "session_id": "run-23",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-23.json)"
+    },
+    "treatment_24": {
+      "group": "treatment",
+      "session_id": "run-24",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-24.json)"
+    },
+    "treatment_25": {
+      "group": "treatment",
+      "session_id": "run-25",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-25.json)"
+    },
+    "treatment_26": {
+      "group": "treatment",
+      "session_id": "run-26",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-26.json)"
+    },
+    "treatment_27": {
+      "group": "treatment",
+      "session_id": "run-27",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-27.json)"
+    },
+    "treatment_28": {
+      "group": "treatment",
+      "session_id": "run-28",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-28.json)"
+    },
+    "treatment_29": {
+      "group": "treatment",
+      "session_id": "run-29",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-29.json)"
+    },
+    "treatment_30": {
+      "group": "treatment",
+      "session_id": "run-30",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-30.json)"
+    },
+    "treatment_31": {
+      "group": "treatment",
+      "session_id": "run-31",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-31.json)"
+    },
+    "treatment_32": {
+      "group": "treatment",
+      "session_id": "run-32",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-32.json)"
+    },
+    "treatment_33": {
+      "group": "treatment",
+      "session_id": "run-33",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-33.json)"
+    },
+    "treatment_34": {
+      "group": "treatment",
+      "session_id": "run-34",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-34.json)"
+    },
+    "treatment_35": {
+      "group": "treatment",
+      "session_id": "run-35",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-35.json)"
+    },
+    "treatment_36": {
+      "group": "treatment",
+      "session_id": "run-36",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-36.json)"
+    },
+    "treatment_37": {
+      "group": "treatment",
+      "session_id": "run-37",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-37.json)"
+    },
+    "treatment_38": {
+      "group": "treatment",
+      "session_id": "run-38",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-38.json)"
+    },
+    "treatment_39": {
+      "group": "treatment",
+      "session_id": "run-39",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-39.json)"
+    },
+    "treatment_40": {
+      "group": "treatment",
+      "session_id": "run-40",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-40.json)"
+    },
+    "treatment_41": {
+      "group": "treatment",
+      "session_id": "run-41",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-41.json)"
+    },
+    "treatment_42": {
+      "group": "treatment",
+      "session_id": "run-42",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-42.json)"
+    },
+    "treatment_43": {
+      "group": "treatment",
+      "session_id": "run-43",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-43.json)"
+    },
+    "treatment_44": {
+      "group": "treatment",
+      "session_id": "run-44",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-44.json)"
+    },
+    "treatment_45": {
+      "group": "treatment",
+      "session_id": "run-45",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-45.json)"
+    },
+    "treatment_46": {
+      "group": "treatment",
+      "session_id": "run-46",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-46.json)"
+    },
+    "treatment_47": {
+      "group": "treatment",
+      "session_id": "run-47",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-47.json)"
+    },
+    "treatment_48": {
+      "group": "treatment",
+      "session_id": "run-48",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-48.json)"
+    },
+    "treatment_49": {
+      "group": "treatment",
+      "session_id": "run-49",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-49.json)"
+    },
+    "treatment_50": {
+      "group": "treatment",
+      "session_id": "run-50",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-50.json)"
+    },
+    "treatment_51": {
+      "group": "treatment",
+      "session_id": "run-51",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-51.json)"
+    },
+    "treatment_52": {
+      "group": "treatment",
+      "session_id": "run-52",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-52.json)"
+    },
+    "treatment_53": {
+      "group": "treatment",
+      "session_id": "run-53",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-53.json)"
+    },
+    "treatment_54": {
+      "group": "treatment",
+      "session_id": "run-54",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-54.json)"
+    },
+    "treatment_55": {
+      "group": "treatment",
+      "session_id": "run-55",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-55.json)"
+    },
+    "treatment_56": {
+      "group": "treatment",
+      "session_id": "run-56",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-56.json)"
+    },
+    "treatment_57": {
+      "group": "treatment",
+      "session_id": "run-57",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-57.json)"
+    },
+    "treatment_58": {
+      "group": "treatment",
+      "session_id": "run-58",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2713,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-58.json)"
+    },
+    "treatment_59": {
+      "group": "treatment",
+      "session_id": "run-59",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-59.json)"
+    },
+    "treatment_60": {
+      "group": "treatment",
+      "session_id": "run-60",
+      "messages": 2,
+      "input_tokens": 864,
+      "output_tokens": 66,
+      "total_tokens": 930,
+      "wall_clock_seconds": 0.0,
+      "bytes": 2714,
+      "note": "wall clock not recorded by runner; second-resolution timestamps only (results/raw/run-60.json)"
     }
   },
   "scores": {
-    "treatment_1": {"selected": "G", "agrees_with_optimum": true, "is_modal": true},
-    "treatment_2": {"selected": "G", "agrees_with_optimum": true, "is_modal": true},
-    "treatment_3": {"selected": "G", "agrees_with_optimum": true, "is_modal": true},
-    "treatment_4": {"selected": "G", "agrees_with_optimum": true, "is_modal": true},
-    "treatment_5": {"selected": "G", "agrees_with_optimum": true, "is_modal": true}
+    "treatment_1": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_2": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_3": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_4": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_5": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_6": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_7": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_8": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_9": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_10": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_11": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_12": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_13": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_14": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_15": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_16": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_17": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_18": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_19": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_20": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_21": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_22": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_23": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_24": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_25": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_26": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_27": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_28": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_29": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_30": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_31": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_32": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_33": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_34": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_35": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_36": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_37": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_38": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_39": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_40": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_41": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_42": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_43": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_44": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_45": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_46": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_47": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_48": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_49": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_50": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_51": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_52": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_53": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_54": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_55": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_56": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_57": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_58": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_59": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    },
+    "treatment_60": {
+      "selected": "G",
+      "agrees_with_optimum": true,
+      "is_modal": true
+    }
   },
-  "statistical_test": "descriptive: per-run agreement with exact optimum M*=14480 and modal-option consistency across n=5",
-  "conclusion": "observed stability under the sealed reading criterion: 5/5 runs selected candidate G (the M*=14480 optimum) and 5/5 runs selected the modal option; this is a finding of stability, not quality; n=5 supports no claim about calibration or accuracy; no fallback envelopes occurred (results/calls.jsonl)",
+  "phase_breakdown": {
+    "v1_0_0": {
+      "runs": 5,
+      "run_ids": [
+        "treatment_1",
+        "treatment_2",
+        "treatment_3",
+        "treatment_4",
+        "treatment_5"
+      ],
+      "repo_head": "4d19810b8c7ad0c6c2ee1a8d8740cc9f203b694c",
+      "agreement_count": 5,
+      "modal_consistency_count": 5,
+      "experiment_start": "2026-10-11T23:23:19+00:00",
+      "experiment_end": "2026-10-11T23:23:20+00:00",
+      "note": "v1.0.0 phase (run-01..run-05) ran at repo head 4d19810b8c7ad0c6c2ee1a8d8740cc9f203b694c"
+    },
+    "v1_1_0": {
+      "runs": 55,
+      "run_ids": [
+        "treatment_6",
+        "treatment_7",
+        "treatment_8",
+        "treatment_9",
+        "treatment_10",
+        "treatment_11",
+        "treatment_12",
+        "treatment_13",
+        "treatment_14",
+        "treatment_15",
+        "treatment_16",
+        "treatment_17",
+        "treatment_18",
+        "treatment_19",
+        "treatment_20",
+        "treatment_21",
+        "treatment_22",
+        "treatment_23",
+        "treatment_24",
+        "treatment_25",
+        "treatment_26",
+        "treatment_27",
+        "treatment_28",
+        "treatment_29",
+        "treatment_30",
+        "treatment_31",
+        "treatment_32",
+        "treatment_33",
+        "treatment_34",
+        "treatment_35",
+        "treatment_36",
+        "treatment_37",
+        "treatment_38",
+        "treatment_39",
+        "treatment_40",
+        "treatment_41",
+        "treatment_42",
+        "treatment_43",
+        "treatment_44",
+        "treatment_45",
+        "treatment_46",
+        "treatment_47",
+        "treatment_48",
+        "treatment_49",
+        "treatment_50",
+        "treatment_51",
+        "treatment_52",
+        "treatment_53",
+        "treatment_54",
+        "treatment_55",
+        "treatment_56",
+        "treatment_57",
+        "treatment_58",
+        "treatment_59",
+        "treatment_60"
+      ],
+      "repo_head": "8b3c25bef49b42176f9eacdc1cefe2bc521fc99d",
+      "agreement_count": 55,
+      "modal_consistency_count": 55,
+      "experiment_start": "2026-10-12T00:04:39+00:00",
+      "experiment_end": "2026-10-12T00:04:51+00:00",
+      "note": "post-hoc extension per preregistration.md dated addendum v1.1.0; ran at repo head 8b3c25bef49b42176f9eacdc1cefe2bc521fc99d"
+    }
+  },
+  "confidence_summary": {
+    "min": 0.84,
+    "max": 0.91,
+    "mean": 0.87
+  },
+  "selected_probability_summary": {
+    "min": 0.86,
+    "max": 0.92,
+    "mean": 0.89
+  },
+  "statistical_test": "descriptive: per-run agreement with exact optimum M*=14480 and modal-option consistency across n=60, with per-phase breakdown (v1.0.0 n=5, v1.1.0 extension n=55)",
+  "conclusion": "observed stability under the sealed reading criterion: 60/60 runs selected candidate G (the M*=14480 optimum) and 60/60 runs selected the modal option; per-phase breakdown preserved (v1.0.0: 5/5 G, v1.1.0 extension per addendum v1.1.0: 55/55 G); this is a finding of stability, not quality; n=60 supports no claim about calibration or accuracy; no fallback envelopes occurred (results/calls.jsonl)",
   "pre_acknowledged_limitations": [
-    "n=5 bounds claims to variance/stability, not calibration",
+    "n=60 bounds claims to variance/stability, not calibration",
+    "the v1.1.0 extension is a post-hoc sample-size extension (addendum v1.1.0); the v1.0.0 responses had been observed and analyzed when the addendum was committed",
+    "all 60 request bodies were byte-identical to the single v1.0.0 request (verified via canonical JSON), so the sample probes one question phrasing only",
     "the frozen state presents pre-enumerated feasible vertices, not raw constraints",
     "no temperature control is exposed; provider defaults apply and none is published",
     "the protocol author maintains the judge tool under test; findings are about the exhibit, not the product"

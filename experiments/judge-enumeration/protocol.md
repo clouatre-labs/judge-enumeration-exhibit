@@ -2,8 +2,9 @@
 
 Pre-registered before any run. The full sealed question, model pin,
 and reading criterion live in the repository root
-[preregistration.md](../../preregistration.md) (version-stamped v1.0.0);
-this file points to it and records the exhibit-specific design.
+[preregistration.md](../../preregistration.md) (version-stamped v1.0.0
+with dated addendum v1.1.0); this file points to it and records the
+exhibit-specific design.
 
 - Task: choice-type arbitration over the pre-enumerated feasible
   vertices of a 3-variable blending LP, frozen in `frozen_state.json`
@@ -26,9 +27,14 @@ this file points to it and records the exhibit-specific design.
 
 `analysis.json` and `scores.json` in this directory were committed in
 the pre-registration commit in a schema-valid pre-run state (zero
-runs). They have been updated in the post-run PR from
-`results/raw/run-01.json` .. `results/raw/run-05.json`: the five run
-records (`treatment_1` .. `treatment_5`), their scores under the
-sealed reading criterion, and the final conclusion. The sealed reading
-criterion and its outcome are recorded in
-[findings.md](findings.md). No judge result was fabricated.
+runs). They have been updated in post-run PRs from the raw records:
+first from `results/raw/run-01.json` .. `results/raw/run-05.json`
+(the v1.0.0 phase), then from `results/raw/run-06.json` ..
+`results/raw/run-60.json` (the v1.1.0 post-hoc extension phase per
+the dated addendum v1.1.0). The sixty run records
+(`treatment_1` .. `treatment_60`), their scores under the sealed
+reading criterion, the per-phase breakdown, and the final conclusion
+are recorded there. The sealed reading criterion and its outcome are
+in [findings.md](findings.md). No judge result was fabricated; the
+one accidental pre-commit verification call disclosed in the addendum
+was discarded unlogged and is not counted.
