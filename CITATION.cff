@@ -8,8 +8,8 @@ authors:
     orcid: "https://orcid.org/0009-0002-4291-1999"
 repository-code: https://github.com/clouatre-labs/judge-enumeration-exhibit
 license: Apache-2.0
-date-released: "2026-10-11"
-version: "2.0.0"
+date-released: "2026-10-12"
+version: "2.0.1"
 abstract: >
   Pre-registered exhibit in two phases probing a typed probabilistic
   judge on frozen 3-variable linear-program menus. The v2.0.0
