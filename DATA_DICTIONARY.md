@@ -55,3 +55,54 @@ Each experiment directory `experiments/<slug>/` contains:
 ## scores.json
 
 Free-form per-criterion scoring keyed by run ID; each entry SHOULD include the score value, per-criterion results, and scorer justifications.
+
+## v2.0 discrimination phase artifacts
+
+The v2.0 phase (see [preregistration-v2.0.md](preregistration-v2.0.md)) uses the following artifacts. The frozen problem set, oracle, raw records, call log, and the committed endpoint numbers are immutable; documentation derives around them.
+
+### problems-v2.json
+
+| Field | Description |
+|-------|-------------|
+| `seed` | Generator PRNG seed (20260214) |
+| `problems` | Array of 120 problems in committed order, each with `problem_id`, state (objective, constraints, candidates) |
+| `pass2_order` | Committed permutation of problem ids for pass 2 |
+
+### oracle-v2.json
+
+Map of `problem_id` to analysis-side oracle values: `optimal_id` (feasible argmax), `decoy_id` (infeasible super-optimal candidate), and `stratum` (`S1`, `S2`, or `S3` by relative optimality gap).
+
+### results/raw/v2/run-NNN.json (runs 001-240)
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `run` | integer | Call number 1-240 |
+| `pass` | integer | 1 or 2 |
+| `problem_id` | string | Frozen problem id |
+| `timestamp` | string | ISO 8601 with UTC offset |
+| `http_status` | integer | HTTP status of the judge call |
+| `request` | object | Verbatim request: judge `state`, question, and per-option criteria |
+| `response` | object | Verbatim response, including `model` (`jev-1.13.0`) and `answers.selection` with `choice` and per-option `probabilities` |
+| `fallback` | boolean | Always false; the runner refuses fallback calls |
+
+### results/calls-v2.jsonl
+
+Append-only call log, one JSON object per line: `stage`, `run`, `model`, `fallback`, `noul`, `pass`, `problem_id`.
+
+### experiments/judge-enumeration-v2/endpoints.json
+
+Preregistered endpoints (frozen section (e) values, computed by `analyze_v2.py` with exact Fraction arithmetic):
+
+| Field | Description |
+|-------|-------------|
+| `chance_rate` | 0.2 (1/5 menu options) |
+| `primary.S1/S2/S3` | Per-stratum `n`, `agreements`, `agreement_rate`, `wilson95_low`, `wilson95_high` (both-call agreement, sealed criterion section (d)) |
+| `primary.fisher_exact_S1_vs_S3_two_sided_p` | Pre-specified two-sided Fisher exact test |
+| `primary.overall` | Overall agreement over n=120 problems |
+| `secondary.prune_failure_*` | Selected id equals the decoy, overall and per stratum |
+| `secondary.per_problem_disagreement` | Calls 1 and 2 disagree per problem |
+| `secondary.brier_selected_probability` | Brier score on the selected-option probability |
+| `secondary.ece_5_equal_width_bins` | Expected calibration error |
+| `secondary.position_bias_over_menu_positions` | Agreement and prune failure by optimal-candidate position 1-5 |
+| `exploratory` | Labeled exploratory analyses (per-call agreement) |
+| `per_call` | Per-call records: run, pass, problem_id, stratum, selected_id, selected_prob, agreement, prune_failure |

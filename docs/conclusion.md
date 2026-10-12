@@ -1,6 +1,6 @@
 # Conclusion of the Judge Enumeration Exhibit
 
-Date: 2026-10-12
+Date: 2026-10-11
 Scope: v1.0.0 stability phase through v2.0.0 discrimination phase
 Basis: committed numbers only, from `experiments/judge-enumeration-v2/{endpoints.json, analysis.json}`, `experiments/judge-enumeration/`, and the raw records they derive from
 

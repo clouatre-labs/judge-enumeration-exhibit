@@ -1,10 +1,10 @@
 {
   "title": "Sealed Judge Enumeration Exhibit",
-  "description": "Sealed n=5 exhibit comparing exact linear-programming vertex enumeration with typed probabilistic judge selections on a frozen blending problem. The feasible vertices, the preregistered question, and the sealed reading criterion are committed before any judge call.",
+  "description": "Pre-registered exhibit in two phases probing a typed probabilistic judge on frozen 3-variable linear-program menus. The v2.0.0 discrimination phase answered every problem correctly in both passes (both-call agreement 40/40 per stratum, Wilson 95% CI [0.912, 1.000]); the instrument saturates at this difficulty.",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "Apache-2.0",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "publication_date": "2026-10-11",
   "creators": [
     {
