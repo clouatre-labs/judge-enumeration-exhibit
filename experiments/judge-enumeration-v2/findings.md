@@ -32,7 +32,7 @@ Per-call agreement over all 240 calls (exploratory): 240/240 = 1.000, Wilson 95%
 
 ## Framing
 
-The judge achieves perfect discrimination on this exhibit: every one of the 120 frozen 3-variable linear programs was solved identically in two passes, the super-optimal infeasible decoy was never chosen, and confidence is high (mean selected-option probability near 0.97 with Brier 0.0251). The nonzero ECE reflects mild overconfidence in an otherwise perfect run: accuracy is 1.0 so any probability below 1.0 contributes calibration error, and the ECE is bounded by 1 minus mean confidence rather than by any misranking.
+The judge achieves perfect discrimination on this exhibit: every one of the 120 frozen 3-variable linear programs was solved identically in two passes, the super-optimal infeasible decoy was never chosen, and confidence is high but not certain (mean selected-option probability 0.8634, recomputed from the raw records with Fraction arithmetic, with Brier 0.0251). The nonzero ECE reflects mild overconfidence in an otherwise perfect run: accuracy is 1.0 so any probability below 1.0 contributes calibration error, and the ECE is bounded by 1 minus mean confidence rather than by any misranking.
 
 ## Provenance and naivete
 
