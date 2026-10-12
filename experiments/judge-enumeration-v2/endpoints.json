@@ -1,0 +1,2516 @@
+{
+  "chance_rate": 0.2,
+  "primary": {
+    "S1": {
+      "n": 40,
+      "agreements": 40,
+      "agreement_rate": 1.0,
+      "wilson95_low": 0.9123754607496077,
+      "wilson95_high": 1.0,
+      "definition": "agreement across both calls per problem (sealed criterion section (d))"
+    },
+    "S2": {
+      "n": 40,
+      "agreements": 40,
+      "agreement_rate": 1.0,
+      "wilson95_low": 0.9123754607496077,
+      "wilson95_high": 1.0,
+      "definition": "agreement across both calls per problem (sealed criterion section (d))"
+    },
+    "S3": {
+      "n": 40,
+      "agreements": 40,
+      "agreement_rate": 1.0,
+      "wilson95_low": 0.9123754607496077,
+      "wilson95_high": 1.0,
+      "definition": "agreement across both calls per problem (sealed criterion section (d))"
+    },
+    "fisher_exact_S1_vs_S3_two_sided_p": 1.0,
+    "overall": {
+      "n": 120,
+      "agreements": 120,
+      "agreement_rate": 1.0,
+      "wilson95_low": 0.9689797289440705,
+      "wilson95_high": 1.0
+    }
+  },
+  "secondary": {
+    "prune_failure_overall": {
+      "n": 240,
+      "count": 0,
+      "rate": 0.0
+    },
+    "prune_failure_S1": {
+      "n": 40,
+      "count": 0,
+      "rate": 0.0
+    },
+    "prune_failure_S2": {
+      "n": 40,
+      "count": 0,
+      "rate": 0.0
+    },
+    "prune_failure_S3": {
+      "n": 40,
+      "count": 0,
+      "rate": 0.0
+    },
+    "per_problem_disagreement": {
+      "n": 120,
+      "count": 0,
+      "rate": 0.0
+    },
+    "brier_selected_probability": 0.025105000000000002,
+    "ece_5_equal_width_bins": 0.13658333333333333,
+    "position_bias_over_menu_positions": {
+      "1": {
+        "n": 48,
+        "agreement": 1.0,
+        "prune_failure": 0.0
+      },
+      "2": {
+        "n": 48,
+        "agreement": 1.0,
+        "prune_failure": 0.0
+      },
+      "3": {
+        "n": 48,
+        "agreement": 1.0,
+        "prune_failure": 0.0
+      },
+      "4": {
+        "n": 48,
+        "agreement": 1.0,
+        "prune_failure": 0.0
+      },
+      "5": {
+        "n": 48,
+        "agreement": 1.0,
+        "prune_failure": 0.0
+      }
+    }
+  },
+  "exploratory": {
+    "per_call_agreement": {
+      "n": 240,
+      "agreements": 240,
+      "agreement_rate": 1.0,
+      "wilson95_low": 0.9842455102000642,
+      "wilson95_high": 1.0
+    }
+  },
+  "per_call": [
+    {
+      "run": 1,
+      "pass": 1,
+      "problem_id": "p-001",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.81,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 2,
+      "pass": 1,
+      "problem_id": "p-002",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.87,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 3,
+      "pass": 1,
+      "problem_id": "p-003",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.82,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 4,
+      "pass": 1,
+      "problem_id": "p-004",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.9299999999999999,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 5,
+      "pass": 1,
+      "problem_id": "p-005",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.92,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 6,
+      "pass": 1,
+      "problem_id": "p-006",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.8099999999999999,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 7,
+      "pass": 1,
+      "problem_id": "p-007",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.8,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 8,
+      "pass": 1,
+      "problem_id": "p-008",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.58,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 9,
+      "pass": 1,
+      "problem_id": "p-009",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.9,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 10,
+      "pass": 1,
+      "problem_id": "p-010",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.94,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 11,
+      "pass": 1,
+      "problem_id": "p-011",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.89,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 12,
+      "pass": 1,
+      "problem_id": "p-012",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 13,
+      "pass": 1,
+      "problem_id": "p-013",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.98,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 14,
+      "pass": 1,
+      "problem_id": "p-014",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 15,
+      "pass": 1,
+      "problem_id": "p-015",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.9,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 16,
+      "pass": 1,
+      "problem_id": "p-016",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 17,
+      "pass": 1,
+      "problem_id": "p-017",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.96,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 18,
+      "pass": 1,
+      "problem_id": "p-018",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 19,
+      "pass": 1,
+      "problem_id": "p-019",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.88,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 20,
+      "pass": 1,
+      "problem_id": "p-020",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.77,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 21,
+      "pass": 1,
+      "problem_id": "p-021",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.92,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 22,
+      "pass": 1,
+      "problem_id": "p-022",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.96,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 23,
+      "pass": 1,
+      "problem_id": "p-023",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 24,
+      "pass": 1,
+      "problem_id": "p-024",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.88,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 25,
+      "pass": 1,
+      "problem_id": "p-025",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 26,
+      "pass": 1,
+      "problem_id": "p-026",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 27,
+      "pass": 1,
+      "problem_id": "p-027",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.97,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 28,
+      "pass": 1,
+      "problem_id": "p-028",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.78,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 29,
+      "pass": 1,
+      "problem_id": "p-029",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 30,
+      "pass": 1,
+      "problem_id": "p-030",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.9299999999999999,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 31,
+      "pass": 1,
+      "problem_id": "p-031",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.95,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 32,
+      "pass": 1,
+      "problem_id": "p-032",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.97,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 33,
+      "pass": 1,
+      "problem_id": "p-033",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.78,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 34,
+      "pass": 1,
+      "problem_id": "p-034",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.95,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 35,
+      "pass": 1,
+      "problem_id": "p-035",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.81,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 36,
+      "pass": 1,
+      "problem_id": "p-036",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 37,
+      "pass": 1,
+      "problem_id": "p-037",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.96,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 38,
+      "pass": 1,
+      "problem_id": "p-038",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.8,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 39,
+      "pass": 1,
+      "problem_id": "p-039",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.9,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 40,
+      "pass": 1,
+      "problem_id": "p-040",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.87,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 41,
+      "pass": 1,
+      "problem_id": "p-041",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 42,
+      "pass": 1,
+      "problem_id": "p-042",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.9,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 43,
+      "pass": 1,
+      "problem_id": "p-043",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.66,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 44,
+      "pass": 1,
+      "problem_id": "p-044",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.96,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 45,
+      "pass": 1,
+      "problem_id": "p-045",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.94,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 46,
+      "pass": 1,
+      "problem_id": "p-046",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 47,
+      "pass": 1,
+      "problem_id": "p-047",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.85,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 48,
+      "pass": 1,
+      "problem_id": "p-048",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.81,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 49,
+      "pass": 1,
+      "problem_id": "p-049",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.82,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 50,
+      "pass": 1,
+      "problem_id": "p-050",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 51,
+      "pass": 1,
+      "problem_id": "p-051",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.9,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 52,
+      "pass": 1,
+      "problem_id": "p-052",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 53,
+      "pass": 1,
+      "problem_id": "p-053",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 54,
+      "pass": 1,
+      "problem_id": "p-054",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.95,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 55,
+      "pass": 1,
+      "problem_id": "p-055",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.89,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 56,
+      "pass": 1,
+      "problem_id": "p-056",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.8,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 57,
+      "pass": 1,
+      "problem_id": "p-057",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.83,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 58,
+      "pass": 1,
+      "problem_id": "p-058",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.88,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 59,
+      "pass": 1,
+      "problem_id": "p-059",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.84,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 60,
+      "pass": 1,
+      "problem_id": "p-060",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.95,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 61,
+      "pass": 1,
+      "problem_id": "p-061",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 62,
+      "pass": 1,
+      "problem_id": "p-062",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.89,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 63,
+      "pass": 1,
+      "problem_id": "p-063",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.8,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 64,
+      "pass": 1,
+      "problem_id": "p-064",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.87,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 65,
+      "pass": 1,
+      "problem_id": "p-065",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.85,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 66,
+      "pass": 1,
+      "problem_id": "p-066",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.8099999999999999,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 67,
+      "pass": 1,
+      "problem_id": "p-067",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 68,
+      "pass": 1,
+      "problem_id": "p-068",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 69,
+      "pass": 1,
+      "problem_id": "p-069",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.95,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 70,
+      "pass": 1,
+      "problem_id": "p-070",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 71,
+      "pass": 1,
+      "problem_id": "p-071",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.66,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 72,
+      "pass": 1,
+      "problem_id": "p-072",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.9299999999999999,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 73,
+      "pass": 1,
+      "problem_id": "p-073",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.7,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 74,
+      "pass": 1,
+      "problem_id": "p-074",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 75,
+      "pass": 1,
+      "problem_id": "p-075",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.83,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 76,
+      "pass": 1,
+      "problem_id": "p-076",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.74,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 77,
+      "pass": 1,
+      "problem_id": "p-077",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 78,
+      "pass": 1,
+      "problem_id": "p-078",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.84,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 79,
+      "pass": 1,
+      "problem_id": "p-079",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 80,
+      "pass": 1,
+      "problem_id": "p-080",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.81,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 81,
+      "pass": 1,
+      "problem_id": "p-081",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 82,
+      "pass": 1,
+      "problem_id": "p-082",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.82,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 83,
+      "pass": 1,
+      "problem_id": "p-083",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.95,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 84,
+      "pass": 1,
+      "problem_id": "p-084",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 85,
+      "pass": 1,
+      "problem_id": "p-085",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.9,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 86,
+      "pass": 1,
+      "problem_id": "p-086",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.92,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 87,
+      "pass": 1,
+      "problem_id": "p-087",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.85,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 88,
+      "pass": 1,
+      "problem_id": "p-088",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.78,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 89,
+      "pass": 1,
+      "problem_id": "p-089",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.76,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 90,
+      "pass": 1,
+      "problem_id": "p-090",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.83,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 91,
+      "pass": 1,
+      "problem_id": "p-091",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.98,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 92,
+      "pass": 1,
+      "problem_id": "p-092",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.77,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 93,
+      "pass": 1,
+      "problem_id": "p-093",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.77,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 94,
+      "pass": 1,
+      "problem_id": "p-094",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 95,
+      "pass": 1,
+      "problem_id": "p-095",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.89,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 96,
+      "pass": 1,
+      "problem_id": "p-096",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 97,
+      "pass": 1,
+      "problem_id": "p-097",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.8,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 98,
+      "pass": 1,
+      "problem_id": "p-098",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.84,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 99,
+      "pass": 1,
+      "problem_id": "p-099",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 100,
+      "pass": 1,
+      "problem_id": "p-100",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.74,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 101,
+      "pass": 1,
+      "problem_id": "p-101",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 102,
+      "pass": 1,
+      "problem_id": "p-102",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.8,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 103,
+      "pass": 1,
+      "problem_id": "p-103",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.89,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 104,
+      "pass": 1,
+      "problem_id": "p-104",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 105,
+      "pass": 1,
+      "problem_id": "p-105",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.82,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 106,
+      "pass": 1,
+      "problem_id": "p-106",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.69,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 107,
+      "pass": 1,
+      "problem_id": "p-107",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.96,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 108,
+      "pass": 1,
+      "problem_id": "p-108",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 109,
+      "pass": 1,
+      "problem_id": "p-109",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.73,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 110,
+      "pass": 1,
+      "problem_id": "p-110",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.82,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 111,
+      "pass": 1,
+      "problem_id": "p-111",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.79,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 112,
+      "pass": 1,
+      "problem_id": "p-112",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.78,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 113,
+      "pass": 1,
+      "problem_id": "p-113",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.88,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 114,
+      "pass": 1,
+      "problem_id": "p-114",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.87,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 115,
+      "pass": 1,
+      "problem_id": "p-115",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.88,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 116,
+      "pass": 1,
+      "problem_id": "p-116",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.8,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 117,
+      "pass": 1,
+      "problem_id": "p-117",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.95,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 118,
+      "pass": 1,
+      "problem_id": "p-118",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.6799999999999999,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 119,
+      "pass": 1,
+      "problem_id": "p-119",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 120,
+      "pass": 1,
+      "problem_id": "p-120",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.74,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 121,
+      "pass": 2,
+      "problem_id": "p-114",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.88,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 122,
+      "pass": 2,
+      "problem_id": "p-103",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.88,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 123,
+      "pass": 2,
+      "problem_id": "p-097",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.82,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 124,
+      "pass": 2,
+      "problem_id": "p-071",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.67,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 125,
+      "pass": 2,
+      "problem_id": "p-040",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.87,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 126,
+      "pass": 2,
+      "problem_id": "p-062",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.89,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 127,
+      "pass": 2,
+      "problem_id": "p-087",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 128,
+      "pass": 2,
+      "problem_id": "p-037",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 129,
+      "pass": 2,
+      "problem_id": "p-067",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.95,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 130,
+      "pass": 2,
+      "problem_id": "p-011",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.92,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 131,
+      "pass": 2,
+      "problem_id": "p-008",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.66,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 132,
+      "pass": 2,
+      "problem_id": "p-052",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.92,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 133,
+      "pass": 2,
+      "problem_id": "p-043",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.65,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 134,
+      "pass": 2,
+      "problem_id": "p-101",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 135,
+      "pass": 2,
+      "problem_id": "p-082",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.83,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 136,
+      "pass": 2,
+      "problem_id": "p-063",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.7,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 137,
+      "pass": 2,
+      "problem_id": "p-074",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 138,
+      "pass": 2,
+      "problem_id": "p-032",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.97,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 139,
+      "pass": 2,
+      "problem_id": "p-056",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.76,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 140,
+      "pass": 2,
+      "problem_id": "p-013",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.99,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 141,
+      "pass": 2,
+      "problem_id": "p-106",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.66,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 142,
+      "pass": 2,
+      "problem_id": "p-049",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.8099999999999999,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 143,
+      "pass": 2,
+      "problem_id": "p-055",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.92,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 144,
+      "pass": 2,
+      "problem_id": "p-034",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 145,
+      "pass": 2,
+      "problem_id": "p-012",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.88,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 146,
+      "pass": 2,
+      "problem_id": "p-090",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.85,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 147,
+      "pass": 2,
+      "problem_id": "p-042",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.92,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 148,
+      "pass": 2,
+      "problem_id": "p-033",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.8,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 149,
+      "pass": 2,
+      "problem_id": "p-060",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.95,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 150,
+      "pass": 2,
+      "problem_id": "p-005",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.9,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 151,
+      "pass": 2,
+      "problem_id": "p-117",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 152,
+      "pass": 2,
+      "problem_id": "p-104",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.89,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 153,
+      "pass": 2,
+      "problem_id": "p-092",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.73,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 154,
+      "pass": 2,
+      "problem_id": "p-046",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 155,
+      "pass": 2,
+      "problem_id": "p-027",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.99,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 156,
+      "pass": 2,
+      "problem_id": "p-036",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 157,
+      "pass": 2,
+      "problem_id": "p-003",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.87,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 158,
+      "pass": 2,
+      "problem_id": "p-039",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.92,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 159,
+      "pass": 2,
+      "problem_id": "p-094",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.88,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 160,
+      "pass": 2,
+      "problem_id": "p-120",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.77,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 161,
+      "pass": 2,
+      "problem_id": "p-113",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.9,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 162,
+      "pass": 2,
+      "problem_id": "p-047",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 163,
+      "pass": 2,
+      "problem_id": "p-119",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.85,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 164,
+      "pass": 2,
+      "problem_id": "p-016",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 165,
+      "pass": 2,
+      "problem_id": "p-069",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 166,
+      "pass": 2,
+      "problem_id": "p-073",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.71,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 167,
+      "pass": 2,
+      "problem_id": "p-024",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.84,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 168,
+      "pass": 2,
+      "problem_id": "p-084",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.9,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 169,
+      "pass": 2,
+      "problem_id": "p-118",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.65,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 170,
+      "pass": 2,
+      "problem_id": "p-059",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 171,
+      "pass": 2,
+      "problem_id": "p-080",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.81,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 172,
+      "pass": 2,
+      "problem_id": "p-081",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 173,
+      "pass": 2,
+      "problem_id": "p-007",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.85,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 174,
+      "pass": 2,
+      "problem_id": "p-068",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.87,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 175,
+      "pass": 2,
+      "problem_id": "p-004",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.92,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 176,
+      "pass": 2,
+      "problem_id": "p-001",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.84,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 177,
+      "pass": 2,
+      "problem_id": "p-076",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.72,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 178,
+      "pass": 2,
+      "problem_id": "p-111",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.76,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 179,
+      "pass": 2,
+      "problem_id": "p-109",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.67,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 180,
+      "pass": 2,
+      "problem_id": "p-058",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.88,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 181,
+      "pass": 2,
+      "problem_id": "p-096",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 182,
+      "pass": 2,
+      "problem_id": "p-110",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.77,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 183,
+      "pass": 2,
+      "problem_id": "p-093",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.74,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 184,
+      "pass": 2,
+      "problem_id": "p-018",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 185,
+      "pass": 2,
+      "problem_id": "p-021",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 186,
+      "pass": 2,
+      "problem_id": "p-107",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.94,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 187,
+      "pass": 2,
+      "problem_id": "p-048",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.81,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 188,
+      "pass": 2,
+      "problem_id": "p-089",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.8,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 189,
+      "pass": 2,
+      "problem_id": "p-077",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.94,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 190,
+      "pass": 2,
+      "problem_id": "p-065",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.82,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 191,
+      "pass": 2,
+      "problem_id": "p-020",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.85,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 192,
+      "pass": 2,
+      "problem_id": "p-019",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 193,
+      "pass": 2,
+      "problem_id": "p-057",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.8,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 194,
+      "pass": 2,
+      "problem_id": "p-070",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.85,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 195,
+      "pass": 2,
+      "problem_id": "p-026",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 196,
+      "pass": 2,
+      "problem_id": "p-061",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.87,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 197,
+      "pass": 2,
+      "problem_id": "p-064",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.9,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 198,
+      "pass": 2,
+      "problem_id": "p-009",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.9299999999999999,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 199,
+      "pass": 2,
+      "problem_id": "p-086",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 200,
+      "pass": 2,
+      "problem_id": "p-051",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.9,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 201,
+      "pass": 2,
+      "problem_id": "p-088",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.8,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 202,
+      "pass": 2,
+      "problem_id": "p-095",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.87,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 203,
+      "pass": 2,
+      "problem_id": "p-031",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.95,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 204,
+      "pass": 2,
+      "problem_id": "p-002",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.9,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 205,
+      "pass": 2,
+      "problem_id": "p-041",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.87,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 206,
+      "pass": 2,
+      "problem_id": "p-108",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.83,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 207,
+      "pass": 2,
+      "problem_id": "p-014",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.96,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 208,
+      "pass": 2,
+      "problem_id": "p-010",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.95,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 209,
+      "pass": 2,
+      "problem_id": "p-006",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 210,
+      "pass": 2,
+      "problem_id": "p-079",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.92,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 211,
+      "pass": 2,
+      "problem_id": "p-044",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.98,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 212,
+      "pass": 2,
+      "problem_id": "p-053",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.78,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 213,
+      "pass": 2,
+      "problem_id": "p-091",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.98,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 214,
+      "pass": 2,
+      "problem_id": "p-102",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.77,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 215,
+      "pass": 2,
+      "problem_id": "p-035",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 216,
+      "pass": 2,
+      "problem_id": "p-078",
+      "stratum": "S2",
+      "selected_id": "C",
+      "selected_prob": 0.86,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 217,
+      "pass": 2,
+      "problem_id": "p-112",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.77,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 218,
+      "pass": 2,
+      "problem_id": "p-115",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.87,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 219,
+      "pass": 2,
+      "problem_id": "p-100",
+      "stratum": "S3",
+      "selected_id": "E",
+      "selected_prob": 0.63,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 220,
+      "pass": 2,
+      "problem_id": "p-030",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.95,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 221,
+      "pass": 2,
+      "problem_id": "p-029",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.96,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 222,
+      "pass": 2,
+      "problem_id": "p-072",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.92,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 223,
+      "pass": 2,
+      "problem_id": "p-023",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 224,
+      "pass": 2,
+      "problem_id": "p-054",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.9299999999999999,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 225,
+      "pass": 2,
+      "problem_id": "p-025",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.94,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 226,
+      "pass": 2,
+      "problem_id": "p-050",
+      "stratum": "S2",
+      "selected_id": "A",
+      "selected_prob": 0.94,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 227,
+      "pass": 2,
+      "problem_id": "p-066",
+      "stratum": "S2",
+      "selected_id": "B",
+      "selected_prob": 0.75,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 228,
+      "pass": 2,
+      "problem_id": "p-028",
+      "stratum": "S1",
+      "selected_id": "D",
+      "selected_prob": 0.77,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 229,
+      "pass": 2,
+      "problem_id": "p-022",
+      "stratum": "S1",
+      "selected_id": "B",
+      "selected_prob": 0.97,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 230,
+      "pass": 2,
+      "problem_id": "p-099",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.87,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 231,
+      "pass": 2,
+      "problem_id": "p-038",
+      "stratum": "S1",
+      "selected_id": "C",
+      "selected_prob": 0.84,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 232,
+      "pass": 2,
+      "problem_id": "p-083",
+      "stratum": "S3",
+      "selected_id": "B",
+      "selected_prob": 0.96,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 233,
+      "pass": 2,
+      "problem_id": "p-075",
+      "stratum": "S2",
+      "selected_id": "D",
+      "selected_prob": 0.88,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 234,
+      "pass": 2,
+      "problem_id": "p-017",
+      "stratum": "S1",
+      "selected_id": "E",
+      "selected_prob": 0.94,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 235,
+      "pass": 2,
+      "problem_id": "p-045",
+      "stratum": "S2",
+      "selected_id": "E",
+      "selected_prob": 0.96,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 236,
+      "pass": 2,
+      "problem_id": "p-105",
+      "stratum": "S3",
+      "selected_id": "D",
+      "selected_prob": 0.84,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 237,
+      "pass": 2,
+      "problem_id": "p-098",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.83,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 238,
+      "pass": 2,
+      "problem_id": "p-085",
+      "stratum": "S3",
+      "selected_id": "C",
+      "selected_prob": 0.91,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 239,
+      "pass": 2,
+      "problem_id": "p-015",
+      "stratum": "S1",
+      "selected_id": "A",
+      "selected_prob": 0.93,
+      "agreement": true,
+      "prune_failure": false
+    },
+    {
+      "run": 240,
+      "pass": 2,
+      "problem_id": "p-116",
+      "stratum": "S3",
+      "selected_id": "A",
+      "selected_prob": 0.75,
+      "agreement": true,
+      "prune_failure": false
+    }
+  ],
+  "pass_ids": {
+    "pass1_runs": [
+      1,
+      120
+    ],
+    "pass2_runs": [
+      121,
+      240
+    ],
+    "pass1_order": "committed problem order (problems-v2.json)",
+    "pass2_order": "problems-v2.json pass2_order permutation"
+  }
+}
