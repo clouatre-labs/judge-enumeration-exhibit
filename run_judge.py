@@ -2,8 +2,8 @@
 
 Reads frozen_state.json, posts the preregistered question to the
 typesafe systemone endpoint with the pinned model jev-1.13.0, and
-records the full request and response verbatim for each of 5
-sequential calls.
+records the full request and response verbatim for each call
+(default 5 sequential calls; see --runs and --start).
 
 Retry/fallback note: the fallback envelope handling below is a
 documented reimplementation of the SDK's fallback envelope semantics
@@ -12,7 +12,8 @@ and counted, never silently skipped, and the script exits non-zero if
 any call falls back.
 
 Usage:
-    python3 run_judge.py             # run all 5 calls (requires TYPESAFE_API_KEY)
+    python3 run_judge.py             # run 5 calls (requires TYPESAFE_API_KEY)
+    python3 run_judge.py --runs 55 --start 6  # preregistered v1.1.0 extension
     python3 run_judge.py --dry-run   # validate inputs, print one request body, send nothing
     python3 run_judge.py --help
 """
@@ -121,6 +122,19 @@ def main():
         help="path to the frozen state JSON (default: frozen_state.json)",
     )
     parser.add_argument(
+        "--runs",
+        type=int,
+        default=N_RUNS,
+        help="number of sequential calls (default: %d)" % N_RUNS,
+    )
+    parser.add_argument(
+        "--start",
+        type=int,
+        default=1,
+        help="run number of the first call (default: 1); later runs append "
+        "to the raw directory and call log",
+    )
+    parser.add_argument(
         "--results-dir",
         default="results",
         help="output directory for raw records and the call log",
@@ -146,7 +160,14 @@ def main():
     log_path = results / "calls.jsonl"
 
     any_fallback = False
-    for run in range(1, N_RUNS + 1):
+    for run in range(args.start, args.start + args.runs):
+        raw_path = raw_dir / ("run-%02d.json" % run)
+        if raw_path.exists():
+            print(
+                "error: refusing to overwrite existing record %s" % raw_path,
+                file=sys.stderr,
+            )
+            return 3
         parsed, status, fallback = call_judge(body, api_key)
         any_fallback = any_fallback or fallback
         record = {
@@ -167,7 +188,7 @@ def main():
             "request": body,
             "response": parsed,
         }
-        with open(raw_dir / ("run-%02d.json" % run), "w") as f:
+        with open(raw_path, "w") as f:
             json.dump(raw, f, indent=2)
             f.write("\n")
         print(

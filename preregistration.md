@@ -81,3 +81,33 @@ The frozen state presents pre-enumerated feasible vertices (35 raw
 constraint-triple intersections reduced to 7 by the exact feasibility
 filter and deduplication) as an arbitration task, not raw constraints.
 The judge never sees the constraint system itself.
+
+## Dated addendum v1.1.0 (2026-10-11)
+
+This addendum is committed BEFORE any judge call made under it. It
+amends the protocol without altering the frozen question, the frozen
+state, the model pin, or the sealed reading criterion in section (d).
+
+- Motivation: the v1.0.0 sample (n=5) was sized as a smoke protocol;
+  a stability claim needs a larger n. This is a POST-HOC sample-size
+  extension: the five v1.0.0 responses had been observed and analyzed
+  when this addendum was written, so the extended run is a
+  replication, not a confirmatory test.
+- Extension: 55 additional judge calls with the identical frozen
+  state, identical question, model pin jev-1.13.0, and the sealed
+  reading criterion of section (d) applied unchanged.
+- Total n: 60 (5 original + 55 extension). Reporting treats the
+  v1.0.0 runs (run-01..run-05) and the extension runs
+  (run-06..run-60) as one sample, with per-phase breakdown preserved.
+- Runner: `run_judge.py --runs 55 --start 6`, appending to
+  results/raw/ and results/calls.jsonl. The runner refuses to
+  overwrite an existing raw record.
+- Deviation disclosure: while verifying the overwrite guard, one live
+  call was made accidentally before this addendum's commit; its
+  response was discarded and never logged, so it is not part of n=60
+  and cannot affect the analysis. Recorded here for transparency.
+- Fallback semantics unchanged (section (f)): any fallback envelope
+  is recorded and counted; the runner exits non-zero.
+- Flat-distribution rule unchanged (section (d)): if the extended
+  sample has no modal option with at least 2 runs, that is a reported
+  under-specification finding, not a discarded run.
