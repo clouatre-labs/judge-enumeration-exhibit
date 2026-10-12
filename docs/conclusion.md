@@ -36,11 +36,24 @@ number below is a committed value.
    is 0.0251 and ECE over 5 equal-width bins is 0.1366. With accuracy
    at 1.0, both numbers measure only confidence shortfall: the judge is
    systematically less than certain about answers that are always
-   right.
+   right. A post-hoc stratified analysis
+   ([findings-calibration.md](../experiments/judge-enumeration-v2/findings-calibration.md))
+   additionally shows a graded signal inside that shortfall: mean
+   selected-option probability descends monotonically with difficulty
+   (0.894, 0.858, 0.838 across S1, S2, S3; stated confidence 0.867,
+   0.821, 0.797; S1 versus S3 Welch t = 4.63) even though selections
+   never flip, with structured runner-up mass (0.053 to 0.082) and
+   rising entropy (0.625 to 0.859 bits) and a gap-independent infeasible
+   decoy mass (about 0.015 to 0.020). This gradient is stratum-level,
+   not instance-level: within-stratum correlation of gap with
+   confidence is approximately zero, so the signal does not support
+   per-instance difficulty tracking.
 
 Jointly, the exhibit establishes for this instrument, and as a worked
-example for the class: **stability without calibration evidence, and
-discrimination that saturates at this difficulty.** That pairing is
+example for the class: **stability without calibration evidence,
+discrimination that saturates at this difficulty, and a graded
+confidence gradient that survives the saturation at the stratum
+level.** That pairing is
 itself informative. The failure mode a decision pipeline most needs to
 rule out, silently picking an infeasible but higher-valued option, is
 absent; the residual weakness is miscalibrated confidence, which is
@@ -67,6 +80,12 @@ artifact; the strata never had a chance to differ. No claim of the form
 "the judge handles 0.5% gaps as well as 20% gaps in general" is
 supported; only "on these 120 menus it did" is.
 
+The post-hoc gradient is subject to the same discipline: it was not
+preregistered, it is stratum-level rather than instance-level, and it
+carries pass-to-pass probability drift (mean |delta p_top| = 0.0245,
+max 0.11; only 14% of problems return the identical p_top) that the
+identical argmax conceals.
+
 ## What a v2.1 would need
 
 - **Harder menus.** Gaps below the current 0.5% floor, second-best
@@ -83,9 +102,22 @@ supported; only "on these 120 menus it did" is.
   be piloted so that at least one stratum fails to reach ceiling;
   otherwise the primary endpoint saturates again and the strata are
   uninformative a second time.
+- **A graded-confidence endpoint.** The v2 records show selections
+  saturate before confidence does: the confidence gradient survives at
+  stratum level with S1 versus S3 t = 4.63 while agreement stays at
+  1.000, and S3 minimum selected probability is 0.63, so harder menus
+  have measurable headroom to degrade before selections flip. A v2.1
+  pilot must therefore register a graded-confidence endpoint
+  (per-stratum mean selected probability or stated confidence) rather
+  than relying on selection flips alone; see
+  [findings-calibration.md](../experiments/judge-enumeration-v2/findings-calibration.md).
 
 ## Status
 
 The exhibit is concluded at v2.0.0. Release v2.0.0 and DOI
 10.5281/zenodo.23307259 archive the discrimination phase; the raw
 records, sealed analysis, and figures reproduce from the repository.
+The stratified-calibration addendum
+([findings-calibration.md](../experiments/judge-enumeration-v2/findings-calibration.md))
+is a clearly labeled post-hoc supplement to that sealed record; the
+preregistered artifacts are unchanged.

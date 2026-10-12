@@ -1,0 +1,205 @@
+{
+  "status": "post-hoc exploratory addendum; not preregistered; no preregistered endpoint is changed",
+  "derivation": "results/raw/v2/run-001..240.json + problems-v2.json + oracle-v2.json via analyze_v2.per_call_record; no judge calls",
+  "strata": {
+    "S1": {
+      "n": 80,
+      "selected_prob": {
+        "mean": 0.894125,
+        "sd": 0.07084827343062966,
+        "min": 0.58,
+        "max": 0.99
+      },
+      "stated_confidence": {
+        "mean": 0.86675,
+        "sd": 0.08894280625666208
+      },
+      "runner_up_prob": {
+        "mean": 0.053,
+        "max": 0.17
+      },
+      "entropy_bits": {
+        "mean": 0.6246493447615428
+      },
+      "decoy_prob": {
+        "mean": 0.015125,
+        "max": 0.13
+      }
+    },
+    "S2": {
+      "n": 80,
+      "selected_prob": {
+        "mean": 0.858,
+        "sd": 0.07916334658816525,
+        "min": 0.65,
+        "max": 0.98
+      },
+      "stated_confidence": {
+        "mean": 0.821125,
+        "sd": 0.09908433628077917
+      },
+      "runner_up_prob": {
+        "mean": 0.068625,
+        "max": 0.18
+      },
+      "entropy_bits": {
+        "mean": 0.7844821738114651
+      },
+      "decoy_prob": {
+        "mean": 0.02025,
+        "max": 0.15
+      }
+    },
+    "S3": {
+      "n": 80,
+      "selected_prob": {
+        "mean": 0.838125,
+        "sd": 0.08170793540936376,
+        "min": 0.63,
+        "max": 0.98
+      },
+      "stated_confidence": {
+        "mean": 0.796875,
+        "sd": 0.10167699850662615
+      },
+      "runner_up_prob": {
+        "mean": 0.08175,
+        "max": 0.26
+      },
+      "entropy_bits": {
+        "mean": 0.8594780943184647
+      },
+      "decoy_prob": {
+        "mean": 0.01675,
+        "max": 0.13
+      }
+    }
+  },
+  "pooled": {
+    "n": 240,
+    "selected_prob": {
+      "mean": 0.8634166666666666,
+      "sd": 0.08047968982419133
+    },
+    "stated_confidence": {
+      "mean": 0.82825,
+      "sd": 0.10059789877772658
+    },
+    "runner_up_prob": {
+      "mean": 0.06779166666666667,
+      "max": 0.26
+    },
+    "entropy_bits": {
+      "mean": 0.7562032042971575
+    },
+    "decoy_prob": {
+      "mean": 0.017375,
+      "max": 0.15
+    }
+  },
+  "contrasts_S1_vs_S3": {
+    "selected_prob_S1_vs_S3": {
+      "mean_1": 0.894125,
+      "mean_2": 0.838125,
+      "sd_1": 0.07084827343062966,
+      "sd_2": 0.08170793540936376,
+      "difference": 0.055999999999999994,
+      "se": 0.012091145808484211,
+      "t": 4.631488271418038,
+      "n_1": 80,
+      "n_2": 80
+    },
+    "stated_confidence_S1_vs_S3": {
+      "mean_1": 0.86675,
+      "mean_2": 0.796875,
+      "sd_1": 0.08894280625666208,
+      "sd_2": 0.10167699850662615,
+      "difference": 0.069875,
+      "se": 0.015103408063300888,
+      "t": 4.626439258420503,
+      "n_1": 80,
+      "n_2": 80
+    }
+  },
+  "correlations_relative_gap_vs_selected_prob": {
+    "within_stratum_r_relative_gap_vs_selected_prob": {
+      "S1": -0.10739704220365084,
+      "S2": 0.0905188587400935,
+      "S3": -0.059242653694182586
+    },
+    "pooled_r_relative_gap_vs_selected_prob": 0.27348493412178604
+  },
+  "drift": {
+    "n_problems": 120,
+    "mean_abs_delta_selected_prob": 0.024499999999999997,
+    "max_abs_delta_selected_prob": 0.11,
+    "problems_with_identical_selected_prob": 17,
+    "fraction_identical": 0.14166666666666666,
+    "problems_with_argmax_change": 0
+  },
+  "quantization": {
+    "distinct_values": 61,
+    "step": 0.01,
+    "histogram": {
+      "0.00": 101,
+      "0.01": 233,
+      "0.02": 184,
+      "0.03": 122,
+      "0.04": 79,
+      "0.05": 53,
+      "0.06": 40,
+      "0.07": 33,
+      "0.08": 23,
+      "0.09": 31,
+      "0.10": 15,
+      "0.11": 11,
+      "0.12": 8,
+      "0.13": 10,
+      "0.14": 1,
+      "0.15": 2,
+      "0.16": 6,
+      "0.17": 1,
+      "0.18": 4,
+      "0.21": 1,
+      "0.22": 1,
+      "0.26": 1,
+      "0.58": 1,
+      "0.63": 1,
+      "0.65": 2,
+      "0.66": 4,
+      "0.67": 2,
+      "0.68": 1,
+      "0.69": 1,
+      "0.70": 2,
+      "0.71": 1,
+      "0.72": 1,
+      "0.73": 2,
+      "0.74": 4,
+      "0.75": 2,
+      "0.76": 3,
+      "0.77": 8,
+      "0.78": 5,
+      "0.79": 1,
+      "0.80": 11,
+      "0.81": 6,
+      "0.82": 7,
+      "0.83": 6,
+      "0.84": 7,
+      "0.85": 8,
+      "0.86": 16,
+      "0.87": 12,
+      "0.88": 11,
+      "0.89": 7,
+      "0.90": 12,
+      "0.91": 18,
+      "0.92": 11,
+      "0.93": 21,
+      "0.94": 7,
+      "0.95": 12,
+      "0.96": 9,
+      "0.97": 4,
+      "0.98": 4,
+      "0.99": 2
+    }
+  }
+}

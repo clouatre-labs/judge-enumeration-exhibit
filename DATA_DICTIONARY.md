@@ -106,3 +106,18 @@ Preregistered endpoints (frozen section (e) values, computed by `analyze_v2.py` 
 | `secondary.position_bias_over_menu_positions` | Agreement and prune failure by optimal-candidate position 1-5 |
 | `exploratory` | Labeled exploratory analyses (per-call agreement) |
 | `per_call` | Per-call records: run, pass, problem_id, stratum, selected_id, selected_prob, agreement, prune_failure |
+
+### experiments/judge-enumeration-v2/calibration.json
+
+Post-hoc (non-preregistered) stratified-calibration statistics, computed by `scripts/stratified-calibration.py` from the raw records, the frozen problem set, and the oracle:
+
+| Field | Description |
+|-------|-------------|
+| `status` | Disclosure string: post-hoc exploratory addendum, not preregistered, no endpoint changed |
+| `derivation` | Input provenance; no judge calls |
+| `strata` | Per-stratum (S1/S2/S3, n=80 calls each) means, sds, minima, and maxima for selected-option probability, stated confidence, runner-up probability, entropy (bits, float), and decoy probability |
+| `pooled` | The same statistics over all 240 calls |
+| `contrasts_S1_vs_S3` | Welch two-sample contrasts (means, sds, difference, SE, t, n) for selected-option probability and stated confidence |
+| `correlations_relative_gap_vs_selected_prob` | Pearson r of relative gap versus selected probability, within each stratum and pooled (float) |
+| `drift` | Pass-to-pass drift per problem: mean and max abs delta of the selected-option probability, count and fraction of problems returning the identical probability, and argmax changes |
+| `quantization` | Distinct probability values, step (0.01), and histogram of all probability values over 240 calls x 5 options |
