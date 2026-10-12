@@ -1,6 +1,6 @@
 {
   "title": "Sealed Judge Enumeration Exhibit",
-  "description": "Pre-registered exhibit in two phases probing a typed probabilistic judge on frozen 3-variable linear-program menus. The v2.0.0 discrimination phase answered every problem correctly in both passes (both-call agreement 40/40 per stratum, Wilson 95% CI [0.912, 1.000]); the instrument saturates at this difficulty.",
+  "description": "Supplementary dataset for a preregistered reproducibility exhibit comparing exact linear-programming vertex enumeration with a typed probabilistic judge, extended from a single frozen blending problem to a frozen set of 120 distinct 3-variable linear programs. Each menu contains exactly 4 feasible vertices plus 1 infeasible super-optimal decoy, and the judge-facing state carries no objective values; the correct answer is the feasible argmax. Problems are stratified by relative optimality gap Delta = (z* - z2)/z* into S1 (Delta >= 20%), S2 (5% <= Delta < 20%), and S3 (0.5% <= Delta < 5%), n=40 per stratum. The seeded problem set (seed 20260214, sha256 70b9679227528490809689c7ec66fffa2bcf55e6d38de2262e5c08610f430e29), the sealed reading criterion, and the endpoints were committed to a public repository before any judge call (preregistration-v2.0.md, commit bf95cf3). The run is an n=240 two-pass design (120 problems x 2 passes; per-stratum n=40): pass 1 in committed order, pass 2 under a committed seed-derived permutation, with the pass id logged per call. Model jev-1.13.0 pinned (no temperature control exposed; provider defaults apply); 240 verbatim request/response records, 0 fallback envelopes. Headline results under the sealed reading criterion: per-stratum both-call agreement 40/40 in each stratum (Wilson 95% CI [0.912, 1.000]); pre-specified S1 vs S3 Fisher exact two-sided p = 1.0; prune failures (decoy selection) 0/240; per-problem disagreement across passes 0/120; Brier score 0.0251; ECE (5 equal-width bins) 0.1366; position-bias check shows agreement 1.000 at every menu position. As discrimination results all outcome shapes are publishable; the observed ceiling is reported as such, not as evidence of equal stratum difficulty. Includes the generator and enumeration core with tests, the frozen problem set and oracle, the preregistration with dated addendum, raw request/response records with pass ids, the call log, and the sealed exact-arithmetic analysis and findings. One disclosed pre-merge deviation (120 smoke responses deleted unexamined) does not affect this run, which was fully naive. The protocol author maintains the judge tool under test; findings are about this exhibit, not any product.",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "Apache-2.0",
@@ -15,15 +15,26 @@
   "related_identifiers": [
     {
       "identifier": "https://github.com/clouatre-labs/judge-enumeration-exhibit",
-      "relation": "isIdenticalTo",
+      "relation": "isSupplementTo",
       "resource_type": "software"
+    },
+    {
+      "identifier": "https://clouatre.ca",
+      "relation": "references",
+      "resource_type": "publication-other"
     }
   ],
   "keywords": [
     "llm-agents",
+    "llm-evaluation",
     "pre-registered-experiment",
+    "preregistration",
     "reproducibility",
-    "llm-evaluation"
+    "linear-programming",
+    "typed-probabilistic-judge",
+    "model-pinning",
+    "judge-stability",
+    "benchmark"
   ],
   "custom": {
     "code:codeRepository": "https://github.com/clouatre-labs/judge-enumeration-exhibit"
