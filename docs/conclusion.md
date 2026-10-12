@@ -42,8 +42,8 @@ number below is a committed value.
    selected-option probability descends monotonically with difficulty
    (0.894, 0.858, 0.838 across S1, S2, S3; stated confidence 0.867,
    0.821, 0.797; S1 versus S3 Welch t = 4.63) even though selections
-   never flip, with structured runner-up mass (0.053 to 0.082) and
-   rising entropy (0.625 to 0.859 bits) and a gap-independent infeasible
+   never flip, with structured runner-up mass (0.053 to 0.082), rising
+   entropy (0.625 to 0.859 bits), and a gap-independent infeasible
    decoy mass (about 0.015 to 0.020). This gradient is stratum-level,
    not instance-level: within-stratum correlation of gap with
    confidence is approximately zero, so the signal does not support

@@ -5,12 +5,14 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23307259.svg)](https://doi.org/10.5281/zenodo.23307259)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Result](https://img.shields.io/badge/result-120%2F120_agreement_ceiling-red)](results/v2.md)
-
-</div>
+[![Calls](https://img.shields.io/badge/calls-240-blue)](results/calls-v2.jsonl)
+[![Strata](https://img.shields.io/badge/strata-3-orange)](preregistration-v2.0.md)
 
 ## Abstract
 
 Can a typed probabilistic judge discriminate the optimal candidate from near-optimal and infeasible decoys in small linear-program menus, and are its answers stable across repeated calls? We present two pre-registered phases of a typed probabilistic judge on a frozen 3-variable integer linear-program task. The v1.0.0 stability phase probed run-to-run stability on 60 calls. The v2.0.0 discrimination phase froze a 120-problem set (40/40/40 strata by relative optimality gap) before any call, ran 120 problems x 2 passes at model pin `jev-1.13.0` under a sealed reading criterion, and analyzed preregistered endpoints with exact Fraction arithmetic. The judge answered every problem correctly in both passes: per-stratum both-call agreement is 40/40 with Wilson 95% CI [0.912, 1.000], the infeasible super-optimal decoy is never selected (0/240), Brier score is 0.0251, and ECE is 0.1366. The instrument saturates at this difficulty, so the strata do not discriminate; the Fisher exact S1-versus-S3 test (p = 1.0) is a ceiling artifact. A clearly labeled post-hoc addendum then surfaces a graded structure the pooled framing missed: mean selected-option probability descends monotonically with difficulty (0.894, 0.858, 0.838 across strata; S1 versus S3 Welch t = 4.63) even though selections never flip. The gradient is stratum-level rather than instance-level, and pass-to-pass probabilities drift (mean |delta| = 0.0245) while the argmax stays fixed. The exhibit concludes at v2.0.0 with the ceiling as an instrument property and the headroom to a v2.1 quantified.
+
+</div>
 
 ## Status
 
@@ -33,7 +35,7 @@ Can a typed probabilistic judge discriminate the optimal candidate from near-opt
 | Prune failure | 0/40 | 0/40 | 0/40 | 0/240 |
 | Per-problem disagreement | 0/40 | 0/40 | 0/40 | 0/120 |
 
-Fisher exact S1 vs S3 (two-sided, pre-specified): p = 1.0. Brier score on the selected-option probability: 0.0251. ECE, 5 equal-width bins: 0.1366. Position-bias check: agreement 1.000 and prune failure 0.000 at every optimal-candidate position (n=48 calls per position).
+Fisher exact S1 versus S3 (two-sided, pre-specified): p = 1.0. Brier score on the selected-option probability: 0.0251. ECE, 5 equal-width bins: 0.1366. Position-bias check: agreement 1.000 and prune failure 0.000 at every optimal-candidate position (n=48 calls per position).
 
 *Table 3: Post-hoc stratified-calibration summary per stratum (80 calls each; `experiments/judge-enumeration-v2/calibration.json`, not preregistered).*
 
@@ -69,13 +71,13 @@ flowchart TD
 
 All figures derive only from the raw v2 run records plus the committed oracle, reusing the sealed-criterion code in `experiments/judge-enumeration-v2/analyze_v2.py`. The reliability diagram behind the ECE remains in [results/v2.md](results/v2.md).
 
-![Per-call selected-option probability against relative optimality gap for all 240 v2 calls, colored by stratum](figures/fig1-confidence-vs-gap.png)
+![Per-call selected-option probability against relative optimality gap for all 240 v2 calls, colored by stratum, with dotted per-stratum mean lines](figures/fig1-confidence-vs-gap.png)
 
-*Figure 2: Exploratory. Per-call selected-option probability against the committed relative optimality gap (log scale), all 240 calls, colored by stratum. Selections are correct everywhere, so the endpoint cannot vary; confidence does. No monotone confidence-versus-difficulty trend is claimed or tested.*
+*Figure 2: Exploratory. Per-call selected-option probability against the committed relative optimality gap (log scale), all 240 calls, colored by stratum. Dotted lines mark each stratum's mean selected probability (S1 0.894, S2 0.858, S3 0.838), making the descending stratum gradient visible. Selections are correct everywhere, so the endpoint cannot vary; confidence does. No monotone confidence-versus-difficulty trend is claimed or tested.*
 
-![Mean selected-option probability and stated confidence per stratum, S1 through S3 over 80 calls each, both measures descending monotonically with sd error bars](figures/fig3-stratified-confidence.png)
+![Grouped bars of mean selected-option probability and stated confidence per stratum, S1 through S3 over 80 calls each, stated-confidence bars hatched, with sd error bars](figures/fig3-stratified-confidence.png)
 
-*Figure 3: Post-hoc (not preregistered). Mean selected-option probability (solid) and stated confidence (faded) per stratum over 80 calls each, with within-stratum sd error bars. Both measures descend monotonically from S1 to S3 although the selected option never flips; see [findings-calibration.md](experiments/judge-enumeration-v2/findings-calibration.md).*
+*Figure 3: Post-hoc (not preregistered). Mean selected-option probability (plain bars) and stated confidence (hatched bars) per stratum over 80 calls each, with within-stratum sd error bars. Both measures descend monotonically from S1 to S3 although the selected option never flips; see [findings-calibration.md](experiments/judge-enumeration-v2/findings-calibration.md).*
 
 ## Structure
 
@@ -105,3 +107,63 @@ uv run --with matplotlib python figures/fig3-stratified-confidence.py
 ## License
 
 Apache-2.0.
+
+## Inspecting the Data
+
+*Code Snippet 1: Commands to inspect raw call records, the call log, and the post-hoc calibration summary.*
+
+```bash
+# Verbatim request and response for one call
+jq '{request, response}' results/raw/v2/run-001.json
+
+# Confirm every call used the pinned model with no fallback
+jq -c '{model, fallback}' results/calls-v2.jsonl | sort | uniq -c
+
+# All calls for one problem across both passes
+jq -c 'select(.problem_id == "p-001") | {run, pass}' results/calls-v2.jsonl
+
+# Selected option and stated confidence for one call
+jq '.response.answers.selection | {choice, confidence}' \
+  results/raw/v2/run-001.json
+
+# Per-stratum count of calls behind the calibration addendum
+jq '.strata | to_entries[] | {stratum: .key, n: .value.n}' \
+  experiments/judge-enumeration-v2/calibration.json
+
+# Stratum assignment of one problem from the committed oracle
+jq '."p-001"' oracle-v2.json
+```
+
+## Software Versions
+
+*Table 4: Software versions used to produce and analyze the committed records.*
+
+| Component | Version | Notes |
+| --- | --- | --- |
+| Judge model | jev-1.13.0 | Pinned in every call record (`results/calls-v2.jsonl`) |
+| Python | 3.14.8 | `python3`, sealed analysis and calibration scripts |
+| Python (uv) | 3.15.0 | Figure rendering via `uv run --with matplotlib` |
+| matplotlib | 3.11.2 | Figures |
+
+## Ethics Statement
+
+This research involves no human subjects. All runs are automated LLM evaluation calls against a typed probabilistic judge on synthetic linear-program menus. No personally identifiable information is collected or processed. The problem set and reading criterion were frozen before any judge call; the post-hoc stratified-calibration addendum is clearly labeled as not preregistered.
+
+## Data Availability
+
+This repository contains the complete dataset, preregistrations, sealed analysis, and figure scripts. All files are public under the Apache License 2.0. The raw request and response records for all 240 v2 calls are in `results/raw/v2/`, with the append-only call log in `results/calls-v2.jsonl`; the v1.0.0 stability records are in `results/raw/`. Release v2.0.0 and DOI [10.5281/zenodo.23307259](https://doi.org/10.5281/zenodo.23307259) archive the exhibit. Nothing has been excluded or selectively reported.
+
+## Citation
+
+If you use this dataset or methodology, please cite it (metadata in [CITATION.cff](CITATION.cff)):
+
+```bibtex
+@dataset{clouatre2026sealedjudge,
+  title  = {Sealed Judge Enumeration Exhibit},
+  author = {Clouatre, Hugues},
+  year   = {2026},
+  note   = {Version 2.0.0},
+  doi    = {10.5281/zenodo.23307259},
+  url    = {https://github.com/clouatre-labs/judge-enumeration-exhibit}
+}
+```
