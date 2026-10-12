@@ -55,7 +55,9 @@ def main():
             sd = var**0.5
             pos = j + (i - 0.5) * width
             ax.bar(pos, m, width * 0.92, yerr=sd, capsize=4,
-                   color=STRATUM_COLORS[s], alpha=0.55 if i else 1.0,
+                   color=STRATUM_COLORS[s],
+                   hatch="///" if i else None,
+                   edgecolor="black", linewidth=0.4,
                    error_kw={"linewidth": 1})
             ax.annotate(f"{m:.3f}", (pos, m), textcoords="offset points",
                         xytext=(0, 4), ha="center", fontsize=8)
@@ -65,12 +67,12 @@ def main():
     ax.set_ylabel("Mean probability per call (error bars: sd)")
     ax.set_title("Confidence by stratum, all 240 calls (exploratory)")
     from matplotlib.patches import Patch
-    from matplotlib.lines import Line2D
 
     handles = [
-        Patch(facecolor="#7f7f7f", label="Selected-option probability"),
-        Patch(facecolor="#7f7f7f", alpha=0.55, label="Stated confidence"),
-        Line2D([0], [0], color="#7f7f7f", linewidth=1, label="sd within stratum"),
+        Patch(facecolor="#7f7f7f", edgecolor="black", linewidth=0.4,
+              label="Selected-option probability"),
+        Patch(facecolor="#7f7f7f", edgecolor="black", linewidth=0.4,
+              hatch="///", label="Stated confidence"),
     ]
     ax.legend(handles=handles, loc="lower left", fontsize=9)
     fig.tight_layout()

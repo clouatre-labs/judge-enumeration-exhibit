@@ -42,6 +42,13 @@ def main():
             ys.append(float(r["selected_prob"]))
         ax.scatter(xs, ys, s=22, alpha=0.75, color=STRATUM_COLORS[stratum],
                    label=stratum)
+        mean = sum(ys) / len(ys)
+        ax.hlines(mean, min(xs), max(xs), color=STRATUM_COLORS[stratum],
+                  linestyle=":", linewidth=1.6)
+        ax.annotate(f"mean {mean:.3f}", (max(xs), mean),
+                    textcoords="offset points", xytext=(6, 0),
+                    va="center", fontsize=8,
+                    color=STRATUM_COLORS[stratum])
     ax.set_xscale("log")
     ax.set_xlim(0.4, 60)
     ax.set_ylim(0.5, 1.02)
@@ -49,6 +56,7 @@ def main():
     ax.set_ylabel("Selected-option probability (per call)")
     ax.set_title("Confidence vs problem difficulty, all 240 calls (exploratory)")
     ax.axhline(1.0, color="#7f7f7f", linestyle="--", linewidth=1)
+    ax.set_xlim(0.3, 110)
     ax.legend(title="Stratum", loc="lower right", fontsize=9)
     fig.tight_layout()
     out = pathlib.Path(__file__).resolve().parent / "fig1-confidence-vs-gap.png"
