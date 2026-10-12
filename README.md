@@ -162,7 +162,7 @@ If you use this dataset or methodology, please cite it (metadata in [CITATION.cf
   title  = {Sealed Judge Enumeration Exhibit},
   author = {Clouatre, Hugues},
   year   = {2026},
-  note   = {Version 2.0.0},
+  note   = {Version 2.0.1},
   doi    = {10.5281/zenodo.23307259},
   url    = {https://github.com/clouatre-labs/judge-enumeration-exhibit}
 }
