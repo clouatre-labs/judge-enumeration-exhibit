@@ -220,11 +220,13 @@ def main():
     hist = Counter()
     for r in enriched:
         for p in r["probabilities"].values():
-            hist[float(p)] += 1
+            # Group by the exact Fraction value; float is used only at
+            # output time, avoiding float-key grouping precision issues.
+            hist[p] += 1
     quantization = {
         "distinct_values": len(hist),
         "step": 0.01,
-        "histogram": {f"{v:.2f}": hist[v] for v in sorted(hist)},
+        "histogram": {f"{float(v):.2f}": hist[v] for v in sorted(hist)},
     }
 
     output = {
