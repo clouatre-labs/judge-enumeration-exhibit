@@ -14,6 +14,8 @@ any call falls back.
 Usage:
     python3 run_judge.py             # run 5 calls (requires TYPESAFE_API_KEY)
     python3 run_judge.py --runs 55 --start 6  # preregistered v1.1.0 extension
+    python3 run_judge.py --problems problems-v2.json --pass-id 1 \
+        --runs 120                   # preregistered v2.0 pass 1 (after merge to main)
     python3 run_judge.py --dry-run   # validate inputs, print one request body, send nothing
     python3 run_judge.py --help
 """
@@ -37,6 +39,11 @@ INSTRUCTIONS = (
     "blending decision?"
 )
 
+V2_INSTRUCTIONS = (
+    "Which candidate production plan should be selected for this "
+    "production decision, given the stated constraints and objective?"
+)
+
 
 def criterion_text(objective, x, cid):
     """Preregistered per-option criterion text (see preregistration.md)."""
@@ -44,6 +51,17 @@ def criterion_text(objective, x, cid):
     return (
         "Select the plan with objective value %g at production levels "
         "x=(%g, %g, %g) (candidate %s)" % (objective, x1, x2, x3, cid)
+    )
+
+
+def v2_criterion_text(x, cid):
+    """Preregistered v2.0 per-option criterion (preregistration-v2.0.md)."""
+    x1, x2, x3 = x
+    return "Candidate %s: production levels x=(%g, %g, %g)." % (
+        cid,
+        x1,
+        x2,
+        x3,
     )
 
 
@@ -64,6 +82,34 @@ def build_request_body(state):
             "selection": {
                 "type": "choice",
                 "instructions": INSTRUCTIONS,
+                "criteria": criteria,
+            }
+        },
+        "model": MODEL,
+    }
+
+
+def build_v2_request_body(problem):
+    """Build the v2.0 request body; must match preregistration-v2.0.md
+    verbatim. The state carries no objective values (schema superset of
+    the v1.x frozen state)."""
+    state = {
+        "problem_id": problem["problem_id"],
+        "stratum": problem["stratum"],
+        "objective": problem["c"],
+        "constraints": {"A": problem["A"], "b": problem["b"]},
+        "candidates": problem["candidates"],
+    }
+    criteria = {
+        c["id"]: v2_criterion_text(c["x"], c["id"])
+        for c in problem["candidates"]
+    }
+    return {
+        "state": state,
+        "questions": {
+            "selection": {
+                "type": "choice",
+                "instructions": V2_INSTRUCTIONS,
                 "criteria": criteria,
             }
         },
@@ -124,8 +170,8 @@ def main():
     parser.add_argument(
         "--runs",
         type=int,
-        default=N_RUNS,
-        help="number of sequential calls (default: %d)" % N_RUNS,
+        default=None,
+        help="number of sequential calls (default: %d in v1.x mode)" % N_RUNS,
     )
     parser.add_argument(
         "--start",
@@ -135,17 +181,53 @@ def main():
         "to the raw directory and call log",
     )
     parser.add_argument(
+        "--problems",
+        default=None,
+        help="path to the v2.0 problems JSON (problems-v2.json); enables "
+        "per-problem mode and overrides --state",
+    )
+    parser.add_argument(
+        "--pass-id",
+        type=int,
+        choices=(1, 2),
+        default=1,
+        help="v2.0 pass: 1 = committed order, 2 = committed pass2_order "
+        "permutation (default: 1)",
+    )
+    parser.add_argument(
         "--results-dir",
         default="results",
         help="output directory for raw records and the call log",
     )
     args = parser.parse_args()
 
-    state = load_state(args.state)
-    body = build_request_body(state)
+    if args.problems:
+        if args.runs is not None:
+            print(
+                "error: --runs is not valid with --problems; each pass "
+                "covers every problem exactly once",
+                file=sys.stderr,
+            )
+            return 2
+        with open(args.problems) as f:
+            doc = json.load(f)
+        by_id = {p["problem_id"]: p for p in doc["problems"]}
+        if args.pass_id == 2:
+            order = doc["pass2_order"]
+        else:
+            order = [p["problem_id"] for p in doc["problems"]]
+        calls = [(pid, build_v2_request_body(by_id[pid])) for pid in order]
+        raw_dir = pathlib.Path(args.results_dir) / "raw" / "v2"
+        log_path = pathlib.Path(args.results_dir) / "calls-v2.jsonl"
+    else:
+        state = load_state(args.state)
+        calls = [(None, build_request_body(state))]
+        calls = calls * (args.runs if args.runs is not None else N_RUNS)
+        raw_dir = pathlib.Path(args.results_dir) / "raw"
+        log_path = pathlib.Path(args.results_dir) / "calls.jsonl"
 
     if args.dry_run:
-        json.dump(body, sys.stdout, indent=2)
+        json.dump(calls[0][1], sys.stdout, indent=2)
         sys.stdout.write("\n")
         return 0
 
@@ -154,14 +236,16 @@ def main():
         print("error: TYPESAFE_API_KEY is not set", file=sys.stderr)
         return 2
 
-    results = pathlib.Path(args.results_dir)
-    raw_dir = results / "raw"
     raw_dir.mkdir(parents=True, exist_ok=True)
-    log_path = results / "calls.jsonl"
 
     any_fallback = False
-    for run in range(args.start, args.start + args.runs):
-        raw_path = raw_dir / ("run-%02d.json" % run)
+    for offset, (problem_id, body) in enumerate(calls):
+        run = args.start + offset
+        raw_path = raw_dir / (
+            ("run-%03d.json" % run)
+            if problem_id is not None
+            else ("run-%02d.json" % run)
+        )
         if raw_path.exists():
             print(
                 "error: refusing to overwrite existing record %s" % raw_path,
@@ -177,10 +261,15 @@ def main():
             "fallback": fallback,
             "noul": None,
         }
+        if problem_id is not None:
+            record["pass"] = args.pass_id
+            record["problem_id"] = problem_id
         with open(log_path, "a") as log:
             log.write(json.dumps(record) + "\n")
         raw = {
             "run": run,
+            "pass": args.pass_id if problem_id is not None else None,
+            "problem_id": problem_id,
             "timestamp": datetime.datetime.now(
                 datetime.timezone.utc
             ).isoformat(timespec="seconds"),
@@ -192,8 +281,7 @@ def main():
             json.dump(raw, f, indent=2)
             f.write("\n")
         print(
-            "run %d: status=%d fallback=%s"
-            % (run, status, fallback)
+            "run %d: status=%d fallback=%s" % (run, status, fallback)
         )
 
     if any_fallback:

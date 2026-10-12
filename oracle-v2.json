@@ -1,0 +1,2882 @@
+{
+  "p-001": {
+    "stratum": "S1",
+    "optimal_id": "B",
+    "decoy_id": "E",
+    "second_best_id": "C",
+    "z_star": 280,
+    "z_second": 214,
+    "delta_k": 66,
+    "delta_z_star": 280,
+    "objective_values": {
+      "A": 144,
+      "B": 280,
+      "C": 214,
+      "D": 210,
+      "E": 376
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "v_second",
+      "D": "other",
+      "E": "decoy"
+    }
+  },
+  "p-002": {
+    "stratum": "S1",
+    "optimal_id": "B",
+    "decoy_id": "E",
+    "second_best_id": "C",
+    "z_star": 133,
+    "z_second": 103,
+    "delta_k": 30,
+    "delta_z_star": 133,
+    "objective_values": {
+      "A": 94,
+      "B": 133,
+      "C": 103,
+      "D": 69,
+      "E": 141
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "v_second",
+      "D": "other",
+      "E": "decoy"
+    }
+  },
+  "p-003": {
+    "stratum": "S1",
+    "optimal_id": "D",
+    "decoy_id": "C",
+    "second_best_id": "E",
+    "z_star": 186,
+    "z_second": 144,
+    "delta_k": 42,
+    "delta_z_star": 186,
+    "objective_values": {
+      "A": 142,
+      "B": 100,
+      "C": 226,
+      "D": 186,
+      "E": 144
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "decoy",
+      "D": "v_star",
+      "E": "v_second"
+    }
+  },
+  "p-004": {
+    "stratum": "S1",
+    "optimal_id": "A",
+    "decoy_id": "E",
+    "second_best_id": "B",
+    "z_star": 639,
+    "z_second": 449,
+    "delta_k": 190,
+    "delta_z_star": 639,
+    "objective_values": {
+      "A": 639,
+      "B": 449,
+      "C": 414,
+      "D": 415,
+      "E": 674
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "v_second",
+      "C": "other",
+      "D": "other",
+      "E": "decoy"
+    }
+  },
+  "p-005": {
+    "stratum": "S1",
+    "optimal_id": "E",
+    "decoy_id": "A",
+    "second_best_id": "C",
+    "z_star": 208,
+    "z_second": 152,
+    "delta_k": 56,
+    "delta_z_star": 208,
+    "objective_values": {
+      "A": 234,
+      "B": 138,
+      "C": 152,
+      "D": 126,
+      "E": 208
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "other",
+      "C": "v_second",
+      "D": "other",
+      "E": "v_star"
+    }
+  },
+  "p-006": {
+    "stratum": "S1",
+    "optimal_id": "D",
+    "decoy_id": "A",
+    "second_best_id": "C",
+    "z_star": 278,
+    "z_second": 206,
+    "delta_k": 72,
+    "delta_z_star": 278,
+    "objective_values": {
+      "A": 377,
+      "B": 158,
+      "C": 206,
+      "D": 278,
+      "E": 192
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "other",
+      "C": "v_second",
+      "D": "v_star",
+      "E": "other"
+    }
+  },
+  "p-007": {
+    "stratum": "S1",
+    "optimal_id": "C",
+    "decoy_id": "E",
+    "second_best_id": "B",
+    "z_star": 470,
+    "z_second": 356,
+    "delta_k": 114,
+    "delta_z_star": 470,
+    "objective_values": {
+      "A": 314,
+      "B": 356,
+      "C": 470,
+      "D": 270,
+      "E": 500
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_second",
+      "C": "v_star",
+      "D": "other",
+      "E": "decoy"
+    }
+  },
+  "p-008": {
+    "stratum": "S1",
+    "optimal_id": "E",
+    "decoy_id": "A",
+    "second_best_id": "D",
+    "z_star": 169,
+    "z_second": 125,
+    "delta_k": 44,
+    "delta_z_star": 169,
+    "objective_values": {
+      "A": 196,
+      "B": 104,
+      "C": 109,
+      "D": 125,
+      "E": 169
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "other",
+      "C": "other",
+      "D": "v_second",
+      "E": "v_star"
+    }
+  },
+  "p-009": {
+    "stratum": "S1",
+    "optimal_id": "C",
+    "decoy_id": "D",
+    "second_best_id": "B",
+    "z_star": 548,
+    "z_second": 416,
+    "delta_k": 132,
+    "delta_z_star": 548,
+    "objective_values": {
+      "A": 296,
+      "B": 416,
+      "C": 548,
+      "D": 580,
+      "E": 384
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_second",
+      "C": "v_star",
+      "D": "decoy",
+      "E": "other"
+    }
+  },
+  "p-010": {
+    "stratum": "S1",
+    "optimal_id": "C",
+    "decoy_id": "E",
+    "second_best_id": "A",
+    "z_star": 436,
+    "z_second": 311,
+    "delta_k": 125,
+    "delta_z_star": 436,
+    "objective_values": {
+      "A": 311,
+      "B": 251,
+      "C": 436,
+      "D": 310,
+      "E": 486
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "other",
+      "C": "v_star",
+      "D": "other",
+      "E": "decoy"
+    }
+  },
+  "p-011": {
+    "stratum": "S1",
+    "optimal_id": "C",
+    "decoy_id": "A",
+    "second_best_id": "E",
+    "z_star": 917,
+    "z_second": 731,
+    "delta_k": 186,
+    "delta_z_star": 917,
+    "objective_values": {
+      "A": 973,
+      "B": 530,
+      "C": 917,
+      "D": 573,
+      "E": 731
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "other",
+      "C": "v_star",
+      "D": "other",
+      "E": "v_second"
+    }
+  },
+  "p-012": {
+    "stratum": "S1",
+    "optimal_id": "A",
+    "decoy_id": "C",
+    "second_best_id": "B",
+    "z_star": 617,
+    "z_second": 491,
+    "delta_k": 126,
+    "delta_z_star": 617,
+    "objective_values": {
+      "A": 617,
+      "B": 491,
+      "C": 644,
+      "D": 343,
+      "E": 469
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "v_second",
+      "C": "decoy",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-013": {
+    "stratum": "S1",
+    "optimal_id": "D",
+    "decoy_id": "C",
+    "second_best_id": "E",
+    "z_star": 600,
+    "z_second": 460,
+    "delta_k": 140,
+    "delta_z_star": 600,
+    "objective_values": {
+      "A": 392,
+      "B": 348,
+      "C": 632,
+      "D": 600,
+      "E": 460
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "decoy",
+      "D": "v_star",
+      "E": "v_second"
+    }
+  },
+  "p-014": {
+    "stratum": "S1",
+    "optimal_id": "D",
+    "decoy_id": "E",
+    "second_best_id": "A",
+    "z_star": 357,
+    "z_second": 261,
+    "delta_k": 96,
+    "delta_z_star": 357,
+    "objective_values": {
+      "A": 261,
+      "B": 257,
+      "C": 196,
+      "D": 357,
+      "E": 477
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "other",
+      "C": "other",
+      "D": "v_star",
+      "E": "decoy"
+    }
+  },
+  "p-015": {
+    "stratum": "S1",
+    "optimal_id": "A",
+    "decoy_id": "D",
+    "second_best_id": "C",
+    "z_star": 571,
+    "z_second": 386,
+    "delta_k": 185,
+    "delta_z_star": 571,
+    "objective_values": {
+      "A": 571,
+      "B": 385,
+      "C": 386,
+      "D": 621,
+      "E": 371
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "other",
+      "C": "v_second",
+      "D": "decoy",
+      "E": "other"
+    }
+  },
+  "p-016": {
+    "stratum": "S1",
+    "optimal_id": "B",
+    "decoy_id": "C",
+    "second_best_id": "D",
+    "z_star": 533,
+    "z_second": 385,
+    "delta_k": 148,
+    "delta_z_star": 533,
+    "objective_values": {
+      "A": 358,
+      "B": 533,
+      "C": 605,
+      "D": 385,
+      "E": 323
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "decoy",
+      "D": "v_second",
+      "E": "other"
+    }
+  },
+  "p-017": {
+    "stratum": "S1",
+    "optimal_id": "E",
+    "decoy_id": "D",
+    "second_best_id": "C",
+    "z_star": 258,
+    "z_second": 196,
+    "delta_k": 62,
+    "delta_z_star": 258,
+    "objective_values": {
+      "A": 160,
+      "B": 160,
+      "C": 196,
+      "D": 270,
+      "E": 258
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "v_second",
+      "D": "decoy",
+      "E": "v_star"
+    }
+  },
+  "p-018": {
+    "stratum": "S1",
+    "optimal_id": "B",
+    "decoy_id": "C",
+    "second_best_id": "D",
+    "z_star": 846,
+    "z_second": 630,
+    "delta_k": 216,
+    "delta_z_star": 846,
+    "objective_values": {
+      "A": 576,
+      "B": 846,
+      "C": 910,
+      "D": 630,
+      "E": 486
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "decoy",
+      "D": "v_second",
+      "E": "other"
+    }
+  },
+  "p-019": {
+    "stratum": "S1",
+    "optimal_id": "D",
+    "decoy_id": "A",
+    "second_best_id": "C",
+    "z_star": 337,
+    "z_second": 262,
+    "delta_k": 75,
+    "delta_z_star": 337,
+    "objective_values": {
+      "A": 391,
+      "B": 177,
+      "C": 262,
+      "D": 337,
+      "E": 235
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "other",
+      "C": "v_second",
+      "D": "v_star",
+      "E": "other"
+    }
+  },
+  "p-020": {
+    "stratum": "S1",
+    "optimal_id": "C",
+    "decoy_id": "D",
+    "second_best_id": "B",
+    "z_star": 224,
+    "z_second": 172,
+    "delta_k": 52,
+    "delta_z_star": 224,
+    "objective_values": {
+      "A": 120,
+      "B": 172,
+      "C": 224,
+      "D": 240,
+      "E": 156
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_second",
+      "C": "v_star",
+      "D": "decoy",
+      "E": "other"
+    }
+  },
+  "p-021": {
+    "stratum": "S1",
+    "optimal_id": "E",
+    "decoy_id": "B",
+    "second_best_id": "C",
+    "z_star": 399,
+    "z_second": 279,
+    "delta_k": 120,
+    "delta_z_star": 399,
+    "objective_values": {
+      "A": 264,
+      "B": 402,
+      "C": 279,
+      "D": 255,
+      "E": 399
+    },
+    "roles": {
+      "A": "other",
+      "B": "decoy",
+      "C": "v_second",
+      "D": "other",
+      "E": "v_star"
+    }
+  },
+  "p-022": {
+    "stratum": "S1",
+    "optimal_id": "B",
+    "decoy_id": "D",
+    "second_best_id": "A",
+    "z_star": 572,
+    "z_second": 432,
+    "delta_k": 140,
+    "delta_z_star": 572,
+    "objective_values": {
+      "A": 432,
+      "B": 572,
+      "C": 302,
+      "D": 578,
+      "E": 410
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "v_star",
+      "C": "other",
+      "D": "decoy",
+      "E": "other"
+    }
+  },
+  "p-023": {
+    "stratum": "S1",
+    "optimal_id": "C",
+    "decoy_id": "B",
+    "second_best_id": "A",
+    "z_star": 574,
+    "z_second": 439,
+    "delta_k": 135,
+    "delta_z_star": 574,
+    "objective_values": {
+      "A": 439,
+      "B": 637,
+      "C": 574,
+      "D": 287,
+      "E": 422
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "decoy",
+      "C": "v_star",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-024": {
+    "stratum": "S1",
+    "optimal_id": "E",
+    "decoy_id": "C",
+    "second_best_id": "A",
+    "z_star": 764,
+    "z_second": 572,
+    "delta_k": 192,
+    "delta_z_star": 764,
+    "objective_values": {
+      "A": 572,
+      "B": 560,
+      "C": 780,
+      "D": 396,
+      "E": 764
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "other",
+      "C": "decoy",
+      "D": "other",
+      "E": "v_star"
+    }
+  },
+  "p-025": {
+    "stratum": "S1",
+    "optimal_id": "A",
+    "decoy_id": "E",
+    "second_best_id": "B",
+    "z_star": 480,
+    "z_second": 378,
+    "delta_k": 102,
+    "delta_z_star": 480,
+    "objective_values": {
+      "A": 480,
+      "B": 378,
+      "C": 332,
+      "D": 250,
+      "E": 507
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "v_second",
+      "C": "other",
+      "D": "other",
+      "E": "decoy"
+    }
+  },
+  "p-026": {
+    "stratum": "S1",
+    "optimal_id": "E",
+    "decoy_id": "D",
+    "second_best_id": "B",
+    "z_star": 176,
+    "z_second": 140,
+    "delta_k": 36,
+    "delta_z_star": 176,
+    "objective_values": {
+      "A": 110,
+      "B": 140,
+      "C": 102,
+      "D": 186,
+      "E": 176
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_second",
+      "C": "other",
+      "D": "decoy",
+      "E": "v_star"
+    }
+  },
+  "p-027": {
+    "stratum": "S1",
+    "optimal_id": "A",
+    "decoy_id": "B",
+    "second_best_id": "C",
+    "z_star": 34,
+    "z_second": 26,
+    "delta_k": 8,
+    "delta_z_star": 34,
+    "objective_values": {
+      "A": 34,
+      "B": 46,
+      "C": 26,
+      "D": 17,
+      "E": 25
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "decoy",
+      "C": "v_second",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-028": {
+    "stratum": "S1",
+    "optimal_id": "D",
+    "decoy_id": "B",
+    "second_best_id": "A",
+    "z_star": 758,
+    "z_second": 518,
+    "delta_k": 240,
+    "delta_z_star": 758,
+    "objective_values": {
+      "A": 518,
+      "B": 786,
+      "C": 506,
+      "D": 758,
+      "E": 492
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "decoy",
+      "C": "other",
+      "D": "v_star",
+      "E": "other"
+    }
+  },
+  "p-029": {
+    "stratum": "S1",
+    "optimal_id": "B",
+    "decoy_id": "A",
+    "second_best_id": "C",
+    "z_star": 569,
+    "z_second": 452,
+    "delta_k": 117,
+    "delta_z_star": 569,
+    "objective_values": {
+      "A": 639,
+      "B": 569,
+      "C": 452,
+      "D": 345,
+      "E": 341
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "v_star",
+      "C": "v_second",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-030": {
+    "stratum": "S1",
+    "optimal_id": "A",
+    "decoy_id": "B",
+    "second_best_id": "E",
+    "z_star": 493,
+    "z_second": 376,
+    "delta_k": 117,
+    "delta_z_star": 493,
+    "objective_values": {
+      "A": 493,
+      "B": 497,
+      "C": 261,
+      "D": 349,
+      "E": 376
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "decoy",
+      "C": "other",
+      "D": "other",
+      "E": "v_second"
+    }
+  },
+  "p-031": {
+    "stratum": "S1",
+    "optimal_id": "B",
+    "decoy_id": "D",
+    "second_best_id": "C",
+    "z_star": 361,
+    "z_second": 286,
+    "delta_k": 75,
+    "delta_z_star": 361,
+    "objective_values": {
+      "A": 201,
+      "B": 361,
+      "C": 286,
+      "D": 385,
+      "E": 235
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "v_second",
+      "D": "decoy",
+      "E": "other"
+    }
+  },
+  "p-032": {
+    "stratum": "S1",
+    "optimal_id": "A",
+    "decoy_id": "C",
+    "second_best_id": "B",
+    "z_star": 416,
+    "z_second": 326,
+    "delta_k": 90,
+    "delta_z_star": 416,
+    "objective_values": {
+      "A": 416,
+      "B": 326,
+      "C": 521,
+      "D": 240,
+      "E": 266
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "v_second",
+      "C": "decoy",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-033": {
+    "stratum": "S1",
+    "optimal_id": "E",
+    "decoy_id": "B",
+    "second_best_id": "A",
+    "z_star": 130,
+    "z_second": 100,
+    "delta_k": 30,
+    "delta_z_star": 130,
+    "objective_values": {
+      "A": 100,
+      "B": 140,
+      "C": 78,
+      "D": 82,
+      "E": 130
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "decoy",
+      "C": "other",
+      "D": "other",
+      "E": "v_star"
+    }
+  },
+  "p-034": {
+    "stratum": "S1",
+    "optimal_id": "E",
+    "decoy_id": "C",
+    "second_best_id": "B",
+    "z_star": 944,
+    "z_second": 664,
+    "delta_k": 280,
+    "delta_z_star": 944,
+    "objective_values": {
+      "A": 584,
+      "B": 664,
+      "C": 1024,
+      "D": 640,
+      "E": 944
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_second",
+      "C": "decoy",
+      "D": "other",
+      "E": "v_star"
+    }
+  },
+  "p-035": {
+    "stratum": "S1",
+    "optimal_id": "C",
+    "decoy_id": "B",
+    "second_best_id": "E",
+    "z_star": 226,
+    "z_second": 176,
+    "delta_k": 50,
+    "delta_z_star": 226,
+    "objective_values": {
+      "A": 146,
+      "B": 356,
+      "C": 226,
+      "D": 130,
+      "E": 176
+    },
+    "roles": {
+      "A": "other",
+      "B": "decoy",
+      "C": "v_star",
+      "D": "other",
+      "E": "v_second"
+    }
+  },
+  "p-036": {
+    "stratum": "S1",
+    "optimal_id": "D",
+    "decoy_id": "E",
+    "second_best_id": "B",
+    "z_star": 591,
+    "z_second": 441,
+    "delta_k": 150,
+    "delta_z_star": 591,
+    "objective_values": {
+      "A": 348,
+      "B": 441,
+      "C": 393,
+      "D": 591,
+      "E": 753
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_second",
+      "C": "other",
+      "D": "v_star",
+      "E": "decoy"
+    }
+  },
+  "p-037": {
+    "stratum": "S1",
+    "optimal_id": "D",
+    "decoy_id": "B",
+    "second_best_id": "C",
+    "z_star": 261,
+    "z_second": 198,
+    "delta_k": 63,
+    "delta_z_star": 261,
+    "objective_values": {
+      "A": 189,
+      "B": 281,
+      "C": 198,
+      "D": 261,
+      "E": 135
+    },
+    "roles": {
+      "A": "other",
+      "B": "decoy",
+      "C": "v_second",
+      "D": "v_star",
+      "E": "other"
+    }
+  },
+  "p-038": {
+    "stratum": "S1",
+    "optimal_id": "C",
+    "decoy_id": "A",
+    "second_best_id": "B",
+    "z_star": 470,
+    "z_second": 338,
+    "delta_k": 132,
+    "delta_z_star": 470,
+    "objective_values": {
+      "A": 488,
+      "B": 338,
+      "C": 470,
+      "D": 316,
+      "E": 286
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "v_second",
+      "C": "v_star",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-039": {
+    "stratum": "S1",
+    "optimal_id": "A",
+    "decoy_id": "D",
+    "second_best_id": "E",
+    "z_star": 433,
+    "z_second": 317,
+    "delta_k": 116,
+    "delta_z_star": 433,
+    "objective_values": {
+      "A": 433,
+      "B": 251,
+      "C": 298,
+      "D": 594,
+      "E": 317
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "other",
+      "C": "other",
+      "D": "decoy",
+      "E": "v_second"
+    }
+  },
+  "p-040": {
+    "stratum": "S1",
+    "optimal_id": "B",
+    "decoy_id": "A",
+    "second_best_id": "D",
+    "z_star": 345,
+    "z_second": 255,
+    "delta_k": 90,
+    "delta_z_star": 345,
+    "objective_values": {
+      "A": 373,
+      "B": 345,
+      "C": 254,
+      "D": 255,
+      "E": 181
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "v_star",
+      "C": "other",
+      "D": "v_second",
+      "E": "other"
+    }
+  },
+  "p-041": {
+    "stratum": "S2",
+    "optimal_id": "E",
+    "decoy_id": "C",
+    "second_best_id": "B",
+    "z_star": 415,
+    "z_second": 366,
+    "delta_k": 49,
+    "delta_z_star": 415,
+    "objective_values": {
+      "A": 313,
+      "B": 366,
+      "C": 433,
+      "D": 264,
+      "E": 415
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_second",
+      "C": "decoy",
+      "D": "other",
+      "E": "v_star"
+    }
+  },
+  "p-042": {
+    "stratum": "S2",
+    "optimal_id": "B",
+    "decoy_id": "A",
+    "second_best_id": "E",
+    "z_star": 780,
+    "z_second": 720,
+    "delta_k": 60,
+    "delta_z_star": 780,
+    "objective_values": {
+      "A": 834,
+      "B": 780,
+      "C": 429,
+      "D": 411,
+      "E": 720
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "v_star",
+      "C": "other",
+      "D": "other",
+      "E": "v_second"
+    }
+  },
+  "p-043": {
+    "stratum": "S2",
+    "optimal_id": "B",
+    "decoy_id": "E",
+    "second_best_id": "D",
+    "z_star": 241,
+    "z_second": 214,
+    "delta_k": 27,
+    "delta_z_star": 241,
+    "objective_values": {
+      "A": 171,
+      "B": 241,
+      "C": 144,
+      "D": 214,
+      "E": 244
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "other",
+      "D": "v_second",
+      "E": "decoy"
+    }
+  },
+  "p-044": {
+    "stratum": "S2",
+    "optimal_id": "B",
+    "decoy_id": "D",
+    "second_best_id": "C",
+    "z_star": 351,
+    "z_second": 309,
+    "delta_k": 42,
+    "delta_z_star": 351,
+    "objective_values": {
+      "A": 197,
+      "B": 351,
+      "C": 309,
+      "D": 352,
+      "E": 196
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "v_second",
+      "D": "decoy",
+      "E": "other"
+    }
+  },
+  "p-045": {
+    "stratum": "S2",
+    "optimal_id": "E",
+    "decoy_id": "D",
+    "second_best_id": "C",
+    "z_star": 578,
+    "z_second": 530,
+    "delta_k": 48,
+    "delta_z_star": 578,
+    "objective_values": {
+      "A": 306,
+      "B": 354,
+      "C": 530,
+      "D": 668,
+      "E": 578
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "v_second",
+      "D": "decoy",
+      "E": "v_star"
+    }
+  },
+  "p-046": {
+    "stratum": "S2",
+    "optimal_id": "B",
+    "decoy_id": "E",
+    "second_best_id": "D",
+    "z_star": 399,
+    "z_second": 377,
+    "delta_k": 22,
+    "delta_z_star": 399,
+    "objective_values": {
+      "A": 225,
+      "B": 399,
+      "C": 247,
+      "D": 377,
+      "E": 423
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "other",
+      "D": "v_second",
+      "E": "decoy"
+    }
+  },
+  "p-047": {
+    "stratum": "S2",
+    "optimal_id": "C",
+    "decoy_id": "B",
+    "second_best_id": "E",
+    "z_star": 219,
+    "z_second": 191,
+    "delta_k": 28,
+    "delta_z_star": 219,
+    "objective_values": {
+      "A": 126,
+      "B": 223,
+      "C": 219,
+      "D": 121,
+      "E": 191
+    },
+    "roles": {
+      "A": "other",
+      "B": "decoy",
+      "C": "v_star",
+      "D": "other",
+      "E": "v_second"
+    }
+  },
+  "p-048": {
+    "stratum": "S2",
+    "optimal_id": "E",
+    "decoy_id": "A",
+    "second_best_id": "D",
+    "z_star": 195,
+    "z_second": 175,
+    "delta_k": 20,
+    "delta_z_star": 195,
+    "objective_values": {
+      "A": 222,
+      "B": 104,
+      "C": 111,
+      "D": 175,
+      "E": 195
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "other",
+      "C": "other",
+      "D": "v_second",
+      "E": "v_star"
+    }
+  },
+  "p-049": {
+    "stratum": "S2",
+    "optimal_id": "D",
+    "decoy_id": "B",
+    "second_best_id": "A",
+    "z_star": 297,
+    "z_second": 273,
+    "delta_k": 24,
+    "delta_z_star": 297,
+    "objective_values": {
+      "A": 273,
+      "B": 310,
+      "C": 213,
+      "D": 297,
+      "E": 189
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "decoy",
+      "C": "other",
+      "D": "v_star",
+      "E": "other"
+    }
+  },
+  "p-050": {
+    "stratum": "S2",
+    "optimal_id": "A",
+    "decoy_id": "C",
+    "second_best_id": "B",
+    "z_star": 450,
+    "z_second": 370,
+    "delta_k": 80,
+    "delta_z_star": 450,
+    "objective_values": {
+      "A": 450,
+      "B": 370,
+      "C": 456,
+      "D": 234,
+      "E": 314
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "v_second",
+      "C": "decoy",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-051": {
+    "stratum": "S2",
+    "optimal_id": "C",
+    "decoy_id": "E",
+    "second_best_id": "D",
+    "z_star": 483,
+    "z_second": 427,
+    "delta_k": 56,
+    "delta_z_star": 483,
+    "objective_values": {
+      "A": 248,
+      "B": 291,
+      "C": 483,
+      "D": 427,
+      "E": 498
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "v_star",
+      "D": "v_second",
+      "E": "decoy"
+    }
+  },
+  "p-052": {
+    "stratum": "S2",
+    "optimal_id": "A",
+    "decoy_id": "D",
+    "second_best_id": "E",
+    "z_star": 636,
+    "z_second": 516,
+    "delta_k": 120,
+    "delta_z_star": 636,
+    "objective_values": {
+      "A": 636,
+      "B": 336,
+      "C": 420,
+      "D": 644,
+      "E": 516
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "other",
+      "C": "other",
+      "D": "decoy",
+      "E": "v_second"
+    }
+  },
+  "p-053": {
+    "stratum": "S2",
+    "optimal_id": "D",
+    "decoy_id": "A",
+    "second_best_id": "B",
+    "z_star": 248,
+    "z_second": 226,
+    "delta_k": 22,
+    "delta_z_star": 248,
+    "objective_values": {
+      "A": 281,
+      "B": 226,
+      "C": 206,
+      "D": 248,
+      "E": 184
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "v_second",
+      "C": "other",
+      "D": "v_star",
+      "E": "other"
+    }
+  },
+  "p-054": {
+    "stratum": "S2",
+    "optimal_id": "E",
+    "decoy_id": "B",
+    "second_best_id": "A",
+    "z_star": 271,
+    "z_second": 226,
+    "delta_k": 45,
+    "delta_z_star": 271,
+    "objective_values": {
+      "A": 226,
+      "B": 274,
+      "C": 141,
+      "D": 175,
+      "E": 271
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "decoy",
+      "C": "other",
+      "D": "other",
+      "E": "v_star"
+    }
+  },
+  "p-055": {
+    "stratum": "S2",
+    "optimal_id": "C",
+    "decoy_id": "B",
+    "second_best_id": "E",
+    "z_star": 423,
+    "z_second": 373,
+    "delta_k": 50,
+    "delta_z_star": 423,
+    "objective_values": {
+      "A": 300,
+      "B": 429,
+      "C": 423,
+      "D": 250,
+      "E": 373
+    },
+    "roles": {
+      "A": "other",
+      "B": "decoy",
+      "C": "v_star",
+      "D": "other",
+      "E": "v_second"
+    }
+  },
+  "p-056": {
+    "stratum": "S2",
+    "optimal_id": "E",
+    "decoy_id": "A",
+    "second_best_id": "B",
+    "z_star": 446,
+    "z_second": 406,
+    "delta_k": 40,
+    "delta_z_star": 446,
+    "objective_values": {
+      "A": 562,
+      "B": 406,
+      "C": 392,
+      "D": 352,
+      "E": 446
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "v_second",
+      "C": "other",
+      "D": "other",
+      "E": "v_star"
+    }
+  },
+  "p-057": {
+    "stratum": "S2",
+    "optimal_id": "A",
+    "decoy_id": "D",
+    "second_best_id": "E",
+    "z_star": 440,
+    "z_second": 384,
+    "delta_k": 56,
+    "delta_z_star": 440,
+    "objective_values": {
+      "A": 440,
+      "B": 326,
+      "C": 270,
+      "D": 467,
+      "E": 384
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "other",
+      "C": "other",
+      "D": "decoy",
+      "E": "v_second"
+    }
+  },
+  "p-058": {
+    "stratum": "S2",
+    "optimal_id": "A",
+    "decoy_id": "B",
+    "second_best_id": "D",
+    "z_star": 518,
+    "z_second": 468,
+    "delta_k": 50,
+    "delta_z_star": 518,
+    "objective_values": {
+      "A": 518,
+      "B": 538,
+      "C": 288,
+      "D": 468,
+      "E": 280
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "decoy",
+      "C": "other",
+      "D": "v_second",
+      "E": "other"
+    }
+  },
+  "p-059": {
+    "stratum": "S2",
+    "optimal_id": "A",
+    "decoy_id": "C",
+    "second_best_id": "D",
+    "z_star": 173,
+    "z_second": 141,
+    "delta_k": 32,
+    "delta_z_star": 173,
+    "objective_values": {
+      "A": 173,
+      "B": 96,
+      "C": 253,
+      "D": 141,
+      "E": 128
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "other",
+      "C": "decoy",
+      "D": "v_second",
+      "E": "other"
+    }
+  },
+  "p-060": {
+    "stratum": "S2",
+    "optimal_id": "E",
+    "decoy_id": "D",
+    "second_best_id": "B",
+    "z_star": 584,
+    "z_second": 516,
+    "delta_k": 68,
+    "delta_z_star": 584,
+    "objective_values": {
+      "A": 336,
+      "B": 516,
+      "C": 404,
+      "D": 591,
+      "E": 584
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_second",
+      "C": "other",
+      "D": "decoy",
+      "E": "v_star"
+    }
+  },
+  "p-061": {
+    "stratum": "S2",
+    "optimal_id": "D",
+    "decoy_id": "A",
+    "second_best_id": "E",
+    "z_star": 479,
+    "z_second": 440,
+    "delta_k": 39,
+    "delta_z_star": 479,
+    "objective_values": {
+      "A": 514,
+      "B": 269,
+      "C": 249,
+      "D": 479,
+      "E": 440
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "other",
+      "C": "other",
+      "D": "v_star",
+      "E": "v_second"
+    }
+  },
+  "p-062": {
+    "stratum": "S2",
+    "optimal_id": "A",
+    "decoy_id": "E",
+    "second_best_id": "B",
+    "z_star": 391,
+    "z_second": 344,
+    "delta_k": 47,
+    "delta_z_star": 391,
+    "objective_values": {
+      "A": 391,
+      "B": 344,
+      "C": 231,
+      "D": 207,
+      "E": 543
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "v_second",
+      "C": "other",
+      "D": "other",
+      "E": "decoy"
+    }
+  },
+  "p-063": {
+    "stratum": "S2",
+    "optimal_id": "C",
+    "decoy_id": "D",
+    "second_best_id": "E",
+    "z_star": 239,
+    "z_second": 209,
+    "delta_k": 30,
+    "delta_z_star": 239,
+    "objective_values": {
+      "A": 170,
+      "B": 200,
+      "C": 239,
+      "D": 244,
+      "E": 209
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "v_star",
+      "D": "decoy",
+      "E": "v_second"
+    }
+  },
+  "p-064": {
+    "stratum": "S2",
+    "optimal_id": "C",
+    "decoy_id": "A",
+    "second_best_id": "E",
+    "z_star": 474,
+    "z_second": 450,
+    "delta_k": 24,
+    "delta_z_star": 474,
+    "objective_values": {
+      "A": 573,
+      "B": 312,
+      "C": 474,
+      "D": 288,
+      "E": 450
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "other",
+      "C": "v_star",
+      "D": "other",
+      "E": "v_second"
+    }
+  },
+  "p-065": {
+    "stratum": "S2",
+    "optimal_id": "A",
+    "decoy_id": "B",
+    "second_best_id": "C",
+    "z_star": 348,
+    "z_second": 282,
+    "delta_k": 66,
+    "delta_z_star": 348,
+    "objective_values": {
+      "A": 348,
+      "B": 424,
+      "C": 282,
+      "D": 240,
+      "E": 174
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "decoy",
+      "C": "v_second",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-066": {
+    "stratum": "S2",
+    "optimal_id": "B",
+    "decoy_id": "A",
+    "second_best_id": "C",
+    "z_star": 710,
+    "z_second": 656,
+    "delta_k": 54,
+    "delta_z_star": 710,
+    "objective_values": {
+      "A": 737,
+      "B": 710,
+      "C": 656,
+      "D": 423,
+      "E": 369
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "v_star",
+      "C": "v_second",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-067": {
+    "stratum": "S2",
+    "optimal_id": "B",
+    "decoy_id": "D",
+    "second_best_id": "C",
+    "z_star": 777,
+    "z_second": 657,
+    "delta_k": 120,
+    "delta_z_star": 777,
+    "objective_values": {
+      "A": 471,
+      "B": 777,
+      "C": 657,
+      "D": 858,
+      "E": 426
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "v_second",
+      "D": "decoy",
+      "E": "other"
+    }
+  },
+  "p-068": {
+    "stratum": "S2",
+    "optimal_id": "D",
+    "decoy_id": "C",
+    "second_best_id": "B",
+    "z_star": 393,
+    "z_second": 330,
+    "delta_k": 63,
+    "delta_z_star": 393,
+    "objective_values": {
+      "A": 249,
+      "B": 330,
+      "C": 447,
+      "D": 393,
+      "E": 207
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_second",
+      "C": "decoy",
+      "D": "v_star",
+      "E": "other"
+    }
+  },
+  "p-069": {
+    "stratum": "S2",
+    "optimal_id": "D",
+    "decoy_id": "E",
+    "second_best_id": "A",
+    "z_star": 197,
+    "z_second": 172,
+    "delta_k": 25,
+    "delta_z_star": 197,
+    "objective_values": {
+      "A": 172,
+      "B": 124,
+      "C": 149,
+      "D": 197,
+      "E": 213
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "other",
+      "C": "other",
+      "D": "v_star",
+      "E": "decoy"
+    }
+  },
+  "p-070": {
+    "stratum": "S2",
+    "optimal_id": "C",
+    "decoy_id": "D",
+    "second_best_id": "E",
+    "z_star": 380,
+    "z_second": 340,
+    "delta_k": 40,
+    "delta_z_star": 380,
+    "objective_values": {
+      "A": 228,
+      "B": 268,
+      "C": 380,
+      "D": 440,
+      "E": 340
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "v_star",
+      "D": "decoy",
+      "E": "v_second"
+    }
+  },
+  "p-071": {
+    "stratum": "S2",
+    "optimal_id": "A",
+    "decoy_id": "E",
+    "second_best_id": "D",
+    "z_star": 256,
+    "z_second": 222,
+    "delta_k": 34,
+    "delta_z_star": 256,
+    "objective_values": {
+      "A": 256,
+      "B": 182,
+      "C": 148,
+      "D": 222,
+      "E": 267
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "other",
+      "C": "other",
+      "D": "v_second",
+      "E": "decoy"
+    }
+  },
+  "p-072": {
+    "stratum": "S2",
+    "optimal_id": "E",
+    "decoy_id": "B",
+    "second_best_id": "D",
+    "z_star": 134,
+    "z_second": 121,
+    "delta_k": 13,
+    "delta_z_star": 134,
+    "objective_values": {
+      "A": 94,
+      "B": 164,
+      "C": 81,
+      "D": 121,
+      "E": 134
+    },
+    "roles": {
+      "A": "other",
+      "B": "decoy",
+      "C": "other",
+      "D": "v_second",
+      "E": "v_star"
+    }
+  },
+  "p-073": {
+    "stratum": "S2",
+    "optimal_id": "C",
+    "decoy_id": "A",
+    "second_best_id": "D",
+    "z_star": 106,
+    "z_second": 94,
+    "delta_k": 12,
+    "delta_z_star": 106,
+    "objective_values": {
+      "A": 146,
+      "B": 84,
+      "C": 106,
+      "D": 94,
+      "E": 72
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "other",
+      "C": "v_star",
+      "D": "v_second",
+      "E": "other"
+    }
+  },
+  "p-074": {
+    "stratum": "S2",
+    "optimal_id": "B",
+    "decoy_id": "C",
+    "second_best_id": "D",
+    "z_star": 426,
+    "z_second": 378,
+    "delta_k": 48,
+    "delta_z_star": 426,
+    "objective_values": {
+      "A": 252,
+      "B": 426,
+      "C": 516,
+      "D": 378,
+      "E": 300
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "decoy",
+      "D": "v_second",
+      "E": "other"
+    }
+  },
+  "p-075": {
+    "stratum": "S2",
+    "optimal_id": "D",
+    "decoy_id": "B",
+    "second_best_id": "E",
+    "z_star": 547,
+    "z_second": 451,
+    "delta_k": 96,
+    "delta_z_star": 547,
+    "objective_values": {
+      "A": 439,
+      "B": 553,
+      "C": 343,
+      "D": 547,
+      "E": 451
+    },
+    "roles": {
+      "A": "other",
+      "B": "decoy",
+      "C": "other",
+      "D": "v_star",
+      "E": "v_second"
+    }
+  },
+  "p-076": {
+    "stratum": "S2",
+    "optimal_id": "B",
+    "decoy_id": "C",
+    "second_best_id": "D",
+    "z_star": 463,
+    "z_second": 428,
+    "delta_k": 35,
+    "delta_z_star": 463,
+    "objective_values": {
+      "A": 363,
+      "B": 463,
+      "C": 519,
+      "D": 428,
+      "E": 328
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "decoy",
+      "D": "v_second",
+      "E": "other"
+    }
+  },
+  "p-077": {
+    "stratum": "S2",
+    "optimal_id": "D",
+    "decoy_id": "C",
+    "second_best_id": "A",
+    "z_star": 635,
+    "z_second": 557,
+    "delta_k": 78,
+    "delta_z_star": 635,
+    "objective_values": {
+      "A": 557,
+      "B": 407,
+      "C": 656,
+      "D": 635,
+      "E": 329
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "other",
+      "C": "decoy",
+      "D": "v_star",
+      "E": "other"
+    }
+  },
+  "p-078": {
+    "stratum": "S2",
+    "optimal_id": "C",
+    "decoy_id": "E",
+    "second_best_id": "D",
+    "z_star": 526,
+    "z_second": 475,
+    "delta_k": 51,
+    "delta_z_star": 526,
+    "objective_values": {
+      "A": 474,
+      "B": 423,
+      "C": 526,
+      "D": 475,
+      "E": 535
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "v_star",
+      "D": "v_second",
+      "E": "decoy"
+    }
+  },
+  "p-079": {
+    "stratum": "S2",
+    "optimal_id": "D",
+    "decoy_id": "E",
+    "second_best_id": "C",
+    "z_star": 343,
+    "z_second": 323,
+    "delta_k": 20,
+    "delta_z_star": 343,
+    "objective_values": {
+      "A": 243,
+      "B": 263,
+      "C": 323,
+      "D": 343,
+      "E": 471
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "v_second",
+      "D": "v_star",
+      "E": "decoy"
+    }
+  },
+  "p-080": {
+    "stratum": "S2",
+    "optimal_id": "E",
+    "decoy_id": "C",
+    "second_best_id": "B",
+    "z_star": 381,
+    "z_second": 309,
+    "delta_k": 72,
+    "delta_z_star": 381,
+    "objective_values": {
+      "A": 258,
+      "B": 309,
+      "C": 441,
+      "D": 195,
+      "E": 381
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_second",
+      "C": "decoy",
+      "D": "other",
+      "E": "v_star"
+    }
+  },
+  "p-081": {
+    "stratum": "S3",
+    "optimal_id": "C",
+    "decoy_id": "A",
+    "second_best_id": "B",
+    "z_star": 699,
+    "z_second": 681,
+    "delta_k": 18,
+    "delta_z_star": 699,
+    "objective_values": {
+      "A": 711,
+      "B": 681,
+      "C": 699,
+      "D": 423,
+      "E": 405
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "v_second",
+      "C": "v_star",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-082": {
+    "stratum": "S3",
+    "optimal_id": "E",
+    "decoy_id": "B",
+    "second_best_id": "A",
+    "z_star": 355,
+    "z_second": 350,
+    "delta_k": 5,
+    "delta_z_star": 355,
+    "objective_values": {
+      "A": 350,
+      "B": 432,
+      "C": 292,
+      "D": 287,
+      "E": 355
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "decoy",
+      "C": "other",
+      "D": "other",
+      "E": "v_star"
+    }
+  },
+  "p-083": {
+    "stratum": "S3",
+    "optimal_id": "B",
+    "decoy_id": "D",
+    "second_best_id": "C",
+    "z_star": 337,
+    "z_second": 324,
+    "delta_k": 13,
+    "delta_z_star": 337,
+    "objective_values": {
+      "A": 201,
+      "B": 337,
+      "C": 324,
+      "D": 345,
+      "E": 188
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "v_second",
+      "D": "decoy",
+      "E": "other"
+    }
+  },
+  "p-084": {
+    "stratum": "S3",
+    "optimal_id": "B",
+    "decoy_id": "C",
+    "second_best_id": "E",
+    "z_star": 298,
+    "z_second": 284,
+    "delta_k": 14,
+    "delta_z_star": 298,
+    "objective_values": {
+      "A": 218,
+      "B": 298,
+      "C": 310,
+      "D": 204,
+      "E": 284
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "decoy",
+      "D": "other",
+      "E": "v_second"
+    }
+  },
+  "p-085": {
+    "stratum": "S3",
+    "optimal_id": "C",
+    "decoy_id": "D",
+    "second_best_id": "B",
+    "z_star": 440,
+    "z_second": 427,
+    "delta_k": 13,
+    "delta_z_star": 440,
+    "objective_values": {
+      "A": 230,
+      "B": 427,
+      "C": 440,
+      "D": 475,
+      "E": 223
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_second",
+      "C": "v_star",
+      "D": "decoy",
+      "E": "other"
+    }
+  },
+  "p-086": {
+    "stratum": "S3",
+    "optimal_id": "C",
+    "decoy_id": "A",
+    "second_best_id": "B",
+    "z_star": 594,
+    "z_second": 576,
+    "delta_k": 18,
+    "delta_z_star": 594,
+    "objective_values": {
+      "A": 642,
+      "B": 576,
+      "C": 594,
+      "D": 370,
+      "E": 352
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "v_second",
+      "C": "v_star",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-087": {
+    "stratum": "S3",
+    "optimal_id": "D",
+    "decoy_id": "C",
+    "second_best_id": "A",
+    "z_star": 230,
+    "z_second": 224,
+    "delta_k": 6,
+    "delta_z_star": 230,
+    "objective_values": {
+      "A": 224,
+      "B": 125,
+      "C": 254,
+      "D": 230,
+      "E": 131
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "other",
+      "C": "decoy",
+      "D": "v_star",
+      "E": "other"
+    }
+  },
+  "p-088": {
+    "stratum": "S3",
+    "optimal_id": "E",
+    "decoy_id": "B",
+    "second_best_id": "D",
+    "z_star": 180,
+    "z_second": 173,
+    "delta_k": 7,
+    "delta_z_star": 180,
+    "objective_values": {
+      "A": 100,
+      "B": 412,
+      "C": 93,
+      "D": 173,
+      "E": 180
+    },
+    "roles": {
+      "A": "other",
+      "B": "decoy",
+      "C": "other",
+      "D": "v_second",
+      "E": "v_star"
+    }
+  },
+  "p-089": {
+    "stratum": "S3",
+    "optimal_id": "C",
+    "decoy_id": "D",
+    "second_best_id": "E",
+    "z_star": 206,
+    "z_second": 200,
+    "delta_k": 6,
+    "delta_z_star": 206,
+    "objective_values": {
+      "A": 152,
+      "B": 158,
+      "C": 206,
+      "D": 356,
+      "E": 200
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "v_star",
+      "D": "decoy",
+      "E": "v_second"
+    }
+  },
+  "p-090": {
+    "stratum": "S3",
+    "optimal_id": "C",
+    "decoy_id": "B",
+    "second_best_id": "A",
+    "z_star": 454,
+    "z_second": 436,
+    "delta_k": 18,
+    "delta_z_star": 454,
+    "objective_values": {
+      "A": 436,
+      "B": 458,
+      "C": 454,
+      "D": 400,
+      "E": 418
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "decoy",
+      "C": "v_star",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-091": {
+    "stratum": "S3",
+    "optimal_id": "B",
+    "decoy_id": "C",
+    "second_best_id": "E",
+    "z_star": 642,
+    "z_second": 614,
+    "delta_k": 28,
+    "delta_z_star": 642,
+    "objective_values": {
+      "A": 322,
+      "B": 642,
+      "C": 648,
+      "D": 348,
+      "E": 614
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "decoy",
+      "D": "other",
+      "E": "v_second"
+    }
+  },
+  "p-092": {
+    "stratum": "S3",
+    "optimal_id": "C",
+    "decoy_id": "B",
+    "second_best_id": "A",
+    "z_star": 422,
+    "z_second": 406,
+    "delta_k": 16,
+    "delta_z_star": 422,
+    "objective_values": {
+      "A": 406,
+      "B": 430,
+      "C": 422,
+      "D": 368,
+      "E": 384
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "decoy",
+      "C": "v_star",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-093": {
+    "stratum": "S3",
+    "optimal_id": "D",
+    "decoy_id": "E",
+    "second_best_id": "B",
+    "z_star": 454,
+    "z_second": 444,
+    "delta_k": 10,
+    "delta_z_star": 454,
+    "objective_values": {
+      "A": 397,
+      "B": 444,
+      "C": 387,
+      "D": 454,
+      "E": 542
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_second",
+      "C": "other",
+      "D": "v_star",
+      "E": "decoy"
+    }
+  },
+  "p-094": {
+    "stratum": "S3",
+    "optimal_id": "E",
+    "decoy_id": "D",
+    "second_best_id": "A",
+    "z_star": 759,
+    "z_second": 728,
+    "delta_k": 31,
+    "delta_z_star": 759,
+    "objective_values": {
+      "A": 728,
+      "B": 383,
+      "C": 407,
+      "D": 799,
+      "E": 759
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "other",
+      "C": "other",
+      "D": "decoy",
+      "E": "v_star"
+    }
+  },
+  "p-095": {
+    "stratum": "S3",
+    "optimal_id": "B",
+    "decoy_id": "E",
+    "second_best_id": "C",
+    "z_star": 355,
+    "z_second": 340,
+    "delta_k": 15,
+    "delta_z_star": 355,
+    "objective_values": {
+      "A": 285,
+      "B": 355,
+      "C": 340,
+      "D": 270,
+      "E": 510
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "v_second",
+      "D": "other",
+      "E": "decoy"
+    }
+  },
+  "p-096": {
+    "stratum": "S3",
+    "optimal_id": "E",
+    "decoy_id": "C",
+    "second_best_id": "B",
+    "z_star": 358,
+    "z_second": 350,
+    "delta_k": 8,
+    "delta_z_star": 358,
+    "objective_values": {
+      "A": 280,
+      "B": 350,
+      "C": 430,
+      "D": 272,
+      "E": 358
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_second",
+      "C": "decoy",
+      "D": "other",
+      "E": "v_star"
+    }
+  },
+  "p-097": {
+    "stratum": "S3",
+    "optimal_id": "E",
+    "decoy_id": "D",
+    "second_best_id": "C",
+    "z_star": 365,
+    "z_second": 351,
+    "delta_k": 14,
+    "delta_z_star": 365,
+    "objective_values": {
+      "A": 315,
+      "B": 329,
+      "C": 351,
+      "D": 419,
+      "E": 365
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "v_second",
+      "D": "decoy",
+      "E": "v_star"
+    }
+  },
+  "p-098": {
+    "stratum": "S3",
+    "optimal_id": "A",
+    "decoy_id": "D",
+    "second_best_id": "C",
+    "z_star": 383,
+    "z_second": 371,
+    "delta_k": 12,
+    "delta_z_star": 383,
+    "objective_values": {
+      "A": 383,
+      "B": 200,
+      "C": 371,
+      "D": 536,
+      "E": 212
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "other",
+      "C": "v_second",
+      "D": "decoy",
+      "E": "other"
+    }
+  },
+  "p-099": {
+    "stratum": "S3",
+    "optimal_id": "D",
+    "decoy_id": "A",
+    "second_best_id": "C",
+    "z_star": 496,
+    "z_second": 478,
+    "delta_k": 18,
+    "delta_z_star": 496,
+    "objective_values": {
+      "A": 604,
+      "B": 432,
+      "C": 478,
+      "D": 496,
+      "E": 414
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "other",
+      "C": "v_second",
+      "D": "v_star",
+      "E": "other"
+    }
+  },
+  "p-100": {
+    "stratum": "S3",
+    "optimal_id": "E",
+    "decoy_id": "C",
+    "second_best_id": "D",
+    "z_star": 388,
+    "z_second": 369,
+    "delta_k": 19,
+    "delta_z_star": 388,
+    "objective_values": {
+      "A": 283,
+      "B": 264,
+      "C": 398,
+      "D": 369,
+      "E": 388
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "decoy",
+      "D": "v_second",
+      "E": "v_star"
+    }
+  },
+  "p-101": {
+    "stratum": "S3",
+    "optimal_id": "A",
+    "decoy_id": "B",
+    "second_best_id": "D",
+    "z_star": 390,
+    "z_second": 380,
+    "delta_k": 10,
+    "delta_z_star": 390,
+    "objective_values": {
+      "A": 390,
+      "B": 446,
+      "C": 232,
+      "D": 380,
+      "E": 242
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "decoy",
+      "C": "other",
+      "D": "v_second",
+      "E": "other"
+    }
+  },
+  "p-102": {
+    "stratum": "S3",
+    "optimal_id": "B",
+    "decoy_id": "D",
+    "second_best_id": "E",
+    "z_star": 482,
+    "z_second": 476,
+    "delta_k": 6,
+    "delta_z_star": 482,
+    "objective_values": {
+      "A": 320,
+      "B": 482,
+      "C": 326,
+      "D": 498,
+      "E": 476
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "other",
+      "D": "decoy",
+      "E": "v_second"
+    }
+  },
+  "p-103": {
+    "stratum": "S3",
+    "optimal_id": "B",
+    "decoy_id": "E",
+    "second_best_id": "D",
+    "z_star": 552,
+    "z_second": 536,
+    "delta_k": 16,
+    "delta_z_star": 552,
+    "objective_values": {
+      "A": 296,
+      "B": 552,
+      "C": 280,
+      "D": 536,
+      "E": 576
+    },
+    "roles": {
+      "A": "other",
+      "B": "v_star",
+      "C": "other",
+      "D": "v_second",
+      "E": "decoy"
+    }
+  },
+  "p-104": {
+    "stratum": "S3",
+    "optimal_id": "C",
+    "decoy_id": "E",
+    "second_best_id": "A",
+    "z_star": 261,
+    "z_second": 250,
+    "delta_k": 11,
+    "delta_z_star": 261,
+    "objective_values": {
+      "A": 250,
+      "B": 201,
+      "C": 261,
+      "D": 190,
+      "E": 291
+    },
+    "roles": {
+      "A": "v_second",
+      "B": "other",
+      "C": "v_star",
+      "D": "other",
+      "E": "decoy"
+    }
+  },
+  "p-105": {
+    "stratum": "S3",
+    "optimal_id": "D",
+    "decoy_id": "E",
+    "second_best_id": "C",
+    "z_star": 158,
+    "z_second": 152,
+    "delta_k": 6,
+    "delta_z_star": 158,
+    "objective_values": {
+      "A": 82,
+      "B": 82,
+      "C": 152,
+      "D": 158,
+      "E": 206
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "v_second",
+      "D": "v_star",
+      "E": "decoy"
+    }
+  },
+  "p-106": {
+    "stratum": "S3",
+    "optimal_id": "B",
+    "decoy_id": "A",
+    "second_best_id": "D",
+    "z_star": 320,
+    "z_second": 306,
+    "delta_k": 14,
+    "delta_z_star": 320,
+    "objective_values": {
+      "A": 345,
+      "B": 320,
+      "C": 275,
+      "D": 306,
+      "E": 261
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "v_star",
+      "C": "other",
+      "D": "v_second",
+      "E": "other"
+    }
+  },
+  "p-107": {
+    "stratum": "S3",
+    "optimal_id": "B",
+    "decoy_id": "A",
+    "second_best_id": "C",
+    "z_star": 365,
+    "z_second": 349,
+    "delta_k": 16,
+    "delta_z_star": 365,
+    "objective_values": {
+      "A": 370,
+      "B": 365,
+      "C": 349,
+      "D": 245,
+      "E": 261
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "v_star",
+      "C": "v_second",
+      "D": "other",
+      "E": "other"
+    }
+  },
+  "p-108": {
+    "stratum": "S3",
+    "optimal_id": "A",
+    "decoy_id": "D",
+    "second_best_id": "B",
+    "z_star": 247,
+    "z_second": 242,
+    "delta_k": 5,
+    "delta_z_star": 247,
+    "objective_values": {
+      "A": 247,
+      "B": 242,
+      "C": 135,
+      "D": 307,
+      "E": 130
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "v_second",
+      "C": "other",
+      "D": "decoy",
+      "E": "other"
+    }
+  },
+  "p-109": {
+    "stratum": "S3",
+    "optimal_id": "D",
+    "decoy_id": "B",
+    "second_best_id": "C",
+    "z_star": 310,
+    "z_second": 296,
+    "delta_k": 14,
+    "delta_z_star": 310,
+    "objective_values": {
+      "A": 240,
+      "B": 348,
+      "C": 296,
+      "D": 310,
+      "E": 254
+    },
+    "roles": {
+      "A": "other",
+      "B": "decoy",
+      "C": "v_second",
+      "D": "v_star",
+      "E": "other"
+    }
+  },
+  "p-110": {
+    "stratum": "S3",
+    "optimal_id": "D",
+    "decoy_id": "B",
+    "second_best_id": "E",
+    "z_star": 198,
+    "z_second": 191,
+    "delta_k": 7,
+    "delta_z_star": 198,
+    "objective_values": {
+      "A": 167,
+      "B": 216,
+      "C": 160,
+      "D": 198,
+      "E": 191
+    },
+    "roles": {
+      "A": "other",
+      "B": "decoy",
+      "C": "other",
+      "D": "v_star",
+      "E": "v_second"
+    }
+  },
+  "p-111": {
+    "stratum": "S3",
+    "optimal_id": "A",
+    "decoy_id": "E",
+    "second_best_id": "D",
+    "z_star": 494,
+    "z_second": 483,
+    "delta_k": 11,
+    "delta_z_star": 494,
+    "objective_values": {
+      "A": 494,
+      "B": 263,
+      "C": 252,
+      "D": 483,
+      "E": 536
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "other",
+      "C": "other",
+      "D": "v_second",
+      "E": "decoy"
+    }
+  },
+  "p-112": {
+    "stratum": "S3",
+    "optimal_id": "D",
+    "decoy_id": "A",
+    "second_best_id": "E",
+    "z_star": 203,
+    "z_second": 195,
+    "delta_k": 8,
+    "delta_z_star": 203,
+    "objective_values": {
+      "A": 227,
+      "B": 184,
+      "C": 176,
+      "D": 203,
+      "E": 195
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "other",
+      "C": "other",
+      "D": "v_star",
+      "E": "v_second"
+    }
+  },
+  "p-113": {
+    "stratum": "S3",
+    "optimal_id": "D",
+    "decoy_id": "C",
+    "second_best_id": "E",
+    "z_star": 414,
+    "z_second": 399,
+    "delta_k": 15,
+    "delta_z_star": 414,
+    "objective_values": {
+      "A": 231,
+      "B": 246,
+      "C": 470,
+      "D": 414,
+      "E": 399
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "decoy",
+      "D": "v_star",
+      "E": "v_second"
+    }
+  },
+  "p-114": {
+    "stratum": "S3",
+    "optimal_id": "E",
+    "decoy_id": "A",
+    "second_best_id": "D",
+    "z_star": 455,
+    "z_second": 449,
+    "delta_k": 6,
+    "delta_z_star": 455,
+    "objective_values": {
+      "A": 461,
+      "B": 314,
+      "C": 308,
+      "D": 449,
+      "E": 455
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "other",
+      "C": "other",
+      "D": "v_second",
+      "E": "v_star"
+    }
+  },
+  "p-115": {
+    "stratum": "S3",
+    "optimal_id": "A",
+    "decoy_id": "C",
+    "second_best_id": "E",
+    "z_star": 526,
+    "z_second": 504,
+    "delta_k": 22,
+    "delta_z_star": 526,
+    "objective_values": {
+      "A": 526,
+      "B": 436,
+      "C": 542,
+      "D": 414,
+      "E": 504
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "other",
+      "C": "decoy",
+      "D": "other",
+      "E": "v_second"
+    }
+  },
+  "p-116": {
+    "stratum": "S3",
+    "optimal_id": "A",
+    "decoy_id": "E",
+    "second_best_id": "D",
+    "z_star": 464,
+    "z_second": 444,
+    "delta_k": 20,
+    "delta_z_star": 464,
+    "objective_values": {
+      "A": 464,
+      "B": 294,
+      "C": 314,
+      "D": 444,
+      "E": 526
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "other",
+      "C": "other",
+      "D": "v_second",
+      "E": "decoy"
+    }
+  },
+  "p-117": {
+    "stratum": "S3",
+    "optimal_id": "A",
+    "decoy_id": "C",
+    "second_best_id": "D",
+    "z_star": 496,
+    "z_second": 472,
+    "delta_k": 24,
+    "delta_z_star": 496,
+    "objective_values": {
+      "A": 496,
+      "B": 250,
+      "C": 532,
+      "D": 472,
+      "E": 274
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "other",
+      "C": "decoy",
+      "D": "v_second",
+      "E": "other"
+    }
+  },
+  "p-118": {
+    "stratum": "S3",
+    "optimal_id": "C",
+    "decoy_id": "E",
+    "second_best_id": "D",
+    "z_star": 210,
+    "z_second": 202,
+    "delta_k": 8,
+    "delta_z_star": 210,
+    "objective_values": {
+      "A": 150,
+      "B": 158,
+      "C": 210,
+      "D": 202,
+      "E": 231
+    },
+    "roles": {
+      "A": "other",
+      "B": "other",
+      "C": "v_star",
+      "D": "v_second",
+      "E": "decoy"
+    }
+  },
+  "p-119": {
+    "stratum": "S3",
+    "optimal_id": "E",
+    "decoy_id": "A",
+    "second_best_id": "B",
+    "z_star": 295,
+    "z_second": 285,
+    "delta_k": 10,
+    "delta_z_star": 295,
+    "objective_values": {
+      "A": 421,
+      "B": 285,
+      "C": 150,
+      "D": 160,
+      "E": 295
+    },
+    "roles": {
+      "A": "decoy",
+      "B": "v_second",
+      "C": "other",
+      "D": "other",
+      "E": "v_star"
+    }
+  },
+  "p-120": {
+    "stratum": "S3",
+    "optimal_id": "A",
+    "decoy_id": "B",
+    "second_best_id": "C",
+    "z_star": 480,
+    "z_second": 460,
+    "delta_k": 20,
+    "delta_z_star": 480,
+    "objective_values": {
+      "A": 480,
+      "B": 507,
+      "C": 460,
+      "D": 352,
+      "E": 372
+    },
+    "roles": {
+      "A": "v_star",
+      "B": "decoy",
+      "C": "v_second",
+      "D": "other",
+      "E": "other"
+    }
+  }
+}
