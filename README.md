@@ -151,7 +151,7 @@ This research involves no human subjects. All runs are automated LLM evaluation 
 
 ## Data Availability
 
-This repository contains the complete dataset, preregistrations, sealed analysis, and figure scripts. All files are public under the Apache License 2.0. The raw request and response records for all 240 v2 calls are in `results/raw/v2/`, with the append-only call log in `results/calls-v2.jsonl`; the v1.0.0 stability records are in `results/raw/`. Release v2.0.0 and DOI [10.5281/zenodo.23307259](https://doi.org/10.5281/zenodo.23307259) archive the exhibit. Nothing has been excluded or selectively reported.
+This repository contains the complete dataset, preregistrations, sealed analysis, and figure scripts. Written up at [Enumerate or delegate?](https://clouatre.ca/posts/ai-agent-enumerate-or-delegate/). All files are public under the Apache License 2.0. The raw request and response records for all 240 v2 calls are in `results/raw/v2/`, with the append-only call log in `results/calls-v2.jsonl`; the v1.0.0 stability records are in `results/raw/`. Release v2.0.0 and DOI [10.5281/zenodo.23307259](https://doi.org/10.5281/zenodo.23307259) archive the exhibit. Nothing has been excluded or selectively reported.
 
 ## Citation
 
