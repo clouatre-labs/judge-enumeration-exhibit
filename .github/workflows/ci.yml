@@ -26,10 +26,11 @@ jobs:
     name: Lint Commits
     permissions:
       contents: read
-    uses: clouatre-labs/.github/.github/workflows/lint-commits.yml@c546e09adb87caef81ae109cb3c27d016bea0fae # reusable lint-commits
+    uses: clouatre-labs/.github/.github/workflows/lint-commits.yml@7ddbdccfd4a0a40646492d37710b0af825401fdf # reusable lint-commits
     with:
       base-sha: ${{ github.event.pull_request.base.sha }}
       head-sha: ${{ github.event.pull_request.head.sha }}
+      label: ubuntu-26.04-arm # public repo: org self-hosted oci-arm pool does not serve public repos
 
   schema-check:
     name: Schema Check
