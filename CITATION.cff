@@ -7,6 +7,11 @@ authors:
     given-names: "Hugues"
     orcid: "https://orcid.org/0009-0002-4291-1999"
 repository-code: https://github.com/clouatre-labs/judge-enumeration-exhibit
+url: https://clouatre.ca/posts/ai-agent-enumerate-or-delegate/
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23306444
+    description: Concept DOI (all versions)
 license: Apache-2.0
 date-released: "2026-10-12"
 version: "2.0.1"
