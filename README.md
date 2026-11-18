@@ -155,15 +155,4 @@ This repository contains the complete dataset, preregistrations, sealed analysis
 
 ## Citation
 
-If you use this dataset or methodology, please cite it (metadata in [CITATION.cff](CITATION.cff)):
-
-```bibtex
-@dataset{clouatre2026sealedjudge,
-  title  = {Sealed Judge Enumeration Exhibit},
-  author = {Clouatre, Hugues},
-  year   = {2026},
-  note   = {Version 2.0.1},
-  doi    = {10.5281/zenodo.23307259},
-  url    = {https://github.com/clouatre-labs/judge-enumeration-exhibit}
-}
-```
+If you cite this work, see [CITATION.cff](CITATION.cff) or:
