@@ -26,7 +26,7 @@ jobs:
     name: Lint Commits
     permissions:
       contents: read
-    uses: clouatre-labs/.github/.github/workflows/lint-commits.yml@7ddbdccfd4a0a40646492d37710b0af825401fdf # reusable lint-commits
+    uses: clouatre-labs/.github/.github/workflows/lint-commits.yml@3945fce6160418daaee3333d28f526dc27eb7a40 # reusable lint-commits
     with:
       base-sha: ${{ github.event.pull_request.base.sha }}
       head-sha: ${{ github.event.pull_request.head.sha }}
